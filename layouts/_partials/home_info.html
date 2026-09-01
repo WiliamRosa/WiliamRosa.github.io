@@ -1,0 +1,28 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+
+    {{- $postsCount := len (where site.RegularPages "Section" "posts") }}
+    {{- $eventsCount := len (where site.RegularPages "Section" "events") }}
+    <div class="home-stats">
+        <a href="{{ "posts/" | absURL }}" class="home-stat home-stat--posts">
+            <span class="home-stat-number">{{ $postsCount }}</span>
+            <span class="home-stat-label">{{ if eq $postsCount 1 }}Post{{ else }}Posts{{ end }}</span>
+        </a>
+        <a href="{{ "events/" | absURL }}" class="home-stat home-stat--events">
+            <span class="home-stat-number">{{ $eventsCount }}</span>
+            <span class="home-stat-label">{{ if eq $eventsCount 1 }}Evento{{ else }}Eventos{{ end }}</span>
+        </a>
+    </div>
+
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}
