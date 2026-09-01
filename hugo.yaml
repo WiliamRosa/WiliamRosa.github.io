@@ -1,0 +1,115 @@
+baseURL: "https://SEU_USUARIO.github.io/"
+locale: pt-br
+title: "Nome do Blog"
+theme: PaperMod
+paginate: 8
+
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "Nome do Blog"
+  description: "Artigos técnicos e opiniões sobre Azure, Databricks e Engenharia de Dados"
+  keywords: [Databricks, Azure, Data Engineering, Data Platform, Lakehouse]
+  author: "Seu Nome"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+
+  label:
+    text: "Home"
+    icon: /favicon.ico
+    iconHeight: 35
+
+  # editar com seus dados reais depois
+  homeInfoParams:
+    Title: "Olá, eu sou [Seu Nome] 👋"
+    Content: >
+      Engenheiro de Dados certificado em Azure Databricks Data Engineer Associate.
+      Aqui compartilho artigos técnicos e opiniões sobre Databricks, Azure Data
+      Platform, arquitetura de dados e o dia a dia de quem trabalha com Lakehouse.
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/SEU_USUARIO"
+    - name: github
+      url: "https://github.com/SEU_USUARIO"
+    - name: rss
+      url: "index.xml"
+
+  editPost:
+    URL: "https://github.com/SEU_USUARIO/SEU_USUARIO.github.io/tree/main/content"
+    Text: "Sugerir edição"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: Buscar
+      url: /search/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: about
+      name: Sobre
+      url: /about/
+      weight: 40
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
