@@ -1,0 +1,30 @@
+{
+  "last_run": "2026-09-01T00:40:00-03:00",
+  "processed_sources": [
+    "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
+    "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+    "https://www.databricks.com/blog/whats-new-genie-code-data-ai-summit-2026",
+    "https://www.youtube.com/watch?v=sk6HBdmVmL8",
+    "https://lnkd.in/gK55k5AT",
+    "https://lnkd.in/gCfiCrNU",
+    "https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets",
+    "https://lnkd.in/gtKywV4k",
+    "https://www.databricks.com/blog/unifying-data-and-governance-agentic-era-whats-new-azure-databricks#onelake",
+    "https://www.databricks.com/blog/unifying-data-and-governance-agentic-era-whats-new-azure-databricks#lakebase",
+    "https://www.databricks.com/blog/unifying-data-and-governance-agentic-era-whats-new-azure-databricks#customerlake",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june#write-data-from-microsoft-excel-back-to-azure-databricks",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june#managed-sharepoint-connector-adds-structured-file-ingestion-and-file-metadata-support-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june#databricks-genie-app-in-microsoft-teams-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june#lakehouse-real-time-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/august#role-based-access-control-rbac-is-generally-available",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/august#identity-attributes-in-abac-column-mask-policies-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/august#session-restore-for-serverless-jobs-is-now-in-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june#genie-code-now-supports-auto-approve-for-tool-actions",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/may#query-based-connectors-for-lakeflow-connect-are-now-generally-available",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/march#ai-runtime-is-now-in-public-preview"
+  ],
+  "linkedin_profiles_watched": [
+    { "name": "Databricks (empresa)", "handle": "databricks", "type": "company" },
+    { "name": "Szymon Dybczak", "handle": "szymon-dybczak", "type": "person" }
+  ]
+}
