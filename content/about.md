@@ -11,8 +11,14 @@ Olá! Sou Wiliam Rosa, especialista em **Arquitetura e Engenharia de Dados**, co
 ## Certificações e credenciais
 
 - **Databricks Certified Machine Learning Professional**
-- **Microsoft Certified: Azure Databricks Data Engineer Associate**
 - **Microsoft Certified Trainer (MCT)**
+- **Microsoft Certified: Azure Databricks Data Engineer Associate**
+- **Microsoft Certified: Azure AI Engineer Associate**
+- **Microsoft Certified: Azure Data Engineer Associate**
+- **Microsoft Certified: Fabric Analytics Engineer Associate**
+- **Microsoft Certified: Azure Data Fundamentals**
+- **Microsoft Certified: Azure Fundamentals**
+- **Designing Microsoft Azure Infrastructure Solutions (AZ-305)**
 
 ## Comunidade
 
