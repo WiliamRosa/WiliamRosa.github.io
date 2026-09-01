@@ -7,7 +7,7 @@ summary: "O novo tier gratuito permanente do Lakeflow Connect cobre cerca de 100
 ShowToc: false
 ---
 
-A Databricks lançou um tier gratuito **permanente** pro Lakeflow Connect: 100 DBUs por dia, por workspace, sem data de expiração — o equivalente a cerca de 100 milhões de registros por dia, de graça.
+O Databricks MVP Hubert Dudek destacou um lançamento que passou meio despercebido: a Databricks lançou um tier gratuito **permanente** pro Lakeflow Connect — 100 DBUs por dia, por workspace, sem data de expiração, o equivalente a cerca de 100 milhões de registros por dia, de graça.
 
 Pra times de porte médio, isso frequentemente cobre a carga de ingestão inteira. E vem com o pacote completo: conectores nativos, governança via Unity Catalog, linhagem de dado já embutida desde o primeiro registro ingerido — não é uma versão capada da ferramenta, é a ferramenta completa com um limite generoso de uso diário.
 

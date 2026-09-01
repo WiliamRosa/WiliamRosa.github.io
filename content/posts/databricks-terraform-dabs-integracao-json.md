@@ -7,7 +7,7 @@ summary: "Terraform provisiona a infraestrutura, os bundles gerenciam a camada D
 ShowToc: false
 ---
 
-Quando Terraform provisiona a infraestrutura de nuvem e Declarative Automation Bundles gerenciam a camada Databricks, a integração entre os dois historicamente era... uma pessoa copiando um ID de um lugar e colando no outro, às vezes avisando no Slack quando algo mudava. Isso não é integração, é um ponto único de falha esperando acontecer.
+O Databricks MVP Hubert Dudek documentou um padrão prático pra um problema comum: quando Terraform provisiona a infraestrutura de nuvem e Declarative Automation Bundles gerenciam a camada Databricks, a integração entre os dois historicamente era uma pessoa copiando um ID de um lugar e colando no outro, às vezes avisando no Slack quando algo mudava. Isso não é integração, é um ponto único de falha esperando acontecer.
 
 A correção documentada é simples de descrever: o Terraform já sabe emitir saída como JSON, e os bundles já sabem ler um arquivo JSON de override no momento do deploy. Juntar essas duas capacidades que já existiam elimina o processo manual por completo — sem ferramenta nova, só conectando o que já estava disponível.
 

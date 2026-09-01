@@ -7,7 +7,7 @@ summary: "Quem prefere trabalhar num IDE local mas às vezes precisa editar ativ
 ShowToc: false
 ---
 
-Se você prefere trabalhar num IDE local mas em algum momento precisa editar um ativo direto no Databricks, a flag `--watch` dos bundles resolve exatamente esse cenário: ela sincroniza a mudança feita no workspace de volta pro seu IDE local, automaticamente.
+O Databricks MVP Hubert Dudek destacou uma flag útil pra quem prefere trabalhar num IDE local mas em algum momento precisa editar um ativo direto no Databricks: o `--watch` dos bundles resolve exatamente esse cenário, sincronizando a mudança feita no workspace de volta pro seu IDE local, automaticamente.
 
 É o problema espelhado do que resolvi comentar sobre o source-linked deployment: lá, a UI edita e o YAML do bundle acompanha; aqui, é o desenvolvedor local que às vezes precisa ir até o workspace fazer um ajuste rápido, sem perder a referência de que o código "de verdade" mora no IDE. Sem uma flag como essa, esse tipo de edição pontual no workspace vira uma mudança órfã, que alguém eventualmente sobrescreve sem querer no próximo deploy.
 

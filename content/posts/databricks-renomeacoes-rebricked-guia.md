@@ -7,9 +7,9 @@ summary: "A Databricks renomeia produto com uma frequência que confunde até qu
 ShowToc: false
 ---
 
-Se você sente que a Databricks troca o nome dos próprios produtos com frequência incomum, não é impressão sua. Alguns exemplos recentes: Databricks Vector Search virou Mosaic AI Vector Search, que virou Databricks AI Search. AI Gateway virou Unity AI Gateway. Genie Spaces virou Genie Agents. Delta Live Tables virou Lakeflow Spark Declarative Pipelines.
+A Databricks MVP Maria Vechtomova, autora de um livro sobre a plataforma, resumiu bem uma frustração comum: a Databricks troca o nome dos próprios produtos com frequência incomum, e ela mesma precisou atualizar o manuscrito várias vezes só por causa disso, não de mudança de funcionalidade. Alguns exemplos recentes: Databricks Vector Search virou Mosaic AI Vector Search, que virou Databricks AI Search. AI Gateway virou Unity AI Gateway. Genie Spaces virou Genie Agents. Delta Live Tables virou Lakeflow Spark Declarative Pipelines.
 
-Quem escreve conteúdo técnico sobre a plataforma sente esse atrito na pele — inclusive gente que literalmente publicou livro sobre o assunto e precisou atualizar o manuscrito várias vezes só por causa de troca de nome, não de mudança de funcionalidade.
+Isso não é exclusivo de quem escreve livro — qualquer um que produz conteúdo técnico sobre a plataforma sente esse atrito na pele.
 
 A resposta da comunidade veio de dois Databricks MVPs, que criaram o **rebricked.org**: um projeto que rastreia essas mudanças de nome e também o estágio de maturidade de cada feature (Preview, GA, etc.), num formato que até vira quiz pra testar se você está atualizado.
 

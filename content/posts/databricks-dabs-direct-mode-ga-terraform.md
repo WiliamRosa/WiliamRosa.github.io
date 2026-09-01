@@ -7,7 +7,7 @@ summary: "O engine 'direct' virou padrão pra bundles criados no workspace desde
 ShowToc: false
 ---
 
-O engine "direct" dos Declarative Automation Bundles (ex-Databricks Asset Bundles) já é o padrão para bundles criados a partir do workspace desde 13 de agosto de 2026, e vira padrão geral da CLI em 26 de agosto. Quem já testou reporta até 40% de deploy mais rápido, sem depender do provider do Terraform por trás.
+O Databricks MVP Hubert Dudek acompanhou de perto a chegada do engine "direct" nos Declarative Automation Bundles (ex-Databricks Asset Bundles): já é o padrão para bundles criados a partir do workspace desde 13 de agosto de 2026, e vira padrão geral da CLI em 26 de agosto. Segundo ele, quem já testou reporta até 40% de deploy mais rápido, sem depender do provider do Terraform por trás.
 
 Isso é o desfecho natural de uma mudança que já vinha sendo sinalizada: o engine direct nasceu como substituto drop-in do engine Terraform (que sempre esteve por baixo dos bundles desde o início), e agora a Databricks confirma o suporte ao Terraform como caminho de saída, não mais o padrão.
 

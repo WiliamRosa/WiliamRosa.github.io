@@ -7,7 +7,7 @@ summary: "A comunidade Spark passou a usar Ruff pra lint e formatação a partir
 ShowToc: false
 ---
 
-A comunidade do Apache Spark adotou o Ruff, a partir da versão 4.2.0, tanto para lint quanto para formatação de código — dois comandos, `check` e `format`, com integração direta no pipeline de CI/CD do próprio projeto. O Databricks MVP Bartosz Konieczny detalhou como aplicar essa mesma ferramenta em projetos Databricks, especificamente dentro de Declarative Automation Bundles.
+O Databricks MVP Bartosz Konieczny detalhou como aplicar o Ruff em projetos Databricks, especificamente dentro de Declarative Automation Bundles — a mesma ferramenta que a comunidade do Apache Spark adotou a partir da versão 4.2.0, tanto para lint quanto para formatação de código, com dois comandos (`check` e `format`) integrados direto no pipeline de CI/CD do próprio projeto.
 
 O ponto que mais chama atenção não é a ferramenta em si — Ruff já é conhecida — é a recomendação de onde colocar cada verificação no ciclo de deploy: lint não deveria bloquear deploy em ambiente de sandbox, e sim ficar reservado para CI/CD em branch principal ou de release. Um hook de pre-commit local complementa isso, pegando problema antes mesmo do código sair da máquina do desenvolvedor.
 

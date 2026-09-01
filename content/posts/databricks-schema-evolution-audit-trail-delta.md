@@ -7,7 +7,7 @@ summary: "O Databricks MVP Jaco van Gelder construiu uma função PySpark que re
 ShowToc: false
 ---
 
-O Databricks não oferece, hoje, uma forma nativa e simples de rastrear como o schema de uma tabela evoluiu ao longo do tempo. O Databricks MVP Jaco van Gelder resolveu esse problema construindo uma função em PySpark que usa a funcionalidade de histórico do Delta Lake pra reconstruir a linha do tempo completa de mudanças de schema de uma lista de tabelas — não só a linhagem de dado, mas a linhagem da própria estrutura.
+O Databricks MVP Jaco van Gelder resolveu um problema que o Databricks ainda não oferece pronto: uma forma nativa e simples de rastrear como o schema de uma tabela evoluiu ao longo do tempo. Ele construiu uma função em PySpark que usa a funcionalidade de histórico do Delta Lake pra reconstruir a linha do tempo completa de mudanças de schema de uma lista de tabelas — não só a linhagem de dado, mas a linhagem da própria estrutura.
 
 O caso de uso que ele destaca é auditoria, principalmente em setor financeiro: saber exatamente quando uma coluna foi adicionada, removida ou teve o tipo alterado é o tipo de pergunta que auditoria anual cobra, e que hoje normalmente exige reconstrução manual a partir de log de mudança ou memória de quem mexeu na tabela.
 

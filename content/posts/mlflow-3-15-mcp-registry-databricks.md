@@ -7,7 +7,7 @@ summary: "O MCP Registry é o terceiro 'primo' da família Registry do MLflow, d
 ShowToc: false
 ---
 
-O MLflow 3.15 trouxe o MCP Registry, e o Databricks MVP Awadelrahman Ahmed descreve bem o padrão que se repete: modelo virou ativo compartilhado que times precisam versionar e promover, depois prompt seguiu o mesmo caminho, e agora servidor MCP está indo na mesma direção. Um MCP Registry só faz diferença real quando várias equipes já compartilham os mesmos servidores MCP — pra quem usa um ou dois sozinho, é overhead desnecessário.
+O Databricks MVP Awadelrahman Ahmed descreve bem o padrão que se repete no MLflow 3.15, que trouxe o MCP Registry: modelo virou ativo compartilhado que times precisam versionar e promover, depois prompt seguiu o mesmo caminho, e agora servidor MCP está indo na mesma direção. Um MCP Registry só faz diferença real quando várias equipes já compartilham os mesmos servidores MCP — pra quem usa um ou dois sozinho, é overhead desnecessário.
 
 A versão também trouxe outras mudanças que, juntas, mostram pra onde o MLflow está indo: suporte a Claude Code e Codex no MLflow Assistant, com visibilidade de chamadas de ferramenta, aprovações e custo de token durante a execução; juízes multimodais capazes de avaliar imagem dentro de traces, não só texto; visualizações compartilháveis de tabela de execuções (defina coluna, filtro e ordenação uma vez, compartilhe o link); e transferência de artefato sem proxy, relevante pra quem lida com artefato grande.
 

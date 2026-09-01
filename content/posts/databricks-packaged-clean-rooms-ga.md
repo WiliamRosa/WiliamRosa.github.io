@@ -7,9 +7,9 @@ summary: "Diferente do Clean Rooms tradicional (GA desde 2025), o modo 'packaged
 ShowToc: false
 ---
 
-Packaged Clean Rooms atingiu disponibilidade geral em 31 de julho de 2026. É um modo diferente do Clean Rooms tradicional (que já era GA desde fevereiro de 2025): aqui, um provedor empacota notebooks, JARs e dados prontos para uso, e o consumidor roda esse pacote contra os próprios dados dele — sem nunca enxergar o código ou os dados de origem do provedor.
+O Databricks MVP Jaco van Gelder chamou atenção pro Packaged Clean Rooms, que atingiu disponibilidade geral em 31 de julho de 2026, descrevendo o Databricks como um "wrecking ball para silos de dados". É um modo diferente do Clean Rooms tradicional (que já era GA desde fevereiro de 2025): aqui, um provedor empacota notebooks, JARs e dados prontos para uso, e o consumidor roda esse pacote contra os próprios dados dele — sem nunca enxergar o código ou os dados de origem do provedor.
 
-O Databricks MVP Jaco van Gelder chamou atenção pra essa novidade descrevendo o Databricks como um "wrecking ball para silos de dados" — o Clean Rooms tradicional já permitia colaboração segura trazendo dado de fora do Databricks (Synapse, Snowflake, Redshift, BigQuery, desde que governados por Unity Catalog); o modo packaged estende isso pra lógica de processamento também, não só dado.
+O Clean Rooms tradicional já permitia colaboração segura trazendo dado de fora do Databricks (Synapse, Snowflake, Redshift, BigQuery, desde que governados por Unity Catalog); o modo packaged estende isso pra lógica de processamento também, não só dado.
 
 Por que essa distinção entre os dois modos importa:
 - Clean Rooms tradicional resolve "duas partes analisam dado combinado sem uma ver o dado bruto da outra"

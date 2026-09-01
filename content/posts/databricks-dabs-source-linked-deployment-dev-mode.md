@@ -7,7 +7,7 @@ summary: "Em modo de desenvolvimento com source-linked deployment, editar job ou
 ShowToc: false
 ---
 
-Trabalhando a partir da experiência web em modo de desenvolvimento, com source-linked deployment ativado (o padrão no modo dev), editar um job ou pipeline direto na interface propaga a mudança automaticamente pros arquivos YML do bundle. Na prática, é o melhor dos dois mundos: baixo código pra quem quer ajustar rápido pela UI, e Infrastructure as Code pra quem depende de versionamento — ao mesmo tempo.
+O Databricks MVP Hubert Dudek notou um detalhe útil do modo de desenvolvimento dos bundles: trabalhando a partir da experiência web, com source-linked deployment ativado (o padrão no modo dev), editar um job ou pipeline direto na interface propaga a mudança automaticamente pros arquivos YML do bundle. Na prática, é o melhor dos dois mundos: baixo código pra quem quer ajustar rápido pela UI, e Infrastructure as Code pra quem depende de versionamento — ao mesmo tempo.
 
 Esse tipo de sincronização bidirecional (UI edita YAML, e não só o contrário) resolve uma fricção clássica de quem usa bundles: historicamente, editar pela UI e editar pelo arquivo eram dois mundos separados, e misturar os dois sem cuidado gerava divergência silenciosa entre o que estava rodando e o que estava versionado.
 

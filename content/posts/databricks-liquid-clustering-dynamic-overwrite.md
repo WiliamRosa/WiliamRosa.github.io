@@ -7,7 +7,7 @@ summary: "O Databricks MVP Bartosz Konieczny detalha o Dynamic Data Overwriter: 
 ShowToc: false
 ---
 
-Se sua tabela é particionada ou clusterizada, você não precisa dizer explicitamente quais partições substituir — o engine consegue descobrir isso sozinho a partir dos próprios dados de entrada. O Databricks MVP Bartosz Konieczny detalhou esse padrão, batizado de Dynamic Data Overwriter, como uma evolução do clássico "Data Overwrite" que ele já documentava no livro "Data Engineering Design Patterns".
+O Databricks MVP Bartosz Konieczny detalhou um padrão batizado de Dynamic Data Overwriter, evolução do clássico "Data Overwrite" que ele já documentava no livro "Data Engineering Design Patterns": se sua tabela é particionada ou clusterizada, você não precisa dizer explicitamente quais partições substituir — o engine consegue descobrir isso sozinho a partir dos próprios dados de entrada.
 
 O mecanismo central é a detecção automática de escopo: o `partitionOverwriteMode=dynamic` do Apache Spark, o `INSERT INTO ... REPLACE USING` do liquid clustering do Databricks, e a estratégia incremental `insert_overwrite` do dbt implementam essa ideia nativamente. Quando não existe uma chave de partição clara, um `MERGE` bem construído com um identificador único de linha reproduz o mesmo comportamento.
 

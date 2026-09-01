@@ -7,9 +7,9 @@ summary: "Genie ZeroOps promete monitorar, investigar e propor correção pra pi
 ShowToc: false
 ---
 
-A maioria dos times só descobre que algo quebrou quando alguém rio abaixo reclama. O Genie ZeroOps, novo agente autônomo da Databricks ainda chegando ao workspace, tenta inverter essa lógica: monitora pipelines, jobs e tabelas continuamente, investiga a causa quando algo falha, e já propõe a correção.
+O Databricks MVP Hubert Dudek teve acesso antecipado ao Genie ZeroOps, novo agente autônomo da Databricks que promete monitorar pipelines, jobs e tabelas continuamente, investigar a causa quando algo falha, e já propor a correção — e testou com três cenários de falha reais: overflow de tipo de dado, divisão por zero, e migração de servidor ao vivo.
 
-O Databricks MVP Hubert Dudek teve acesso antecipado e testou com três cenários de falha reais: overflow de tipo de dado, divisão por zero, e migração de servidor ao vivo — os três tipos de problema que normalmente tiram alguém do sono às 3h da manhã.
+A maioria dos times só descobre que algo quebrou quando alguém rio abaixo reclama. Os três cenários que Hubert testou são justamente os tipos de problema que normalmente tiram alguém do sono às 3h da manhã — e é exatamente essa lógica que o ZeroOps tenta inverter.
 
 Por que isso é diferente de "mais um monitoramento":
 - Monitoramento tradicional avisa que algo quebrou; ZeroOps se propõe a já saber o porquê

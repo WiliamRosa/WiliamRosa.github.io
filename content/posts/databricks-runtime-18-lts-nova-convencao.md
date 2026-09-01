@@ -7,7 +7,7 @@ summary: "A partir do Runtime 18, a Databricks unificou as release notes: sem ma
 ShowToc: false
 ---
 
-O Databricks Runtime 18 é o primeiro a usar um formato unificado de release notes: em vez de cada versão menor (18.0, 18.1, 18.2...) ganhar sua própria página, toda novidade, mudança de comportamento e correção entra como uma atualização datada na mesma página do Runtime 18 — sem trocar o número da versão.
+O Databricks MVP Hubert Dudek chamou atenção pra uma mudança de convenção que passa fácil despercebida: o Databricks Runtime 18 é o primeiro a usar um formato unificado de release notes. Em vez de cada versão menor (18.0, 18.1, 18.2...) ganhar sua própria página, toda novidade, mudança de comportamento e correção entra como uma atualização datada na mesma página do Runtime 18 — sem trocar o número da versão.
 
 Isso resolve um atrito pequeno, mas constante, de quem mantém Databricks Asset Bundles e pipelines de CI/CD apontando pra uma versão específica de runtime: a pergunta recorrente "espera, era 18.2 ou 18.3 que tinha essa feature?" simplesmente deixa de fazer sentido — o que antes seria uma versão menor nova agora é só mais uma entrada datada na mesma página.
 
