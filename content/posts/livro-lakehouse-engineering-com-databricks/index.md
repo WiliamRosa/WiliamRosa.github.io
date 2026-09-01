@@ -11,7 +11,7 @@ summary: "Meu livro Lakehouse Engineering com Databricks já está disponível e
 ShowToc: false
 ---
 
-Meu livro **Lakehouse Engineering com Databricks** — *Certificação, Arquitetura e Casos Reais* — já está disponível para aquisição, em eBook e impresso.
+Meu livro **Lakehouse Engineering com Databricks**, *Certificação, Arquitetura e Casos Reais*, já está disponível para aquisição, em eBook e impresso.
 
 Este livro foi pensado para compartilhar, de forma prática e direta, como construímos soluções modernas com Databricks no dia a dia, alinhado aos conhecimentos exigidos como base para o exame de certificação **Databricks Certified Data Engineer Associate**.
 

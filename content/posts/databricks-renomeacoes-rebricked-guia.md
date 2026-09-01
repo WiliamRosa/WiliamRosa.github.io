@@ -9,7 +9,7 @@ ShowToc: false
 
 A Databricks MVP Maria Vechtomova, autora de um livro sobre a plataforma, resumiu bem uma frustração comum: a Databricks troca o nome dos próprios produtos com frequência incomum, e ela mesma precisou atualizar o manuscrito várias vezes só por causa disso, não de mudança de funcionalidade. Alguns exemplos recentes: Databricks Vector Search virou Mosaic AI Vector Search, que virou Databricks AI Search. AI Gateway virou Unity AI Gateway. Genie Spaces virou Genie Agents. Delta Live Tables virou Lakeflow Spark Declarative Pipelines.
 
-Isso não é exclusivo de quem escreve livro — qualquer um que produz conteúdo técnico sobre a plataforma sente esse atrito na pele.
+Isso não é exclusivo de quem escreve livro, qualquer um que produz conteúdo técnico sobre a plataforma sente esse atrito na pele.
 
 A resposta da comunidade veio de dois Databricks MVPs, que criaram o **rebricked.org**: um projeto que rastreia essas mudanças de nome e também o estágio de maturidade de cada feature (Preview, GA, etc.), num formato que até vira quiz pra testar se você está atualizado.
 
@@ -18,7 +18,7 @@ Por que isso é mais do que curiosidade:
 - Conteúdo técnico publicado (artigo, livro, treinamento) vira desatualizado por causa de nome, não de tecnologia
 - Ter uma referência única e viva pra "qual é o nome atual disso" economiza o trabalho de cada criador de conteúdo tentar rastrear isso sozinho
 
-**Minha ressalva:** um projeto de rastreamento mantido pela comunidade é só tão confiável quanto o esforço voluntário por trás dele continuar. Isso não é crítica ao rebricked.org especificamente — é o risco estrutural de qualquer ferramenta de terceiros tentando compensar uma prática de naming que, no fundo, quem deveria resolver de forma mais estável é a própria Databricks.
+**Minha ressalva:** um projeto de rastreamento mantido pela comunidade é só tão confiável quanto o esforço voluntário por trás dele continuar. Isso não é crítica ao rebricked.org especificamente, é o risco estrutural de qualquer ferramenta de terceiros tentando compensar uma prática de naming que, no fundo, quem deveria resolver de forma mais estável é a própria Databricks.
 
 **Fonte:** https://rebricked.org/
 

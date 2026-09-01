@@ -9,7 +9,7 @@ ShowToc: false
 
 O Genie Code deixou de ser "assistente de código com contexto de dados" e ganhou cara de colega júnior de MLOps.
 
-Duas novidades mudam o jogo: um command center pra gerenciar várias tarefas em paralelo (com pontos de revisão humana no meio do caminho) e inteligência nativa sobre MLflow, Model Serving e compute — o agente já entende o ciclo de vida de ML, não só gera código solto.
+Duas novidades mudam o jogo: um command center pra gerenciar várias tarefas em paralelo (com pontos de revisão humana no meio do caminho) e inteligência nativa sobre MLflow, Model Serving e compute, o agente já entende o ciclo de vida de ML, não só gera código solto.
 
 O que muda no dia a dia de quem já usa MLflow:
 - Menos trabalho manual de "colar" resultado do agente na esteira de ML

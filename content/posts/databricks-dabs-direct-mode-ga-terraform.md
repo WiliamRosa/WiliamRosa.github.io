@@ -1,5 +1,5 @@
 ---
-title: "Direct mode virou padrão nos Databricks Asset Bundles — o Terraform está com os dias contados aqui"
+title: "Direct mode virou padrão nos Databricks Asset Bundles, o Terraform está com os dias contados aqui"
 date: 2026-08-28T09:00:00-03:00
 draft: false
 tags: ["Databricks", "Declarative Automation Bundles", "Terraform", "CI/CD", "Opinião"]
@@ -16,7 +16,7 @@ Por que isso interessa mesmo pra quem não usa bundle todo dia:
 - Quem ainda depende de customização via Terraform provider pode continuar usando (`bundle.engine: terraform`), mas já recebe aviso de depreciação
 - É o tipo de mudança de infraestrutura interna que geralmente passa despercebida até quebrar um pipeline de CI/CD que ninguém tocava há meses
 
-**Minha ressalva:** migração de engine de deploy é sempre mais arriscada do que parece no changelog. Bundles com customização pesada via provider Terraform (recursos que o engine direct ainda não cobre) merecem um teste completo em ambiente de staging antes da virada de padrão — não vale confiar só no "drop-in replacement" da documentação sem validar o caso específico do seu pipeline.
+**Minha ressalva:** migração de engine de deploy é sempre mais arriscada do que parece no changelog. Bundles com customização pesada via provider Terraform (recursos que o engine direct ainda não cobre) merecem um teste completo em ambiente de staging antes da virada de padrão, não vale confiar só no "drop-in replacement" da documentação sem validar o caso específico do seu pipeline.
 
 **Fonte:** https://www.sunnydata.ai/blog/databricks-dabs-direct-mode-ga
 

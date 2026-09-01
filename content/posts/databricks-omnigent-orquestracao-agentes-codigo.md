@@ -21,11 +21,11 @@ O Omnigent ataca esse problema por baixo, como uma camada de orquestração e n�
 
 ## Minha opinião
 
-A pergunta que o Omnigent tenta responder — "como você orquestra vários agentes sem que cada troca de ferramenta vire um recomeço" — é, na minha visão, uma das perguntas mais subestimadas do momento em engenharia de IA. A maior parte do mercado ainda está competindo em "qual agente é melhor", enquanto o problema real de quem opera múltiplos agentes em produção é de orquestração, não de escolha de modelo.
+A pergunta que o Omnigent tenta responder, "como você orquestra vários agentes sem que cada troca de ferramenta vire um recomeço", é, na minha visão, uma das perguntas mais subestimadas do momento em engenharia de IA. A maior parte do mercado ainda está competindo em "qual agente é melhor", enquanto o problema real de quem opera múltiplos agentes em produção é de orquestração, não de escolha de modelo.
 
-Dito isso, sou cauteloso com "meta-harness" como categoria. Já presenciei esse padrão de "camada universal que integra tudo" prometer mais do que entrega quando o ecossistema por baixo muda rápido demais — e agentes de código são hoje o ecossistema que mais muda rápido. O real teste de fogo do Omnigent não é a demonstração em vídeo com o Matei Zaharia, é: daqui a seis meses, quando surgir um agente de código totalmente novo, o Omnigent consegue absorver ele com o mesmo nível de contexto compartilhado, ou vira mais uma integração para manter?
+Dito isso, sou cauteloso com "meta-harness" como categoria. Já presenciei esse padrão de "camada universal que integra tudo" prometer mais do que entrega quando o ecossistema por baixo muda rápido demais, e agentes de código são hoje o ecossistema que mais muda rápido. O real teste de fogo do Omnigent não é a demonstração em vídeo com o Matei Zaharia, é: daqui a seis meses, quando surgir um agente de código totalmente novo, o Omnigent consegue absorver ele com o mesmo nível de contexto compartilhado, ou vira mais uma integração para manter?
 
-Sendo open-source, pelo menos existe transparência para a comunidade avaliar isso na prática — e é esse código que pretendo revisar antes de recomendar adoção em produção para quem pergunta no grupo de usuários que lidero em São Paulo.
+Sendo open-source, pelo menos existe transparência para a comunidade avaliar isso na prática, e é esse código que pretendo revisar antes de recomendar adoção em produção para quem pergunta no grupo de usuários que lidero em São Paulo.
 
 ## Para saber mais
 

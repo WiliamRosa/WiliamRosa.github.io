@@ -3,11 +3,11 @@ title: "Lakehouse//RT promete SQL em milissegundos pra milhares de usuários sim
 date: 2026-07-01T09:00:00-03:00
 draft: false
 tags: ["Azure Databricks", "Lakehouse RT", "Power BI", "SQL Warehouse", "Opinião"]
-summary: "Um novo tipo de SQL warehouse serverless mirando latência sub-segundo em alta concorrência — o Lakehouse tentando entrar em terreno que sempre foi de banco operacional."
+summary: "Um novo tipo de SQL warehouse serverless mirando latência sub-segundo em alta concorrência, o Lakehouse tentando entrar em terreno que sempre foi de banco operacional."
 ShowToc: false
 ---
 
-O Lakehouse//RT entrou em beta como um novo tipo de SQL warehouse serverless, desenhado especificamente pra latência sub-segundo em consultas de leitura contra tabelas do Unity Catalog, com alta concorrência — pensado pra servir dashboards de Power BI e analytics operacional pra centenas ou milhares de usuários simultâneos.
+O Lakehouse//RT entrou em beta como um novo tipo de SQL warehouse serverless, desenhado especificamente pra latência sub-segundo em consultas de leitura contra tabelas do Unity Catalog, com alta concorrência, pensado pra servir dashboards de Power BI e analytics operacional pra centenas ou milhares de usuários simultâneos.
 
 Isso é uma categoria de warehouse diferente da que a maioria já usa. Warehouse serverless comum é ótimo pra consulta analítica esporádica; Lakehouse//RT mira o cenário de "milhares de pessoas atualizando o mesmo dashboard ao mesmo tempo, toda hora".
 

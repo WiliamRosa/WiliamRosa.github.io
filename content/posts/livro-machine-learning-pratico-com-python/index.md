@@ -11,7 +11,7 @@ summary: "Meu livro Machine Learning Prático com Python já está disponível: 
 ShowToc: false
 ---
 
-Meu livro **Machine Learning Prático com Python** — *Da Exploração de Dados ao Deploy de Modelos* — já está disponível para aquisição.
+Meu livro **Machine Learning Prático com Python**, *Da Exploração de Dados ao Deploy de Modelos*, já está disponível para aquisição.
 
 O livro percorre todo o ciclo prático de um projeto de Machine Learning: exploração e preparação de dados, construção e avaliação de modelos, e o caminho até o deploy em produção.
 

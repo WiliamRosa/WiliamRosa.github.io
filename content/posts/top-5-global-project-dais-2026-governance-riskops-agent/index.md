@@ -31,6 +31,6 @@ O projeto nasceu da minha experiência prática ajudando organizações a transf
 
 Como profissional brasileiro, é uma enorme satisfação ver um projeto desenvolvido por mim sendo reconhecido em uma competição global da comunidade Databricks e poder colocar nossa bandeira no topo.
 
-Obrigado à equipe da Databricks, aos avaliadores — **Emma Stowell**, **Stefan Bjelcevic**, **Mohan Mathews**, **Sean Ludera** e **Anshu Roy** — e a todos que apoiam nossa jornada.
+Obrigado à equipe da Databricks, aos avaliadores, **Emma Stowell**, **Stefan Bjelcevic**, **Mohan Mathews**, **Sean Ludera** e **Anshu Roy**, e a todos que apoiam nossa jornada.
 
 Seguimos construindo. 🚀🇧🇷

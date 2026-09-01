@@ -3,13 +3,13 @@ title: "A Databricks entrou no território de CDP com agentes fazendo o trabalho
 date: 2026-06-17T09:15:00-03:00
 draft: false
 tags: ["Azure Databricks", "CustomerLake", "CDP", "Agentes de IA", "Opinião"]
-summary: "CustomerLake traz Profile Agents e Campaign Agents pra dentro do Lakehouse — e isso é a Databricks competindo direto com plataformas de dados de cliente estabelecidas."
+summary: "CustomerLake traz Profile Agents e Campaign Agents pra dentro do Lakehouse, e isso é a Databricks competindo direto com plataformas de dados de cliente estabelecidas."
 ShowToc: false
 ---
 
-A Databricks lançou o CustomerLake: uma CDP (Customer Data Platform) nativamente agêntica, com Profile Agents e Campaign Agents cuidando de segmentação e orquestração de experiência personalizada — tudo em cima do mesmo Lakehouse que já governa o resto dos dados da empresa.
+A Databricks lançou o CustomerLake: uma CDP (Customer Data Platform) nativamente agêntica, com Profile Agents e Campaign Agents cuidando de segmentação e orquestração de experiência personalizada, tudo em cima do mesmo Lakehouse que já governa o resto dos dados da empresa.
 
-Isso é diferente de "mais uma feature de marketing": é a Databricks entrando de vez em um mercado (CDP) que hoje é dominado por plataformas especializadas — e apostando que ter o dado unificado e governado desde a origem vale mais do que a profundidade de feature de um CDP dedicado.
+Isso é diferente de "mais uma feature de marketing": é a Databricks entrando de vez em um mercado (CDP) que hoje é dominado por plataformas especializadas, e apostando que ter o dado unificado e governado desde a origem vale mais do que a profundidade de feature de um CDP dedicado.
 
 Por que isso é relevante além do time de marketing:
 - Elimina a exportação de perfil de cliente do Lakehouse pra uma plataforma de CDP externa

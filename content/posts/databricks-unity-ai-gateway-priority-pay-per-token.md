@@ -3,7 +3,7 @@ title: "Priority pay-per-token: pagar mais caro pra garantir latência, sem rese
 date: 2026-08-02T09:00:00-03:00
 draft: true
 tags: ["Databricks", "Unity AI Gateway", "Model Serving", "Opinião"]
-summary: "O Unity AI Gateway ganhou um modo de prioridade que promete latência consistente pra aplicações de IA em tempo real, sem exigir capacidade reservada — um meio-termo entre pay-per-token comum e provisioned throughput."
+summary: "O Unity AI Gateway ganhou um modo de prioridade que promete latência consistente pra aplicações de IA em tempo real, sem exigir capacidade reservada, um meio-termo entre pay-per-token comum e provisioned throughput."
 ShowToc: false
 ---
 
@@ -14,9 +14,9 @@ Isso preenche uma lacuna real de quem serve modelo em produção: nem toda aplic
 Por que isso importa na prática:
 - Evita pagar por capacidade reservada ociosa em aplicações com tráfego irregular mas latência-sensível
 - Dá um terceiro ponto no espectro custo/latência, não só os dois extremos de sempre
-- Funciona dentro do mesmo Unity AI Gateway que já centraliza custo e observabilidade — não é uma configuração isolada
+- Funciona dentro do mesmo Unity AI Gateway que já centraliza custo e observabilidade, não é uma configuração isolada
 
-**Minha ressalva:** "prioridade" só funciona de verdade quando há contenção de fato — se todo mundo pagar o prêmio de prioridade, a fila volta a ser genérica e você só pagou mais caro pelo mesmo resultado. Vale medir o ganho real de latência em horário de pico antes de assumir que o prêmio pago se traduz em benefício proporcional.
+**Minha ressalva:** "prioridade" só funciona de verdade quando há contenção de fato, se todo mundo pagar o prêmio de prioridade, a fila volta a ser genérica e você só pagou mais caro pelo mesmo resultado. Vale medir o ganho real de latência em horário de pico antes de assumir que o prêmio pago se traduz em benefício proporcional.
 
 **Fonte:** https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/priority-mode
 

@@ -7,9 +7,9 @@ summary: "A Databricks publicou um guia com seis formas práticas de operacional
 ShowToc: false
 ---
 
-A Databricks publicou um guia prático sobre como operacionalizar o Genie Ontology usando os ativos governados que sua organização já tem — sem esperar por um modelo de dados corporativo perfeito antes de começar. A tese central: curadoria deliberada ao longo do tempo fortalece o contexto de negócio, tornando as respostas mais precisas, autorizadas e confiáveis, mas isso pode (e deve) começar pequeno.
+A Databricks publicou um guia prático sobre como operacionalizar o Genie Ontology usando os ativos governados que sua organização já tem, sem esperar por um modelo de dados corporativo perfeito antes de começar. A tese central: curadoria deliberada ao longo do tempo fortalece o contexto de negócio, tornando as respostas mais precisas, autorizadas e confiáveis, mas isso pode (e deve) começar pequeno.
 
-O guia recomenda escolher um domínio de alto valor, modelar a "cabeça" crítica do negócio manualmente, e deixar o Genie inferir a "cauda longa" — expandindo depois com base nas perguntas reais dos usuários, nas áreas onde a ambiguidade persiste, e nas oportunidades onde contexto mais forte melhora a decisão.
+O guia recomenda escolher um domínio de alto valor, modelar a "cabeça" crítica do negócio manualmente, e deixar o Genie inferir a "cauda longa", expandindo depois com base nas perguntas reais dos usuários, nas áreas onde a ambiguidade persiste, e nas oportunidades onde contexto mais forte melhora a decisão.
 
 Por que essa recomendação específica importa:
 - Modelagem de ontologia corporativa completa antes de qualquer valor entregue é o tipo de projeto que historicamente nunca termina

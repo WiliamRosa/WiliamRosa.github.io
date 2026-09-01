@@ -3,11 +3,11 @@ title: "O conector de SharePoint do Lakeflow Connect parou de ser só leitura de
 date: 2026-06-06T09:00:00-03:00
 draft: false
 tags: ["Azure Databricks", "SharePoint", "Lakeflow Connect", "Opinião"]
-summary: "Ingestão estruturada, metadados de arquivo e schema evolution chegaram ao conector de SharePoint — ele deixou de ser um caso de uso de nicho pra virar ingestão de verdade."
+summary: "Ingestão estruturada, metadados de arquivo e schema evolution chegaram ao conector de SharePoint, ele deixou de ser um caso de uso de nicho pra virar ingestão de verdade."
 ShowToc: false
 ---
 
-O conector gerenciado de SharePoint no Lakeflow Connect ganhou suporte a ingestão de arquivo estruturado (CSV, JSON, XML, Excel, Parquet, Avro, ORC), metadados de arquivo, filtros e schema evolution — substituindo a abordagem anterior, que só lidava com conteúdo não-estruturado.
+O conector gerenciado de SharePoint no Lakeflow Connect ganhou suporte a ingestão de arquivo estruturado (CSV, JSON, XML, Excel, Parquet, Avro, ORC), metadados de arquivo, filtros e schema evolution, substituindo a abordagem anterior, que só lidava com conteúdo não-estruturado.
 
 Isso muda o que dá pra fazer: antes, SharePoint no pipeline era basicamente "jogar PDF pra dentro de um volume e extrair texto depois". Agora, planilha e arquivo estruturado dentro de biblioteca de documentos do SharePoint entram na esteira de ingestão do mesmo jeito que uma tabela de banco relacional.
 

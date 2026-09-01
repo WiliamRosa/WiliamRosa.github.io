@@ -16,7 +16,7 @@ Por que isso resolve um atrito real de quem já usa bundles no dia a dia:
 - Reduz o risco clássico de "esqueci de levar essa correção pro Git e ela sumiu no próximo deploy"
 - Complementa (não substitui) a disciplina de sempre revisar o diff antes de comitar
 
-**Minha ressalva:** sincronização automática em qualquer direção (workspace → local, ou local → workspace) sempre carrega o mesmo risco — ela facilita esquecer de revisar o que realmente mudou. `--watch` é uma ferramenta de produtividade, não um substituto para olhar o diff no Git antes de assumir que uma alteração feita "rapidinho" no workspace está correta.
+**Minha ressalva:** sincronização automática em qualquer direção (workspace → local, ou local → workspace) sempre carrega o mesmo risco, ela facilita esquecer de revisar o que realmente mudou. `--watch` é uma ferramenta de produtividade, não um substituto para olhar o diff no Git antes de assumir que uma alteração feita "rapidinho" no workspace está correta.
 
 **Fonte:** https://www.linkedin.com/posts/hubertdudek_dabs-if-you-like-to-work-in-a-local-ide-activity
 
