@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T20:30:00-03:00",
+  "last_run": "2026-09-01T22:00:00-03:00",
   "processed_sources": [
     "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
     "https://www.linkedin.com/in/hubertdudek/#unity-catalog-secrets-3-level-namespace",
@@ -52,7 +52,11 @@
     "https://learn.microsoft.com/en-us/azure/databricks/security/network/serverless-network-security/private-network-gateway",
     "https://docs.databricks.com/aws/en/jobs/tasks/genie-code",
     "https://community.databricks.com/t5/technical-blog/triggered-vs-continuous-mode-a-deep-dive-into-serverless/ba-p/164327",
-    "https://docs.databricks.com/aws/en/oltp/projects/disaster-recovery"
+    "https://docs.databricks.com/aws/en/oltp/projects/disaster-recovery",
+    "https://learn.microsoft.com/en-us/azure/databricks/dashboards/manage/import-bi",
+    "https://learn.microsoft.com/en-us/azure/databricks/compute/serverless/access-control",
+    "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/abac/core-concepts",
+    "https://learn.microsoft.com/en-us/azure/databricks/uc-semantics/pages"
   ],
   "linkedin_profiles_watched": [
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
