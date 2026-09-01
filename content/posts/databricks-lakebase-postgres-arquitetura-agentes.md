@@ -1,6 +1,6 @@
 ---
 title: "Lakebase Postgres: por que o banco transacional da era dos agentes começa pelo object storage"
-date: 2026-09-01T08:30:00-03:00
+date: 2026-09-01T00:00:00-03:00
 draft: false
 tags: ["Databricks", "Lakebase", "Postgres", "Arquitetura", "Agentes de IA", "Opinião"]
 summary: "A Databricks anunciou os detalhes de arquitetura do Lakebase Postgres. Minha leitura sobre por que separar compute e armazenamento pode ser o passo que faltava para bancos operacionais aguentarem cargas geradas por agentes."
