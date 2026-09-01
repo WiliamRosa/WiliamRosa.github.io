@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T00:40:00-03:00",
+  "last_run": "2026-09-01T09:20:00-03:00",
   "processed_sources": [
     "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
     "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
@@ -29,12 +29,23 @@
     "https://www.sunnydata.ai/blog/lakeflow-connect-free-tier-etl-cost-savings",
     "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
     "https://www.sunnydata.ai/blog/declarative-automation-bundles-terraform-variable-overrides",
-    "https://rebricked.org/"
+    "https://rebricked.org/",
+    "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/priority-mode",
+    "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent",
+    "https://www.linkedin.com/posts/hubertdudek_i-went-to-the-ingestion-section-and-see-activity",
+    "https://www.linkedin.com/posts/hubertdudek_when-working-from-the-web-experience-in-development-activity",
+    "https://www.linkedin.com/posts/hubertdudek_dabs-if-you-like-to-work-in-a-local-ide-activity"
   ],
   "linkedin_profiles_watched": [
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
     { "name": "Szymon Dybczak", "handle": "szymon-dybczak", "type": "person", "role": "style_reference_only" },
     { "name": "Hubert Dudek", "handle": "hubertdudek", "type": "person", "role": "content_source" },
     { "name": "Maria Vechtomova", "handle": "maria-vechtomova", "type": "person", "role": "content_source" }
-  ]
+  ],
+  "mvp_rotation": {
+    "source": "https://www.databricks.com/discover/mvps",
+    "exclude_countries": ["Brasil", "Brazil"],
+    "batch_size": 5,
+    "checked_this_cycle": []
+  }
 }
