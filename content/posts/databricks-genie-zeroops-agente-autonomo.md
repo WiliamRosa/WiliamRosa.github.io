@@ -7,7 +7,7 @@ summary: "Genie ZeroOps promete monitorar, investigar e propor correção pra pi
 ShowToc: false
 ---
 
-❗ A maioria dos times só descobre que algo quebrou quando alguém rio abaixo reclama. O Genie ZeroOps, novo agente autônomo da Databricks ainda chegando ao workspace, tenta inverter essa lógica: monitora pipelines, jobs e tabelas continuamente, investiga a causa quando algo falha, e já propõe a correção.
+A maioria dos times só descobre que algo quebrou quando alguém rio abaixo reclama. O Genie ZeroOps, novo agente autônomo da Databricks ainda chegando ao workspace, tenta inverter essa lógica: monitora pipelines, jobs e tabelas continuamente, investiga a causa quando algo falha, e já propõe a correção.
 
 O Databricks MVP Hubert Dudek teve acesso antecipado e testou com três cenários de falha reais: overflow de tipo de dado, divisão por zero, e migração de servidor ao vivo — os três tipos de problema que normalmente tiram alguém do sono às 3h da manhã.
 
@@ -16,8 +16,8 @@ Por que isso é diferente de "mais um monitoramento":
 - Cobre cenários de infraestrutura (migração de servidor), não só erro de código
 - Reduz o tempo entre "algo quebrou" e "alguém entendeu o motivo", que é normalmente o gargalo real de debug em produção
 
-❗ Minha ressalva: "propor correção" é bem diferente de "aplicar correção". A pergunta que eu faria antes de confiar nisso em produção é onde fica o ponto de aprovação humana — um agente que identifica a causa raiz corretamente mas erra na correção proposta pode transformar um incidente pequeno em um grande, se a proposta for aplicada sem revisão.
+**Minha ressalva:** "propor correção" é bem diferente de "aplicar correção". A pergunta que eu faria antes de confiar nisso em produção é onde fica o ponto de aprovação humana — um agente que identifica a causa raiz corretamente mas erra na correção proposta pode transformar um incidente pequeno em um grande, se a proposta for aplicada sem revisão.
 
-🔗 Fonte: https://www.sunnydata.ai/blog/genie-zeroops-hands-on-preview
+**Fonte:** https://www.sunnydata.ai/blog/genie-zeroops-hands-on-preview
 
 #Databricks #GenieZeroOps #Observabilidade

@@ -7,7 +7,7 @@ summary: "Com RBAC em GA, um usuário passa a assumir um papel específico em ve
 ShowToc: false
 ---
 
-❗ RBAC (role-based access control) atingiu disponibilidade geral no Azure Databricks. A mudança de modelo é mais importante do que a sigla sugere: em vez de operar sempre com a soma de todas as permissões que um usuário acumulou ao longo do tempo, ele passa a poder **assumir um papel específico**, e só as permissões daquele papel valem durante a sessão.
+RBAC (role-based access control) atingiu disponibilidade geral no Azure Databricks. A mudança de modelo é mais importante do que a sigla sugere: em vez de operar sempre com a soma de todas as permissões que um usuário acumulou ao longo do tempo, ele passa a poder **assumir um papel específico**, e só as permissões daquele papel valem durante a sessão.
 
 Isso ataca um problema clássico de governança que cresce silenciosamente: usuário antigo numa empresa grande, que trocou de time três vezes, geralmente carrega permissão de todos os times por onde passou — porque revogar acesso é sempre a etapa que ninguém prioriza.
 
@@ -16,8 +16,8 @@ Por que isso muda a prática, não só a teoria:
 - Reduz superfície de erro: assumir o papel errado de propósito é mais difícil que só "ter permissão sobrando sem perceber"
 - Abre caminho pra automação de acesso temporário — assumir um papel por tempo limitado, sem processo manual de revogação depois
 
-❗ Minha ressalva: RBAC bem feito depende de papéis bem desenhados. Se a empresa só recriar a bagunça de permissões acumuladas dentro de "papéis" genéricos demais, a mudança de modelo não entrega o benefício — o problema de governança simplesmente muda de nome.
+**Minha ressalva:** RBAC bem feito depende de papéis bem desenhados. Se a empresa só recriar a bagunça de permissões acumuladas dentro de "papéis" genéricos demais, a mudança de modelo não entrega o benefício — o problema de governança simplesmente muda de nome.
 
-🔗 Fonte: https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/august
+**Fonte:** https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/august
 
 #AzureDatabricks #RBAC #Governança
