@@ -1,6 +1,6 @@
-baseURL: "https://SEU_USUARIO.github.io/"
+baseURL: "https://WiliamRosa.github.io/"
 locale: pt-br
-title: "Nome do Blog"
+title: "Wiliam Rosa | Dados & Databricks"
 theme: PaperMod
 paginate: 8
 
@@ -23,10 +23,10 @@ outputs:
 
 params:
   env: production
-  title: "Nome do Blog"
+  title: "Wiliam Rosa | Dados & Databricks"
   description: "Artigos técnicos e opiniões sobre Azure, Databricks e Engenharia de Dados"
   keywords: [Databricks, Azure, Data Engineering, Data Platform, Lakehouse]
-  author: "Seu Nome"
+  author: "Wiliam Rosa"
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -58,7 +58,7 @@ params:
 
   # editar com seus dados reais depois
   homeInfoParams:
-    Title: "Olá, eu sou [Seu Nome] 👋"
+    Title: "Olá, eu sou Wiliam Rosa 👋"
     Content: >
       Engenheiro de Dados certificado em Azure Databricks Data Engineer Associate.
       Aqui compartilho artigos técnicos e opiniões sobre Databricks, Azure Data
@@ -66,14 +66,14 @@ params:
 
   socialIcons:
     - name: linkedin
-      url: "https://linkedin.com/in/SEU_USUARIO"
+      url: "https://linkedin.com/in/SEU_USUARIO_LINKEDIN"
     - name: github
-      url: "https://github.com/SEU_USUARIO"
+      url: "https://github.com/WiliamRosa"
     - name: rss
       url: "index.xml"
 
   editPost:
-    URL: "https://github.com/SEU_USUARIO/SEU_USUARIO.github.io/tree/main/content"
+    URL: "https://github.com/WiliamRosa/WiliamRosa.github.io/tree/main/content"
     Text: "Sugerir edição"
     appendFilePath: true
 

@@ -6,7 +6,7 @@ ShowReadingTime: false
 ShowWordCount: false
 ---
 
-Olá! Sou [Seu Nome], Engenheiro de Dados certificado como **Microsoft Certified: Azure Databricks Data Engineer Associate**.
+Olá! Sou Wiliam Rosa, Engenheiro de Dados certificado como **Microsoft Certified: Azure Databricks Data Engineer Associate**.
 
 Neste blog escrevo sobre:
 
@@ -16,6 +16,6 @@ Neste blog escrevo sobre:
 
 ## Contato
 
-- LinkedIn: [linkedin.com/in/SEU_USUARIO](https://linkedin.com/in/SEU_USUARIO)
-- GitHub: [github.com/SEU_USUARIO](https://github.com/SEU_USUARIO)
+- LinkedIn: [linkedin.com/in/SEU_USUARIO_LINKEDIN](https://linkedin.com/in/SEU_USUARIO_LINKEDIN)
+- GitHub: [github.com/WiliamRosa](https://github.com/WiliamRosa)
 - E-mail: seu-email@exemplo.com
