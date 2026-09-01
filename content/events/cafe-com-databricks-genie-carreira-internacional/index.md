@@ -32,11 +32,11 @@ Será uma ótima oportunidade para trocar experiências, fazer perguntas e aprox
 
 ## Inscreva-se
 
-👉 [Inscrição no evento](https://lnkd.in/d66jQpJW)
+👉 [Inscrição no evento](https://usergroups.databricks.com/events/details/databricks-user-groups-sao-paulo-databricks-user-group-presents-os-sabores-do-genie-carreira-internacional/)
 
 ## Participe das comunidades
 
-- 🔴 [São Paulo Databricks User Group](https://lnkd.in/dYxH9jBk)
-- 🔴 [Eindhoven Databricks User Group (liderado pelo Matheus Domingos)](https://lnkd.in/dbv-fnt4)
+- 🔴 [São Paulo Databricks User Group](https://usergroups.databricks.com/sao-paulo-databricks-user-group/)
+- 🔴 [Eindhoven Databricks User Group (liderado pelo Matheus Domingos)](https://usergroups.databricks.com/eindhoven-databricks-user-group/)
 
 Nos vemos no Café com Databricks! ☕
