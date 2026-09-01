@@ -16,6 +16,6 @@ Neste blog escrevo sobre:
 
 ## Contato
 
-- LinkedIn: [linkedin.com/in/SEU_USUARIO_LINKEDIN](https://linkedin.com/in/SEU_USUARIO_LINKEDIN)
+- LinkedIn: [linkedin.com/in/wiliam-rosa](https://www.linkedin.com/in/wiliam-rosa/)
 - GitHub: [github.com/WiliamRosa](https://github.com/WiliamRosa)
-- E-mail: seu-email@exemplo.com
+- E-mail: wrosa85@gmail.com
