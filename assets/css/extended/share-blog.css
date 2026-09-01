@@ -1,0 +1,65 @@
+.share-blog {
+    margin: 16px 0 0;
+    padding: 16px 20px;
+    border-radius: var(--radius);
+    background: var(--entry);
+    border: 1px solid var(--border);
+}
+
+.share-blog-text {
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+    color: var(--secondary);
+}
+
+.share-blog-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.share-blog-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 0.88rem;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.share-blog-btn:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary);
+}
+
+.share-blog-btn svg {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+}
+
+.share-blog-btn--linkedin {
+    color: #0a66c2;
+    border-color: rgba(10, 102, 194, 0.35);
+}
+
+.share-blog-btn--linkedin:hover {
+    border-color: #0a66c2;
+}
+
+.share-blog-btn--copied {
+    color: rgb(21, 128, 61);
+    border-color: rgb(21, 128, 61);
+}
+
+:root[data-theme="dark"] .share-blog-btn--copied {
+    color: rgb(134, 239, 172);
+    border-color: rgb(134, 239, 172);
+}
