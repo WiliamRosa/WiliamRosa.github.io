@@ -21,10 +21,20 @@
     "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/august#session-restore-for-serverless-jobs-is-now-in-beta",
     "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june#genie-code-now-supports-auto-approve-for-tool-actions",
     "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/may#query-based-connectors-for-lakeflow-connect-are-now-generally-available",
-    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/march#ai-runtime-is-now-in-public-preview"
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/march#ai-runtime-is-now-in-public-preview",
+    "https://www.sunnydata.ai/blog/genie-zeroops-hands-on-preview",
+    "https://www.sunnydata.ai/blog/databricks-dabs-direct-mode-ga",
+    "https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/lakehouse-sync",
+    "https://docs.databricks.com/aws/en/release-notes/runtime/18",
+    "https://www.sunnydata.ai/blog/lakeflow-connect-free-tier-etl-cost-savings",
+    "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
+    "https://www.sunnydata.ai/blog/declarative-automation-bundles-terraform-variable-overrides",
+    "https://rebricked.org/"
   ],
   "linkedin_profiles_watched": [
-    { "name": "Databricks (empresa)", "handle": "databricks", "type": "company" },
-    { "name": "Szymon Dybczak", "handle": "szymon-dybczak", "type": "person" }
+    { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
+    { "name": "Szymon Dybczak", "handle": "szymon-dybczak", "type": "person", "role": "style_reference_only" },
+    { "name": "Hubert Dudek", "handle": "hubertdudek", "type": "person", "role": "content_source" },
+    { "name": "Maria Vechtomova", "handle": "maria-vechtomova", "type": "person", "role": "content_source" }
   ]
 }

@@ -23,26 +23,32 @@ Post curto, no estilo que já é usado neste blog para conteúdo derivado de an�
 
 **Nunca copie frases inteiras da fonte.** Reescreva com voz própria. Isso não é tradução, é opinião derivada.
 
-**Nunca cite o Szymon Dybczak como fonte de conteúdo** — ele é referência de formato/estilo apenas, não de conteúdo. O conteúdo vem sempre da fonte primária (post da Databricks, documentação da Microsoft, etc.), nunca da opinião dele.
+**Perfis do LinkedIn têm dois papéis diferentes** (ver `role` em `linkedin_profiles_watched` no state.json):
+- `content_source` (Databricks empresa, Hubert Dudek, Maria Vechtomova): a informação técnica em si pode vir do post dessa pessoa/empresa. Cite a pessoa pelo nome no texto quando fizer sentido (ex: "o Databricks MVP Hubert Dudek testou X") e linke a fonte real por trás do post dela (post próprio, ou o artigo/doc que ela referencia) — nunca copie as frases dela, sempre reescreva com a opinião do Wiliam.
+- `style_reference_only` (Szymon Dybczak): **nunca** cite como fonte de conteúdo nem linke o post dele. Ele só serve de referência de formato/tom — o conteúdo do post do Wiliam tem que vir de uma fonte primária (Databricks, Microsoft, ou o próprio achado técnico de outro `content_source`), nunca da opinião do Szymon.
 
 ## Passo 1 — Ler o estado
 
-Leia `.automation/state.json`. Anote `last_run` e a lista `processed_sources`.
+Leia `.automation/state.json`. Anote `last_run`, `processed_sources`, e a lista `linkedin_profiles_watched` com seus respectivos `role`.
 
-## Passo 2 — Verificar posts novos no LinkedIn (Databricks e Szymon Dybczak)
+## Passo 2 — Verificar posts novos no LinkedIn
 
-Use as ferramentas MCP `mcp__linkedin-unofficial__get_company_posts` (company_name: "databricks") e `mcp__linkedin-unofficial__get_person_profile` (linkedin_username: "szymon-dybczak", sections: "posts").
+Para cada perfil em `linkedin_profiles_watched`:
+- Empresa (Databricks): `mcp__linkedin-unofficial__get_company_posts` (company_name: o `handle`).
+- Pessoa (Szymon Dybczak, Hubert Dudek, Maria Vechtomova): `mcp__linkedin-unofficial__get_person_profile` (linkedin_username: o `handle`, sections: "posts").
 
-Se qualquer uma dessas chamadas falhar (sessão expirada, erro de conexão, etc.): **não trate como erro fatal** — pule esta parte, registre a falha no resumo final, e continue para o Passo 3. Não tente re-autenticar sozinho.
+Se qualquer uma dessas chamadas falhar (sessão expirada, erro de conexão, perfil errado/homônimo retornado, etc.): **não trate como erro fatal** — pule esse perfil específico, registre a falha no resumo final, e continue com os demais. Não tente re-autenticar sozinho, e não tente adivinhar um handle alternativo.
 
-Para os posts retornados:
+Para os posts retornados de perfis `content_source`:
 - Ignore qualquer post cuja URL/fonte já esteja em `processed_sources`.
-- Ignore posts que são só repost de terceiros, vaga de emprego, evento, ou conquista pessoal (certificação, prêmio) — não são "feature ou atualização" e não servem pra este pipeline.
-- Foque em posts sobre: feature nova, mudança de produto, anúncio técnico, mudança de API/CLI, deprecação, novidade de arquitetura.
-- No máximo 3 posts novos por execução (evita gerar volume demais num único dia). Se houver mais candidatos, escolha os 3 mais relevantes tecnicamente.
+- Ignore posts que são só repost de terceiros, vaga de emprego, evento, conquista pessoal (certificação, prêmio, aniversário) — não são "feature ou atualização" e não servem pra este pipeline.
+- Foque em posts sobre: feature nova, mudança de produto, anúncio técnico, mudança de API/CLI, deprecação, novidade de arquitetura, achado técnico de primeira mão (ex: "eu testei X e descobri Y").
+- No máximo 3 posts novos **por perfil** por execução (evita gerar volume demais num único dia). Se houver mais candidatos, escolha os mais relevantes tecnicamente.
 
-Para cada post novo relevante:
-- Resolva o link de origem (se for `lnkd.in`, siga o redirecionamento até a URL real via WebFetch).
+Para os posts do perfil `style_reference_only` (Szymon): não gere post nenhum a partir do conteúdo dele. Ele existe só pra eventualmente recalibrar o tom/formato dos posts, não como fonte de tema.
+
+Para cada post novo relevante (de um `content_source`):
+- Resolva o link de origem (se for `lnkd.in`, siga o redirecionamento até a URL real via WebFetch). Se a pessoa citar um artigo/doc próprio ou de terceiros como base do post, prefira linkar esse artigo em vez do post do LinkedIn em si.
 - Escreva um post do blog no formato acima, com opinião própria de Wiliam sobre o tema.
 - Data do post = um dia depois da data em que o post original foi publicado (o texto do post do LinkedIn traz "X h", "X d", "X sem" atrás — calcule a partir de agora).
 - `draft: true` sempre (a publicação final é decisão manual do Wiliam).
@@ -71,7 +77,7 @@ Se e somente se pelo menos um arquivo novo foi criado em `content/posts/`:
 
 ```
 git add content/posts/<novos-arquivos> .automation/state.json
-git commit -m "Add N new draft posts from daily content check (Databricks LinkedIn + Azure Databricks docs)"
+git commit -m "Add N new draft posts from daily content check (LinkedIn profiles + Azure Databricks docs)"
 git push origin main
 ```
 
