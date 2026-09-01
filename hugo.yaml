@@ -2,7 +2,7 @@ baseURL: "https://WiliamRosa.github.io/"
 locale: pt-br
 title: "Wiliam Rosa | Lakehouse, Dados & IA"
 theme: PaperMod
-paginate: 8
+paginate: 20
 
 enableRobotsTXT: true
 enableEmoji: true
