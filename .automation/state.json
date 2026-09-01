@@ -40,12 +40,16 @@
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
     { "name": "Szymon Dybczak", "handle": "szymon-dybczak", "type": "person", "role": "style_reference_only" },
     { "name": "Hubert Dudek", "handle": "hubertdudek", "type": "person", "role": "content_source" },
-    { "name": "Maria Vechtomova", "handle": "maria-vechtomova", "type": "person", "role": "content_source" }
-  ],
-  "mvp_rotation": {
-    "source": "https://www.databricks.com/discover/mvps",
-    "exclude_countries": ["Brasil", "Brazil"],
-    "batch_size": 5,
-    "checked_this_cycle": []
-  }
+    { "name": "Maria Vechtomova", "handle": "maria-vechtomova", "type": "person", "role": "content_source" },
+    { "name": "Adi Polak", "handle": "polak-adi", "type": "person", "role": "content_source" },
+    { "name": "Jacek Laskowski", "handle": "jaceklaskowski", "type": "person", "role": "content_source" },
+    { "name": "Bartosz Konieczny", "handle": "bartosz-konieczny-waitingforcode", "type": "person", "role": "content_source" },
+    { "name": "Andrew Sitz", "handle": "andrew-sitz", "type": "person", "role": "content_source" },
+    { "name": "Josue Bogran", "handle": "josuebogran", "type": "person", "role": "content_source" },
+    { "name": "Casper Lubbers", "handle": "casper-lubbers", "type": "person", "role": "content_source" },
+    { "name": "Jaco van Gelder", "handle": "jwvangelder", "type": "person", "role": "content_source" },
+    { "name": "Ike Ellis", "handle": "ikeellis", "type": "person", "role": "content_source" },
+    { "name": "Dan Williams", "handle": "decisionforest", "type": "person", "role": "content_source" },
+    { "name": "Awadelrahman Ahmed", "handle": "awadelrahman", "type": "person", "role": "content_source" }
+  ]
 }
