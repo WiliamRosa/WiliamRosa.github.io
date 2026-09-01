@@ -27,8 +27,8 @@ Olá! Sou Wiliam Rosa, especialista em **Arquitetura e Engenharia de Dados**, co
 
 ## Livros
 
-- **Lakehouse Engineering com Databricks**
-- **Machine Learning Prático com Python**
+- **Lakehouse Engineering com Databricks** — [Amazon (eBook)](https://www.amazon.com.br/dp/B0DTJCBG46) · [Clube de Autores (impresso)](https://clubedeautores.com.br/livro/lakehouse-engineering-com-databricks)
+- **Machine Learning Prático com Python** — [Clube de Autores](https://clubedeautores.com.br/livro/machine-learning-pratico-com-python)
 
 ## Sobre este blog
 
