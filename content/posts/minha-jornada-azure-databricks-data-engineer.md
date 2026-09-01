@@ -9,7 +9,7 @@ ShowToc: true
 
 ## Introdução
 
-Recentemente conquistei a certificação **Microsoft Certified: Azure Databricks Data Engineer Associate**. Neste primeiro post quero compartilhar como foi essa jornada de estudos, os principais aprendizados e por que decidi começar a documentar publicamente meu trabalho com dados.
+Recentemente conquistei a certificação **Microsoft Certified: Azure Databricks Data Engineer Associate**, somando-se às minhas credenciais como **Databricks Certified Machine Learning Professional** e **Microsoft Certified Trainer (MCT)**. Neste primeiro post quero compartilhar como foi essa jornada de estudos, os principais aprendizados e por que decidi começar a documentar publicamente meu trabalho com dados — algo que já faço como líder do **São Paulo Databricks User Group** e palestrante no **TDC**, mas que até agora não tinha um espaço próprio.
 
 ## Por que essa certificação
 

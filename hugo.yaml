@@ -1,6 +1,6 @@
 baseURL: "https://WiliamRosa.github.io/"
 locale: pt-br
-title: "Wiliam Rosa | Dados & Databricks"
+title: "Wiliam Rosa | Lakehouse, Dados & IA"
 theme: PaperMod
 paginate: 8
 
@@ -23,9 +23,9 @@ outputs:
 
 params:
   env: production
-  title: "Wiliam Rosa | Dados & Databricks"
-  description: "Artigos técnicos e opiniões sobre Azure, Databricks e Engenharia de Dados"
-  keywords: [Databricks, Azure, Data Engineering, Data Platform, Lakehouse]
+  title: "Wiliam Rosa | Lakehouse, Dados & IA"
+  description: "Arquitetura e Engenharia de Dados, Governança, Analytics e IA com Databricks, Azure, AWS e Microsoft Fabric"
+  keywords: [Databricks, Azure, AWS, Microsoft Fabric, Data Engineering, Data Architecture, Governance, Analytics, Machine Learning, Lakehouse]
   author: "Wiliam Rosa"
   DateFormat: "January 2, 2006"
   defaultTheme: auto
@@ -60,9 +60,13 @@ params:
   homeInfoParams:
     Title: "Olá, eu sou Wiliam Rosa 👋"
     Content: >
-      Engenheiro de Dados certificado em Azure Databricks Data Engineer Associate.
-      Aqui compartilho artigos técnicos e opiniões sobre Databricks, Azure Data
-      Platform, arquitetura de dados e o dia a dia de quem trabalha com Lakehouse.
+      Especialista em Arquitetura e Engenharia de Dados, atuando com plataformas
+      modernas de dados, governança, analytics e Inteligência Artificial usando
+      Databricks, Azure, AWS e Microsoft Fabric. Databricks Certified Machine
+      Learning Professional, Microsoft Certified Trainer (MCT) e líder do
+      **São Paulo Databricks User Group**. Autor dos livros *Lakehouse
+      Engineering com Databricks* e *Machine Learning Prático com Python*.
+      Aqui compartilho artigos técnicos e opiniões sobre esse universo.
 
   socialIcons:
     - name: linkedin

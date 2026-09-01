@@ -6,13 +6,32 @@ ShowReadingTime: false
 ShowWordCount: false
 ---
 
-Olá! Sou Wiliam Rosa, Engenheiro de Dados certificado como **Microsoft Certified: Azure Databricks Data Engineer Associate**.
+Olá! Sou Wiliam Rosa, especialista em **Arquitetura e Engenharia de Dados**, com atuação em plataformas modernas de dados, governança, analytics e Inteligência Artificial utilizando **Databricks**, **Azure**, **AWS** e **Microsoft Fabric**.
 
-Neste blog escrevo sobre:
+## Certificações e credenciais
 
-- **Azure Databricks e Lakehouse**: Delta Lake, Unity Catalog, Delta Live Tables, otimização de performance e custos.
-- **Azure Data Platform**: ADF, Synapse, integração com o ecossistema Databricks.
-- **Opinião e carreira**: aprendizados de certificações, arquitetura de dados e o dia a dia de quem trabalha com engenharia de dados.
+- **Databricks Certified Machine Learning Professional**
+- **Microsoft Certified: Azure Databricks Data Engineer Associate**
+- **Microsoft Certified Trainer (MCT)**
+
+## Comunidade
+
+- Líder do **São Paulo Databricks User Group**, comunidade oficial da Databricks no Brasil.
+- Palestrante e coordenador de trilhas de Dados e IA no **TDC (The Developers Conference)**.
+
+## Livros
+
+- **Lakehouse Engineering com Databricks**
+- **Machine Learning Prático com Python**
+
+## Sobre este blog
+
+Aqui escrevo sobre:
+
+- **Databricks e Lakehouse**: Delta Lake, Unity Catalog, Delta Live Tables, otimização de performance e custos, Machine Learning e MLOps.
+- **Plataformas de dados multicloud**: Azure Data Platform, AWS e Microsoft Fabric.
+- **Governança e Analytics**: arquitetura de dados, qualidade, segurança e boas práticas.
+- **Opinião e carreira**: aprendizados de certificações, comunidade e o dia a dia de quem trabalha com dados e IA.
 
 ## Contato
 
