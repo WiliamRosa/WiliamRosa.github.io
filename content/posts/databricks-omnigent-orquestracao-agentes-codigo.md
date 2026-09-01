@@ -11,7 +11,7 @@ ShowToc: true
 
 A Databricks apresentou o **Omnigent**, descrito como um "meta-harness" open-source: uma camada compartilhada que permite trocar de agente de código sem perder contexto, rotear tarefas de forma inteligente, definir políticas contextuais e controles de gasto, e inserir aprovação humana onde for necessário. O anúncio veio junto com uma conversa entre Youssef Mrini, Quentin Ambard e o cofundador e CTO da Databricks, Matei Zaharia.
 
-Fonte original: [post da Databricks no LinkedIn](https://lnkd.in/gsrXgEhk)
+Fonte original: [post da Databricks no LinkedIn](https://www.youtube.com/watch?v=sk6HBdmVmL8)
 
 ## Por que isso importa na prática
 
@@ -29,5 +29,5 @@ Sendo open-source, pelo menos existe transparência para a comunidade avaliar is
 
 ## Para saber mais
 
-- Post original: https://lnkd.in/gsrXgEhk
+- Post original: https://www.youtube.com/watch?v=sk6HBdmVmL8
 - Documentação oficial do Databricks: https://docs.databricks.com/

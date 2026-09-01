@@ -13,7 +13,7 @@ A Databricks publicou um artigo detalhando a arquitetura por trás do **Lakebase
 
 A tese central é que um Postgres construído dessa forma deixa de ser só "mais um OLTP" e passa a ser uma evolução pensada para **cargas de trabalho agênticas**: agentes que criam bancos, fazem branch de dados, escrevem e leem em padrões muito mais imprevisíveis do que uma aplicação tradicional com tráfego humano.
 
-Fonte original: [post da Databricks no LinkedIn](https://lnkd.in/gJS6kPeM)
+Fonte original: [post da Databricks no LinkedIn](https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era)
 
 ## Por que isso importa na prática
 
@@ -31,5 +31,5 @@ Na prática, para quem já vive o dia a dia de governança no Unity Catalog, val
 
 ## Para saber mais
 
-- Post original: https://lnkd.in/gJS6kPeM
+- Post original: https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era
 - Documentação oficial do Databricks: https://docs.databricks.com/

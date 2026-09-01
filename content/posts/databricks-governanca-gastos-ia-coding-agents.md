@@ -16,7 +16,7 @@ A Databricks compartilhou como controla internamente o gasto de milhares de enge
 
 Como todo coding agent passa pelo Unity AI Gateway, os mesmos controles valem para qualquer ferramenta e modelo, com o uso medido em um único lugar. O objetivo declarado não é frear a adoção de IA, é manter o gasto visível e controlado enquanto se dá espaço para os engenheiros construírem.
 
-Fonte original: [post da Databricks no LinkedIn](https://lnkd.in/gj_ShPjZ)
+Fonte original: [post da Databricks no LinkedIn](https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets)
 
 ## Por que isso importa na prática
 
@@ -32,5 +32,5 @@ Ainda assim, é um relato honesto vindo de quem realmente opera a escala descrit
 
 ## Para saber mais
 
-- Post original: https://lnkd.in/gj_ShPjZ
+- Post original: https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets
 - Documentação oficial do Databricks: https://docs.databricks.com/

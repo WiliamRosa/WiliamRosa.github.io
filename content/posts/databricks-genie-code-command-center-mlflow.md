@@ -16,7 +16,7 @@ A Databricks expandiu o **Genie Code** para suportar trabalho agêntico mais com
 
 A Databricks também adiantou que tarefas agendadas (scheduled tasks) estão a caminho, permitindo que o Genie Code rode trabalho de forma autônoma e devolva os resultados para revisão.
 
-Fonte original: [post da Databricks no LinkedIn](https://lnkd.in/gzFgkiT2)
+Fonte original: [post da Databricks no LinkedIn](https://www.databricks.com/blog/whats-new-genie-code-data-ai-summit-2026)
 
 ## Por que isso importa na prática
 
@@ -34,5 +34,5 @@ De qualquer forma, é um anúncio que acompanho de perto porque toca diretamente
 
 ## Para saber mais
 
-- Post original: https://lnkd.in/gzFgkiT2
+- Post original: https://www.databricks.com/blog/whats-new-genie-code-data-ai-summit-2026
 - Documentação oficial do Databricks: https://docs.databricks.com/

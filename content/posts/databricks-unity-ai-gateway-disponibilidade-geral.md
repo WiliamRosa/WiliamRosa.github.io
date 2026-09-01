@@ -13,7 +13,7 @@ A Databricks anunciou a **disponibilidade geral (GA)** do **Unity AI Gateway**, 
 
 O argumento da Databricks é simples: a era de gerenciar "um punhado de modelos" acabou. Agora se governa uma frota de agentes e aplicações que acessam dados, chamam ferramentas e agem sozinhos — e isso muda completamente o que "governança de IA" precisa cobrir.
 
-Fonte original: [post da Databricks no LinkedIn](https://lnkd.in/gPgQf-VE)
+Fonte original: [post da Databricks no LinkedIn](https://www.databricks.com/blog/unity-ai-gateway-generally-available)
 
 ## Por que isso importa na prática
 
@@ -31,5 +31,5 @@ Para quem lidera comunidade e treina gente em Databricks, como eu, esse é o tip
 
 ## Para saber mais
 
-- Post original: https://lnkd.in/gPgQf-VE
+- Post original: https://www.databricks.com/blog/unity-ai-gateway-generally-available
 - Documentação oficial do Databricks: https://docs.databricks.com/
