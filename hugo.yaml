@@ -62,11 +62,14 @@ params:
     Content: >
       Especialista em Arquitetura e Engenharia de Dados, atuando com plataformas
       modernas de dados, governança, analytics e Inteligência Artificial usando
-      Databricks, Azure, AWS e Microsoft Fabric. Databricks Certified Machine
-      Learning Professional, Microsoft Certified Trainer (MCT) e líder do
-      **São Paulo Databricks User Group**. Autor dos livros *Lakehouse
-      Engineering com Databricks* e *Machine Learning Prático com Python*.
-      Aqui compartilho artigos técnicos e opiniões sobre esse universo.
+      Databricks, Azure, AWS e Microsoft Fabric. Certificado como **Microsoft
+      Certified: Azure Databricks Data Engineer Associate**, Databricks
+      Certified Machine Learning Professional, Microsoft Certified Trainer
+      (MCT) e líder do **São Paulo Databricks User Group**. Autor dos livros
+      *Lakehouse Engineering com Databricks* e *Machine Learning Prático com
+      Python*. Meu objetivo é contribuir cada vez mais com a comunidade
+      Microsoft, compartilhando aqui artigos técnicos e opiniões sobre esse
+      universo.
 
   socialIcons:
     - name: linkedin
