@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T15:10:00-03:00",
+  "last_run": "2026-09-01T20:30:00-03:00",
   "processed_sources": [
     "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
     "https://www.linkedin.com/in/hubertdudek/#unity-catalog-secrets-3-level-namespace",
@@ -44,7 +44,15 @@
     "https://docs.databricks.com/aws/en/dashboards/manage/dashboard-agent",
     "https://www.linkedin.com/posts/hubertdudek_i-went-to-the-ingestion-section-and-see-activity",
     "https://www.linkedin.com/posts/hubertdudek_when-working-from-the-web-experience-in-development-activity",
-    "https://www.linkedin.com/posts/hubertdudek_dabs-if-you-like-to-work-in-a-local-ide-activity"
+    "https://www.linkedin.com/posts/hubertdudek_dabs-if-you-like-to-work-in-a-local-ide-activity",
+    "https://docs.databricks.com/aws/en/admin/governed-tags/automate-tag-assignment",
+    "https://github.com/ikidata/databricks-digital-persona",
+    "https://www.ikidata.fi/post/automating-genie-management-with-agent-bricks-supervisor",
+    "https://learn.microsoft.com/en-us/azure/databricks/admin/governance-hub/",
+    "https://learn.microsoft.com/en-us/azure/databricks/security/network/serverless-network-security/private-network-gateway",
+    "https://docs.databricks.com/aws/en/jobs/tasks/genie-code",
+    "https://community.databricks.com/t5/technical-blog/triggered-vs-continuous-mode-a-deep-dive-into-serverless/ba-p/164327",
+    "https://docs.databricks.com/aws/en/oltp/projects/disaster-recovery"
   ],
   "linkedin_profiles_watched": [
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
