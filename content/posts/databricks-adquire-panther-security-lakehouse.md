@@ -1,7 +1,7 @@
 ---
 title: "Databricks compra a Panther e aposta todas as fichas no 'security lakehouse'"
 date: 2026-08-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Segurança", "LakeWatch", "Opinião"]
 summary: "Com a aquisição da Panther concluída, a Databricks une workflows de SOC e detecção de ameaças ao LakeWatch — uma tacada clara contra o modelo tradicional de SIEM."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Genie ZeroOps: um agente que conserta seu pipeline antes de alguém reclamar"
-date: 2026-09-01T09:00:00-03:00
-draft: true
+date: 2026-09-01T00:30:00-03:00
+draft: false
 tags: ["Databricks", "Genie", "Observabilidade", "Agentes de IA", "Opinião"]
 summary: "Genie ZeroOps promete monitorar, investigar e propor correção pra pipelines, jobs e tabelas sozinho. O Databricks MVP Hubert Dudek testou em preview com três cenários reais de falha."
 ShowToc: false

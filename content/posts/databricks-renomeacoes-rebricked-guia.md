@@ -1,7 +1,7 @@
 ---
 title: "Vector Search, Mosaic AI Vector Search, Databricks AI Search: o mesmo produto, três nomes em dois anos"
 date: 2026-08-05T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Documentação", "Comunidade", "Opinião"]
 summary: "A Databricks renomeia produto com uma frequência que confunde até quem escreve livro sobre a plataforma. Um projeto da comunidade tenta resolver isso com uma espécie de dicionário vivo."
 ShowToc: false

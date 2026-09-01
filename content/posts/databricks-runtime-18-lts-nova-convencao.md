@@ -1,7 +1,7 @@
 ---
 title: "Databricks Runtime 18 virou LTS e matou a pergunta '18.1 ou 18.2?'"
 date: 2026-08-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks Runtime", "DevOps", "Opinião"]
 summary: "A partir do Runtime 18, a Databricks unificou as release notes: sem mais versão menor pra decorar, features novas chegam como atualizações datadas na mesma página."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Lakebase ganhou CDC de graça — e o Postgres nem percebe"
 date: 2026-06-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Unity Catalog", "CDC", "Opinião"]
 summary: "Lakebase Change Data Feed (ex-Lakehouse Sync) usa uma extensão de WAL do Postgres pra replicar toda escrita direto pra tabelas Delta no Unity Catalog, sem tocar na aplicação."
 ShowToc: false

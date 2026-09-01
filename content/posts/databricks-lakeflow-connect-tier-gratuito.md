@@ -1,7 +1,7 @@
 ---
 title: "100 DBUs de ingestão grátis por dia, todo dia, pra sempre — o que a Databricks está apostando com isso"
 date: 2026-05-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow Connect", "Ingestão de Dados", "Opinião"]
 summary: "O novo tier gratuito permanente do Lakeflow Connect cobre cerca de 100 milhões de registros por dia, por workspace, sem prazo de validade. Isso muda o cálculo de quem hoje paga por linha ingerida."
 ShowToc: false

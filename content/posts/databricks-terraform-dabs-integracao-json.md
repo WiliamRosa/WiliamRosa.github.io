@@ -1,7 +1,7 @@
 ---
 title: "Chega de copiar e colar ID do Key Vault entre Terraform e bundle — agora é só JSON"
 date: 2026-05-02T09:15:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Terraform", "Declarative Automation Bundles", "DevOps", "Opinião"]
 summary: "Terraform provisiona a infraestrutura, os bundles gerenciam a camada Databricks — e a integração entre os dois deixou de depender de mensagem no Slack com o ID copiado manualmente."
 ShowToc: false

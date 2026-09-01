@@ -1,7 +1,7 @@
 ---
 title: "Direct mode virou padrão nos Databricks Asset Bundles — o Terraform está com os dias contados aqui"
 date: 2026-08-28T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Declarative Automation Bundles", "Terraform", "CI/CD", "Opinião"]
 summary: "O engine 'direct' virou padrão pra bundles criados no workspace desde 13 de agosto, e vira padrão geral da CLI em 26 de agosto. O suporte ao Terraform está no caminho da deprecação."
 ShowToc: false
