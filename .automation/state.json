@@ -1,6 +1,10 @@
 {
-  "last_run": "2026-09-01T09:20:00-03:00",
+  "last_run": "2026-09-01T13:10:00-03:00",
   "processed_sources": [
+    "https://www.waitingforcode.com/data-engineering-patterns/data-engineering-design-patterns-dynamic-data-overwriter/read",
+    "https://www.waitingforcode.com/databricks/ruff-declarative-automation-bundles/read",
+    "https://docs.databricks.com/aws/en/release-notes/product/2026/july#packaged-clean-rooms",
+    "https://github.com/jacovg91/linkedinstuff/blob/main/code-snippets/schema-evolution2.py",
     "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
     "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
     "https://www.databricks.com/blog/whats-new-genie-code-data-ai-summit-2026",
