@@ -25,7 +25,7 @@ Construa pipelines modernos com **Spark**, **Delta Lake**, **Unity Catalog** e a
 
 ## Onde encontrar
 
-- 📱 **eBook e impresso (Amazon)**: [amazon.com.br/dp/B0DTJCBG46](https://www.amazon.com.br/dp/B0DTJCBG46)
+- 📱 **eBook (Amazon)**: [amazon.com.br/dp/B0DTJCBG46](https://www.amazon.com.br/dp/B0DTJCBG46)
 - 📗 **Impresso (Clube de Autores)**: [clubedeautores.com.br/livro/lakehouse-engineering-com-databricks](https://clubedeautores.com.br/livro/lakehouse-engineering-com-databricks)
 
 E tem um detalhe especial 👇
