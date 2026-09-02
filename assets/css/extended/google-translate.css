@@ -7,38 +7,7 @@ body {
     position: static !important;
 }
 
-.goog-te-gadget {
-    font-family: inherit !important;
-    font-size: 0 !important;
-    color: transparent !important;
-}
-
 .google-translate-widget {
-    display: flex;
-    align-items: center;
-}
-
-.google-translate-widget .goog-te-gadget-simple {
-    display: flex;
-    align-items: center;
-    padding: 3px 8px;
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
-    background: var(--theme);
-    font-size: 0.8rem !important;
-    line-height: 1;
-    white-space: nowrap;
-}
-
-.google-translate-widget .goog-te-gadget-simple .goog-te-menu-value {
-    color: var(--primary) !important;
-}
-
-.google-translate-widget .goog-te-gadget-simple .goog-te-menu-value span {
-    color: var(--primary) !important;
-}
-
-.google-translate-widget .goog-te-gadget-icon {
     display: none !important;
 }
 
@@ -57,6 +26,31 @@ body {
     display: none !important;
 }
 
-.skiptranslate iframe {
-    visibility: hidden !important;
+.lang-translate-toggle {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.lang-translate-btn {
+    padding: 3px 8px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--theme);
+    color: var(--secondary);
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.lang-translate-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.lang-translate-btn--active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--theme);
 }

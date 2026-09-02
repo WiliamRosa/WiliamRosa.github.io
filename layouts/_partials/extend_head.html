@@ -9,3 +9,45 @@
     }
 </script>
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+<script type="text/javascript">
+    (function () {
+        function setLangCookie(value) {
+            var host = window.location.hostname;
+            document.cookie = 'googtrans=' + value + '; path=/;';
+            document.cookie = 'googtrans=' + value + '; path=/; domain=' + host + ';';
+        }
+
+        function clearLangCookie() {
+            var host = window.location.hostname;
+            document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT;';
+            document.cookie = 'googtrans=; path=/; domain=' + host + '; expires=Thu, 01 Jan 1970 00:00:00 GMT;';
+        }
+
+        function currentLang() {
+            var match = document.cookie.match(/googtrans=\/[^/]*\/([a-zA-Z-]+)/);
+            return match ? match[1] : 'pt';
+        }
+
+        function updateActiveState() {
+            var lang = currentLang();
+            document.querySelectorAll('.lang-translate-btn').forEach(function (btn) {
+                btn.classList.toggle('lang-translate-btn--active', btn.getAttribute('data-lang') === lang);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            updateActiveState();
+            document.querySelectorAll('.lang-translate-btn').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var lang = btn.getAttribute('data-lang');
+                    if (lang === 'pt') {
+                        clearLangCookie();
+                    } else {
+                        setLangCookie('/pt/' + lang);
+                    }
+                    window.location.reload();
+                });
+            });
+        });
+    })();
+</script>

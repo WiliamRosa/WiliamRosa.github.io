@@ -83,7 +83,11 @@
                 {{- end }}
 
                 <span class="nav-sep">|</span>
-                <div id="google_translate_element" class="google-translate-widget"></div>
+                <div class="lang-translate-toggle" role="group" aria-label="Language / Idioma">
+                    <button type="button" class="lang-translate-btn" data-lang="pt" aria-label="Ver em português">PT</button>
+                    <button type="button" class="lang-translate-btn" data-lang="en" aria-label="View in English">EN</button>
+                </div>
+                <div id="google_translate_element" class="google-translate-widget" hidden></div>
             </div>
             {{- end }}
         </div>
