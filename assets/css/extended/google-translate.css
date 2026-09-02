@@ -33,24 +33,28 @@ body {
 }
 
 .lang-translate-btn {
-    padding: 3px 8px;
-    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border-radius: 50%;
     border: 1px solid var(--border);
     background: var(--theme);
-    color: var(--secondary);
-    font-size: 0.78rem;
-    font-weight: 600;
-    line-height: 1.4;
+    font-size: 0.85rem;
+    line-height: 1;
     cursor: pointer;
+    opacity: 0.55;
+    transition: opacity 0.15s ease, border-color 0.15s ease;
 }
 
 .lang-translate-btn:hover {
+    opacity: 0.85;
     border-color: var(--primary);
-    color: var(--primary);
 }
 
 .lang-translate-btn--active {
-    background: var(--primary);
+    opacity: 1;
     border-color: var(--primary);
-    color: var(--theme);
 }
