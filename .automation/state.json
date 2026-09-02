@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T23:59:00-03:00",
+  "last_run": "2026-09-02T15:00:00-03:00",
   "processed_sources": [
     "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
     "https://www.linkedin.com/in/hubertdudek/#unity-catalog-secrets-3-level-namespace",
@@ -65,7 +65,14 @@
     "https://www.covasant.com/blogs/you-already-have-a-message-bus-why-we-stopped-using-kafka",
     "https://learn.microsoft.com/en-us/azure/databricks/genie-one/desktop",
     "https://learn.microsoft.com/en-us/azure/databricks/admin/system-tables/pipeline-events",
-    "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/oauth-m2m"
+    "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/oauth-m2m",
+    "https://www.databricks.com/blog/enhancing-agent-retrieval-structured-chart-extraction",
+    "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task",
+    "https://pypi.org/project/databricks-labs-sdp-meta/",
+    "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
+    "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
+    "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
+    "https://learn.microsoft.com/en-us/azure/databricks/ingestion/zerobus-arrow-flight"
   ],
   "linkedin_profiles_watched": [
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
