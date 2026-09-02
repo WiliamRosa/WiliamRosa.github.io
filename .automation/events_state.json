@@ -1,0 +1,18 @@
+{
+  "last_run": "2026-09-02T01:30:00Z",
+  "processed_events": [
+    "reactor:27539",
+    "meetup:316281449",
+    "reactor:27553",
+    "meetup:316358644",
+    "meetup:315398302",
+    "meetup:315399402",
+    "meetup:315399412",
+    "meetup:315399438",
+    "dbxcom:29601",
+    "tdc:2026:stage-recife",
+    "tdc:2026:porto-alegre",
+    "tdc:2026:sao-paulo",
+    "dbxug:579"
+  ]
+}
