@@ -82,6 +82,10 @@ params:
     - name: rss
       url: "index.xml"
 
+  # Preencha com seu username do Buttondown (buttondown.com/<username>) depois de criar a conta.
+  # Enquanto estiver vazio, o formulário de assinatura por e-mail na home fica oculto.
+  buttondownUsername: ""
+
   editPost:
     URL: "https://github.com/WiliamRosa/WiliamRosa.github.io/tree/main/content"
     Text: "Sugerir edição"

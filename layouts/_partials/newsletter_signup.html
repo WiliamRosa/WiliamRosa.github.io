@@ -1,0 +1,15 @@
+{{- with site.Params.buttondownUsername }}
+<div class="newsletter-signup">
+    <h3 class="newsletter-signup-title">Receba as últimas notícias no seu e-mail</h3>
+    <p class="newsletter-signup-text">Assine e receba um resumo semanal com os novos posts sobre Databricks, Azure e IA.</p>
+    <form action="https://buttondown.com/api/emails/embed-subscribe/{{ . }}" method="post" target="popupwindow"
+        onsubmit="window.open('https://buttondown.com/{{ . }}', 'popupwindow')" class="newsletter-signup-form">
+        <label for="newsletter-email" class="visually-hidden">E-mail</label>
+        <input type="email" name="email" id="newsletter-email" placeholder="seu@email.com" required
+            autocomplete="email">
+        <input type="hidden" value="1" name="embed">
+        <button type="submit">Assinar</button>
+    </form>
+    <p class="newsletter-signup-disclaimer">Ao assinar, você concorda em receber e-mails com novidades do blog. Sem spam, cancele quando quiser.</p>
+</div>
+{{- end }}
