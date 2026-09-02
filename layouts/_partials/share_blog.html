@@ -1,14 +1,14 @@
 {{- $url := site.BaseURL | absURL }}
 {{- $title := site.Title }}
+{{- $caption := printf "Artigos e opiniões sobre Databricks, Azure e IA no blog do %s: %s" site.Params.author $url }}
 <div class="share-blog">
     <p class="share-blog-text">Se gostou, ajude a comunidade compartilhando este blog</p>
     <div class="share-blog-buttons">
-        <a class="share-blog-btn share-blog-btn--linkedin" target="_blank" rel="noopener noreferrer"
-            aria-label="Compartilhar este blog no LinkedIn"
-            href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url }}">
+        <button type="button" class="share-blog-btn share-blog-btn--linkedin" data-share-url="{{ $url }}"
+            data-share-caption="{{ $caption }}" aria-label="Compartilhar este blog no LinkedIn">
             {{ partial "svg.html" (dict "name" "linkedin") }}
-            <span>Compartilhar</span>
-        </a>
+            <span class="share-blog-linkedin-label">Compartilhar</span>
+        </button>
         <button type="button" class="share-blog-btn share-blog-btn--copy" data-share-url="{{ $url }}"
             aria-label="Copiar link do blog">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -22,49 +22,67 @@
 </div>
 <script>
     (function () {
-        var btn = document.querySelector('.share-blog-btn--copy');
-        if (!btn) return;
-        var url = btn.getAttribute('data-share-url');
-        var label = btn.querySelector('.share-blog-copy-label');
-        var original = label.textContent;
-        var resetTimer;
-
-        function showFeedback(ok) {
-            clearTimeout(resetTimer);
-            label.textContent = ok ? 'Link copiado!' : 'Não foi possível copiar';
-            btn.classList.toggle('share-blog-btn--copied', ok);
-            resetTimer = setTimeout(function () {
-                label.textContent = original;
-                btn.classList.remove('share-blog-btn--copied');
-            }, 2000);
-        }
-
-        function fallbackCopy() {
-            var ta = document.createElement('textarea');
-            ta.value = url;
-            ta.style.position = 'fixed';
-            ta.style.opacity = '0';
-            document.body.appendChild(ta);
-            ta.focus();
-            ta.select();
-            var ok = false;
-            try {
-                ok = document.execCommand('copy');
-            } catch (e) {
-                ok = false;
+        function copyText(text, onDone) {
+            function fallbackCopy() {
+                var ta = document.createElement('textarea');
+                ta.value = text;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.focus();
+                ta.select();
+                var ok = false;
+                try {
+                    ok = document.execCommand('copy');
+                } catch (e) {
+                    ok = false;
+                }
+                document.body.removeChild(ta);
+                onDone(ok);
             }
-            document.body.removeChild(ta);
-            showFeedback(ok);
-        }
 
-        btn.addEventListener('click', function () {
             if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(url).then(function () {
-                    showFeedback(true);
+                navigator.clipboard.writeText(text).then(function () {
+                    onDone(true);
                 }, fallbackCopy);
             } else {
                 fallbackCopy();
             }
-        });
+        }
+
+        function withFeedback(btn, label, messages) {
+            var original = label.textContent;
+            var resetTimer;
+            return function (ok) {
+                clearTimeout(resetTimer);
+                label.textContent = ok ? messages.ok : messages.fail;
+                btn.classList.toggle('share-blog-btn--copied', ok);
+                resetTimer = setTimeout(function () {
+                    label.textContent = original;
+                    btn.classList.remove('share-blog-btn--copied');
+                }, 2500);
+            };
+        }
+
+        var copyBtn = document.querySelector('.share-blog-btn--copy');
+        if (copyBtn) {
+            var copyLabel = copyBtn.querySelector('.share-blog-copy-label');
+            var reportCopy = withFeedback(copyBtn, copyLabel, { ok: 'Link copiado!', fail: 'Não foi possível copiar' });
+            copyBtn.addEventListener('click', function () {
+                copyText(copyBtn.getAttribute('data-share-url'), reportCopy);
+            });
+        }
+
+        var linkedinBtn = document.querySelector('.share-blog-btn--linkedin');
+        if (linkedinBtn) {
+            var linkedinLabel = linkedinBtn.querySelector('.share-blog-linkedin-label');
+            var reportLinkedin = withFeedback(linkedinBtn, linkedinLabel, { ok: 'Texto copiado, cole no post!', fail: 'Abrindo LinkedIn…' });
+            linkedinBtn.addEventListener('click', function () {
+                var url = linkedinBtn.getAttribute('data-share-url');
+                var caption = linkedinBtn.getAttribute('data-share-caption');
+                copyText(caption, reportLinkedin);
+                window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer');
+            });
+        }
     })();
 </script>
