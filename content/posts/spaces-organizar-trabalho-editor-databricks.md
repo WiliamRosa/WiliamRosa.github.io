@@ -1,7 +1,7 @@
 ---
 title: "Spaces chega ao editor do Databricks pra resolver o problema da aba que some"
 date: 2026-08-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Produtividade", "Opinião"]
 summary: "A nova feature Spaces deixa organizar abas abertas por pasta ou projeto no editor do Databricks, então dá pra alternar entre um pipeline e um bundle sem perder o contexto de cada um. O Databricks MVP Ajay Kumar Pandey notou a chegada."
 ShowToc: false

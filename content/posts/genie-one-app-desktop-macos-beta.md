@@ -1,7 +1,7 @@
 ---
 title: "Genie One ganha app nativo pra macOS, e sai do browser"
 date: 2026-08-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "Opinião"]
 summary: "O app de desktop do Genie One pra macOS entrou em Beta, tirando a experiência de dentro de uma aba de browser. O Databricks MVP Soufiane Darraz destacou o lançamento assim que ele saiu."
 ShowToc: false

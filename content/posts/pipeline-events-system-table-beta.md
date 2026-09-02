@@ -1,7 +1,7 @@
 ---
 title: "Uma system table só pra saber o que aconteceu dentro do seu pipeline Lakeflow"
 date: 2026-09-01T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow", "Observabilidade", "Opinião"]
 summary: "A pipeline_events system table (Beta) centraliza log de evento de todo pipeline Lakeflow da conta numa única tabela consultável, transição de estado, progresso de flow, métrica de qualidade e erro incluídos."
 ShowToc: false

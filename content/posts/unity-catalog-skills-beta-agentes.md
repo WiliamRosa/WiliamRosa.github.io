@@ -1,7 +1,7 @@
 ---
 title: "Skill de agente virou um objeto do Unity Catalog, com dono, permissão e auditoria"
 date: 2026-08-29T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Agentes", "Opinião"]
 summary: "Unity Catalog Skills (Beta) trata skill de agente como securable de três níveis, catalog.schema.skill, com as mesmas permissões e tags que já protegem tabela. O Databricks MVP Hubert Dudek notou a mudança antes do anúncio oficial confirmar."
 ShowToc: false

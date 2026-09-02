@@ -1,7 +1,7 @@
 ---
 title: "Segredo OAuth vazado agora pode ter dano limitado por escopo de API"
 date: 2026-08-30T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Segurança", "Opinião"]
 summary: "Agora dá pra restringir o segredo OAuth de um service principal a escopos de API específicos, como sql ou jobs, em vez de liberar acesso total. Um token gerado por segredo restrito não consegue ultrapassar esses escopos."
 ShowToc: false

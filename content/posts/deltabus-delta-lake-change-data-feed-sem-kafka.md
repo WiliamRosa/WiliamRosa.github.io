@@ -1,7 +1,7 @@
 ---
 title: "DeltaBus: o padrão que usa Delta Lake e Change Data Feed em vez de Kafka"
 date: 2026-08-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Lake", "Arquitetura", "Opinião"]
 summary: "Em vez de mais um cluster Kafka pra manter, o padrão DeltaBus usa tabela Delta e Change Data Feed como barramento de eventos. O Databricks MVP Dr. Alan L. Dennis destacou o argumento por trás dessa escolha de arquitetura."
 ShowToc: false
