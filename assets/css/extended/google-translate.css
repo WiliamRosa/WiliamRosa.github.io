@@ -1,0 +1,62 @@
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+    position: static !important;
+}
+
+.goog-te-gadget {
+    font-family: inherit !important;
+    font-size: 0 !important;
+    color: transparent !important;
+}
+
+.google-translate-widget {
+    display: flex;
+    align-items: center;
+}
+
+.google-translate-widget .goog-te-gadget-simple {
+    display: flex;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--theme);
+    font-size: 0.8rem !important;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.google-translate-widget .goog-te-gadget-simple .goog-te-menu-value {
+    color: var(--primary) !important;
+}
+
+.google-translate-widget .goog-te-gadget-simple .goog-te-menu-value span {
+    color: var(--primary) !important;
+}
+
+.google-translate-widget .goog-te-gadget-icon {
+    display: none !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+    display: none !important;
+}
+
+.skiptranslate iframe {
+    visibility: hidden !important;
+}
