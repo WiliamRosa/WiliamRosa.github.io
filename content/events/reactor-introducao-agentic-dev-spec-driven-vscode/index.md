@@ -2,6 +2,7 @@
 title: "💻 Introdução ao Agentic Dev com Spec-Driven no VS Code"
 date: 2026-09-01T20:10:00-03:00
 draft: false
+eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Agentes de IA", "GitHub Copilot"]
 summary: "Primeira sessão de uma série do Microsoft Reactor São Paulo sobre desenvolvimento orientado a agentes no VS Code, cobrindo os fundamentos de definir comportamento de agente via AGENTS.md."
 ShowToc: false

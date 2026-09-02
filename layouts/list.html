@@ -64,6 +64,9 @@
 {{- end }}
 
 <article class="{{ $class }}">
+  {{- if eq .Section "events" }}
+  {{- partial "event_source_badge.html" . }}
+  {{- end }}
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">

@@ -2,6 +2,7 @@
 title: "🔁 Construindo Workflows Reutilizáveis no VS Code"
 date: 2026-09-01T20:20:00-03:00
 draft: false
+eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Agentes de IA", "GitHub Copilot"]
 summary: "Terceira sessão da série do Microsoft Reactor São Paulo sobre desenvolvimento com agentes, mostrando como organizar bibliotecas de prompts e workflows reutilizáveis no VS Code."
 ShowToc: false

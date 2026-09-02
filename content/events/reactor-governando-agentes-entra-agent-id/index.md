@@ -2,6 +2,7 @@
 title: "🤖 Governando agentes autônomos com o Microsoft Entra Agent ID"
 date: 2026-09-01T20:05:00-03:00
 draft: false
+eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Agentes de IA", "Microsoft Entra"]
 summary: "Sessão gratuita do Microsoft Reactor sobre identidade, privilégios e governança de agentes autônomos de IA usando o Microsoft Entra Agent ID, com Josimar Hedler, Cyber Security Engineer."
 ShowToc: false

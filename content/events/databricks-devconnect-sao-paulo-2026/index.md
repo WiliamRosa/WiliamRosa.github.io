@@ -2,6 +2,7 @@
 title: "🤝 Databricks DevConnect São Paulo"
 date: 2026-09-01T20:30:00-03:00
 draft: false
+eventSource: "Databricks"
 tags: ["Evento", "Databricks", "DevConnect"]
 summary: "Encontro presencial gratuito da Databricks em São Paulo, com sessões técnicas sobre Lakehouse, ferramentas de IA como Unity AI Gateway e MCPs, e como levar esses builds a usuários não técnicos via Genie."
 ShowToc: false

@@ -1,0 +1,43 @@
+.event-source-badge {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    z-index: 1;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.event-source-badge--tdc {
+    background: #ecd9a3;
+    color: #2a2205;
+}
+
+.event-source-badge--reactor {
+    background: #0f6cbd;
+    color: #ffffff;
+}
+
+.event-source-badge--databricks {
+    background: #ff3621;
+    color: #ffffff;
+}
+
+.event-source-badge--dbxug {
+    background: #7c3aed;
+    color: #ffffff;
+}
+
+.event-source-badge--fabric {
+    background: #1e9e75;
+    color: #ffffff;
+}
+
+.event-source-badge--default {
+    background: var(--border);
+    color: var(--primary);
+}

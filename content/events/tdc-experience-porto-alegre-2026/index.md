@@ -2,6 +2,7 @@
 title: "🎤 TDC Experience Porto Alegre"
 date: 2026-09-01T20:40:00-03:00
 draft: false
+eventSource: "TDC"
 tags: ["Evento", "TDC", "TDC Experience Porto Alegre", "Agentes de IA", "Governança"]
 summary: "TDC Experience chega a Porto Alegre com trilhas de Arquitetura de Agentes de IA, Engenharia orientada a dados e Governança, voltadas a quem constrói tecnologia no dia a dia."
 ShowToc: false

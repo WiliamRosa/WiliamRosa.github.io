@@ -2,6 +2,7 @@
 title: "☕ Café com Databricks | Os sabores do Genie + Carreira Internacional 🌍"
 date: 2026-08-31T22:00:00-03:00
 draft: false
+eventSource: "São Paulo Databricks User Group"
 tags: ["Evento", "São Paulo Databricks User Group", "Genie", "Carreira Internacional"]
 cover:
     image: "cover.jpg"

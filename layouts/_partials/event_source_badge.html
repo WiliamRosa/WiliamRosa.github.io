@@ -1,0 +1,11 @@
+{{- with .Params.eventSource }}
+  {{- $slug := "" }}
+  {{- if eq . "TDC" }}{{ $slug = "tdc" }}
+  {{- else if eq . "Microsoft Reactor" }}{{ $slug = "reactor" }}
+  {{- else if eq . "Microsoft Fabric" }}{{ $slug = "fabric" }}
+  {{- else if eq . "Databricks" }}{{ $slug = "databricks" }}
+  {{- else if eq . "São Paulo Databricks User Group" }}{{ $slug = "dbxug" }}
+  {{- else }}{{ $slug = "default" }}
+  {{- end }}
+<span class="event-source-badge event-source-badge--{{ $slug }}">{{ . }}</span>
+{{- end }}

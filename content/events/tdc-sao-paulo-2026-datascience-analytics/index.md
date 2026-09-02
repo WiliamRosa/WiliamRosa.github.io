@@ -2,6 +2,7 @@
 title: "🎤 TDC São Paulo 2026 | Coordenador da trilha DataScience e Analytics"
 date: 2026-08-31T22:35:00-03:00
 draft: false
+eventSource: "TDC"
 tags: ["Evento", "TDC", "TDC São Paulo", "DataScience e Analytics"]
 cover:
     image: "cover.jpg"

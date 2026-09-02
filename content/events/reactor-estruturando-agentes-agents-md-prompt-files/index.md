@@ -2,6 +2,7 @@
 title: "📋 Estruturando Agentes com AGENTS.md e Prompt Files"
 date: 2026-09-01T20:15:00-03:00
 draft: false
+eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Agentes de IA", "GitHub Copilot"]
 summary: "Segunda sessão da série do Microsoft Reactor São Paulo sobre desenvolvimento com agentes, aprofundando o uso de AGENTS.md e prompt files reutilizáveis pra organizar instruções por tarefa."
 ShowToc: false

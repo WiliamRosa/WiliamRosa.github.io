@@ -2,6 +2,7 @@
 title: "🎙️ TDC Summit São Paulo — Inteligência Artificial | Host e Coordenador de Trilha"
 date: 2026-04-24T18:00:00-03:00
 draft: false
+eventSource: "TDC"
 tags: ["Evento", "TDC", "TDC Summit", "Inteligência Artificial", "Engenharia de Dados"]
 cover:
     image: "cover.jpg"

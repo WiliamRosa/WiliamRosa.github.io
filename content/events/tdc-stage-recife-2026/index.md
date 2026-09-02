@@ -2,6 +2,7 @@
 title: "🎤 TDC Stage Recife"
 date: 2026-09-01T20:35:00-03:00
 draft: false
+eventSource: "TDC"
 tags: ["Evento", "TDC", "TDC Stage Recife"]
 summary: "TDC Stage chega a Recife pelo quinto ano consecutivo dentro da programação do Rec'n'Play, com entrada gratuita e trilha de conteúdo técnico de alto nível."
 ShowToc: false

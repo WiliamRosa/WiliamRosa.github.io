@@ -2,6 +2,7 @@
 title: "📈 Escalando Workflows com Agentes"
 date: 2026-09-01T20:25:00-03:00
 draft: false
+eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Agentes de IA", "GitHub Copilot"]
 summary: "Sessão de encerramento da série do Microsoft Reactor São Paulo sobre desenvolvimento com agentes, focada em padronizar e escalar essas práticas em times inteiros."
 ShowToc: false

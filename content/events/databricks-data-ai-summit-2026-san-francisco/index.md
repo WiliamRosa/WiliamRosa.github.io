@@ -2,6 +2,7 @@
 title: "🌉 Databricks Data + AI Summit 2026 | San Francisco"
 date: 2026-06-15T09:00:00-07:00
 draft: false
+eventSource: "Databricks"
 tags: ["Evento", "Databricks", "Data + AI Summit", "São Paulo Databricks User Group"]
 cover:
     image: "cover.jpg"

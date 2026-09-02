@@ -2,6 +2,7 @@
 title: "🟢 Conferência Microsoft Fabric Brasil"
 date: 2026-05-09T09:00:00-03:00
 draft: false
+eventSource: "Microsoft Fabric"
 tags: ["Evento", "Microsoft Fabric", "Comunidade"]
 cover:
     image: "cover.jpg"

@@ -2,6 +2,7 @@
 title: "🛡️ Proteção de dados na era da IA"
 date: 2026-09-01T20:00:00-03:00
 draft: false
+eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Governança de IA", "Microsoft Purview"]
 summary: "Sessão gratuita do Microsoft Reactor sobre como o Microsoft Purview ajuda a descobrir, classificar, proteger e governar dados sensíveis na adoção de IA, com Júlio César Vasconcelos, Cybersecurity Architect."
 ShowToc: false
