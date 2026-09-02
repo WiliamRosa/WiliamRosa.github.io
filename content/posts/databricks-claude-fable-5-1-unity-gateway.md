@@ -1,7 +1,7 @@
 ---
 title: "Claude Fable 5.1 no Databricks no dia 0: o Unity Gateway é que torna isso rotina"
 date: 2026-09-01T15:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Unity AI Gateway", "Anthropic", "Claude", "Opinião"]
 summary: "A Databricks liberou o Claude Fable 5.1 da Anthropic no mesmo dia do lançamento, via Unity Gateway, ao lado de Opus 5, Sonnet 5 e mais de 30 modelos. O que chama atenção não é o modelo novo, é a infraestrutura que torna isso rotina."
 ShowToc: true
