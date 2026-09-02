@@ -1,7 +1,7 @@
 ---
 title: "Serverless do Azure Databricks ganha um jeito de chegar na sua rede inteira, não só num recurso por vez"
 date: 2026-08-31T10:00:00-03:00
-draft: true
+draft: false
 tags: ["AzureDatabricks", "Serverless", "Rede", "Opinião"]
 summary: "Private Network Gateway conecta compute serverless a toda a VNet (e redes conectadas via ExpressRoute ou VPN) através de um único gateway gerenciado, complementando em vez de substituir os Private Endpoints."
 ShowToc: false

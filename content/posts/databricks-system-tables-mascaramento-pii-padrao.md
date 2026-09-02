@@ -1,7 +1,7 @@
 ---
 title: "Chega de manter view própria só pra esconder dado sensível das system tables"
 date: 2026-09-01T14:45:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Governança", "Segurança", "Opinião"]
 summary: "Dados potencialmente sensíveis em query.history e request_params agora vêm mascarados por padrão nas system tables, liberando acesso amplo sem expor informação sensível a quem não deveria ver."
 ShowToc: false

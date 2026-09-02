@@ -1,7 +1,7 @@
 ---
 title: "Genie aprendeu a extrair gráfico de PDF como JSON estruturado antes de responder"
 date: 2026-08-28T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "IA Generativa", "RAG"]
 summary: "A Databricks publicou uma técnica de enriquecimento que usa ai_parse_document e ai_prep_search pra transformar gráfico dentro de documento em JSON estruturado antes de indexar, e bateu embedding multimodal maior em dois benchmarks públicos."
 ShowToc: false

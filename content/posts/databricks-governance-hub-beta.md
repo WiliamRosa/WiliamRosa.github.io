@@ -1,7 +1,7 @@
 ---
 title: "Governance Hub junta dado, IA e custo numa tela só, e ainda faltava exatamente isso"
 date: 2026-08-31T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Governança", "UnityCatalog", "Opinião"]
 summary: "Governance Hub (Beta) é uma visão no nível de conta que reúne saúde de dado, gasto e uso de IA, e recomendações de custo num só lugar, sem substituir Unity Catalog ou orçamentos existentes."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Delta 4.3 faz até CREATE TABLE passar pelo catálogo, não só a leitura"
 date: 2026-06-23T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Lake", "Unity Catalog", "Apache Iceberg", "Opinião"]
 summary: "Delta 4.3 expande as catalog-managed tables para que operações de escrita, CREATE, REPLACE, ALTER TABLE, também passem por validação de commit do lado do catálogo, não só a leitura."
 ShowToc: false

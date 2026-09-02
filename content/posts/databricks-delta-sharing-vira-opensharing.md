@@ -1,7 +1,7 @@
 ---
 title: "Delta Sharing virou OpenSharing, mais um rebranding que esconde uma ambição maior"
 date: 2026-08-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Sharing", "OpenSharing", "Governança", "Opinião"]
 summary: "O Databricks MVP Josue Bogran entrevistou o líder de produto do OpenSharing pra explicar o que muda quando o Delta Sharing se rebatiza como o protocolo aberto de compartilhamento para a era agêntica."
 ShowToc: false

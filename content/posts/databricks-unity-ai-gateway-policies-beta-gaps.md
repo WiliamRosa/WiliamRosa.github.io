@@ -1,7 +1,7 @@
 ---
 title: "Testei o beta de Policies no Unity AI Gateway, e a barreira ainda deixa passar coisa que não devia"
 date: 2026-08-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity AI Gateway", "Governança", "Opinião"]
 summary: "O Databricks MVP Josue Bogran testou o recurso de Policies (ainda em beta) do Unity AI Gateway com Omnigent, e encontrou casos onde as barreiras deveriam ter sido mais rigorosas."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Testei três modelos atrás do mesmo Unity AI Gateway, e o custo de token variou cinco vezes pra pergunta idêntica"
 date: 2026-07-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "UnityAIGateway", "FinOps", "Opinião"]
 summary: "Um MVP apontou um Unity AI Gateway pra três modelos hospedados no Databricks e mediu guardrail bloqueando prompt injection 3 de 3 vezes, mas com uma diferença de até 5x no custo de token pro mesmo prompt entre modelos."
 ShowToc: false

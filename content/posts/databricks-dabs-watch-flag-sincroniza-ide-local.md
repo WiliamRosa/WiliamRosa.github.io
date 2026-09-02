@@ -1,7 +1,7 @@
 ---
 title: "A flag --watch dos bundles resolve o problema de editar no Databricks mas viver no seu IDE local"
 date: 2026-08-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Declarative Automation Bundles", "DevOps", "Opinião"]
 summary: "Quem prefere trabalhar num IDE local mas às vezes precisa editar ativo direto no Databricks agora tem uma flag que sincroniza essa mudança de volta pro projeto local."
 ShowToc: false

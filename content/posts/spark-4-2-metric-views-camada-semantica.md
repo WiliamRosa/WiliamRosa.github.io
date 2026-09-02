@@ -1,7 +1,7 @@
 ---
 title: "O Spark 4.2 finalmente entende o que é uma métrica de negócio, não só uma coluna"
 date: 2026-08-03T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "ApacheSpark", "MetricViews", "Opinião"]
 summary: "Metric Views trazem semântica nativa pro Spark SQL: dimensão e medida viram objeto de primeira classe que o motor entende, então dashboard, relatório e agente de IA calculam a mesma métrica do mesmo jeito."
 ShowToc: false

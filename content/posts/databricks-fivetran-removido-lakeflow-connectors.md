@@ -1,7 +1,7 @@
 ---
 title: "O Fivetran sumiu da seção de Ingestão do Databricks, e ninguém anunciou isso"
 date: 2026-09-01T06:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow Connect", "Ingestão de Dados", "Opinião"]
 summary: "O Databricks MVP Hubert Dudek percebeu que o Fivetran, presente há anos na seção de Ingestão, desapareceu silenciosamente, junto com a chegada de novos conectores nativos do Lakeflow."
 ShowToc: false

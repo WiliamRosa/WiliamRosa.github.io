@@ -1,7 +1,7 @@
 ---
 title: "Rastreamento automático de chamada MCP achou bug que custava quase 500 mil dólares por ano"
 date: 2026-09-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity AI Gateway", "MCP", "Observabilidade"]
 summary: "A Databricks publicou um caso interno onde o rastreamento OpenTelemetry nativo do Unity AI Gateway, cruzado com pergunta em linguagem natural no Genie One, achou sete bugs de ferramenta MCP responsáveis por quase 1,2 milhão de dólares por ano em token e hora de engenharia desperdiçados."
 ShowToc: false

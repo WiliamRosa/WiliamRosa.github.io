@@ -77,6 +77,27 @@
     color: rgb(147, 197, 253);
 }
 
+.home-stat--videos {
+    background: rgba(219, 39, 119, 0.10);
+}
+
+.home-stat--videos .home-stat-number {
+    color: rgb(190, 24, 93);
+}
+
+.home-stat--videos .home-stat-label {
+    color: rgb(190, 24, 93);
+}
+
+:root[data-theme="dark"] .home-stat--videos {
+    background: rgba(244, 114, 182, 0.16);
+}
+
+:root[data-theme="dark"] .home-stat--videos .home-stat-number,
+:root[data-theme="dark"] .home-stat--videos .home-stat-label {
+    color: rgb(249, 168, 212);
+}
+
 .home-featured-tags {
     display: flex;
     gap: 10px;

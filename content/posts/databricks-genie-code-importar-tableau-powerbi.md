@@ -1,7 +1,7 @@
 ---
 title: "Migrar dashboard do Tableau ou Power BI pro Databricks virou upload de arquivo"
 date: 2026-08-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "GenieCode", "AIBI", "Opinião"]
 summary: "Genie Code agora aceita arquivo .twb, .twbx, .tds, .tdsx ou .pbit e gera automaticamente um dashboard AI/BI equivalente, com Metric Views replicando a lógica de negócio original."
 ShowToc: false

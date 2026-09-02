@@ -1,7 +1,7 @@
 ---
 title: "MLflow 3.15 trata servidor MCP como ativo organizacional, não mais config local de cada um"
 date: 2026-08-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "MLflow", "MCP", "Opinião"]
 summary: "O MCP Registry é o terceiro 'primo' da família Registry do MLflow, depois de Model e Prompt. O Databricks MVP Awadelrahman Ahmed detalha essa e outras novidades da versão 3.15."
 ShowToc: false

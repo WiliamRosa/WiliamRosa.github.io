@@ -1,7 +1,7 @@
 ---
 title: "Reprocessar a tabela inteira só pra atualizar duas partições? Existe um padrão pra isso"
 date: 2026-07-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Liquid Clustering", "Delta Lake", "Opinião"]
 summary: "O Databricks MVP Bartosz Konieczny detalha o Dynamic Data Overwriter: usar partitionOverwriteMode dinâmico ou liquid clustering com INSERT INTO...REPLACE USING pra substituir só o subconjunto de dados afetado, sem tocar no resto da tabela."
 ShowToc: false

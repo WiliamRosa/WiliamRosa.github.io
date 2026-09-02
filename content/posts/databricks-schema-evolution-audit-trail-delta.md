@@ -1,7 +1,7 @@
 ---
 title: "Databricks ainda não rastreia a evolução do schema de uma tabela, mas dá pra construir isso com Delta Lake"
 date: 2026-07-16T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Lake", "Unity Catalog", "Governança", "Opinião"]
 summary: "O Databricks MVP Jaco van Gelder construiu uma função PySpark que reconstrói o histórico completo de mudanças de schema de uma tabela, útil pra auditoria financeira, algo que o Databricks não oferece pronto."
 ShowToc: false

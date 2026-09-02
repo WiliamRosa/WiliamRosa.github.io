@@ -1,0 +1,8 @@
+{{- $cursos := site.Taxonomies.curso }}
+{{- if $cursos }}
+<div class="home-featured-tags course-filter-row">
+    {{- range $cursos.Alphabetical }}
+    <a href="{{ .Page.Permalink }}" class="home-featured-tag">{{ .Page.Title }} ({{ .Count }})</a>
+    {{- end }}
+</div>
+{{- end }}

@@ -1,7 +1,7 @@
 ---
 title: "Tag Automation chega ao Unity Catalog, e você pode descrever a regra em português"
 date: 2026-08-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "UnityCatalog", "Governança", "Opinião"]
 summary: "Tag Automation (Beta) deixa o Unity Catalog aplicar e remover tags governadas sozinho, com base em regras que você descreve em linguagem natural pro Genie construir."
 ShowToc: false

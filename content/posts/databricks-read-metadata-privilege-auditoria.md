@@ -1,7 +1,7 @@
 ---
 title: "Agora dá pra auditar política de acesso sem ganhar poder pra mudar ela"
 date: 2026-08-28T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "UnityCatalog", "Governança", "Opinião"]
 summary: "READ METADATA é uma privilégio novo do Unity Catalog: visibilidade completa sobre permissão, row filter, column mask e política ABAC de um objeto, sem poder de leitura de dado nem de alteração."
 ShowToc: false

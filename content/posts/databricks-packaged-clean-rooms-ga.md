@@ -1,7 +1,7 @@
 ---
 title: "Packaged Clean Rooms virou GA, compartilhar lógica sem compartilhar código"
 date: 2026-08-01T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Clean Rooms", "Unity Catalog", "Governança", "Opinião"]
 summary: "Diferente do Clean Rooms tradicional (GA desde 2025), o modo 'packaged' permite que um provedor distribua notebooks, JARs e dados prontos, sem o consumidor nunca ver o código ou os dados de origem."
 ShowToc: false

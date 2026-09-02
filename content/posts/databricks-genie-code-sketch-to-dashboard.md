@@ -1,7 +1,7 @@
 ---
 title: "Genie Code agora transforma um rabisco em rascunho de papel numa dashboard de verdade"
 date: 2026-08-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie Code", "AI/BI", "Opinião"]
 summary: "Fazer upload de uma foto de um esboço desenhado à mão e pedir pro Genie Code construir a dashboard: menos um passo de tradução entre a ideia de negócio e o que acaba sendo construído."
 ShowToc: false

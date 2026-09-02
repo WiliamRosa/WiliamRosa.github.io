@@ -1,7 +1,7 @@
 ---
 title: "Zerobus Ingest ganhou protocolo binário Arrow Flight como terceiro formato de envio"
 date: 2026-09-02T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow Connect", "Streaming", "Azure Databricks"]
 summary: "Apache Arrow Flight chegou como formato de envio pro Zerobus Ingest do Lakeflow Connect, ao lado de JSON e protobuf, carregando RecordBatch colunar direto pela mesma conexão gRPC, com SDK em Python e Rust e opção de compressão ZSTD ou LZ4."
 ShowToc: false

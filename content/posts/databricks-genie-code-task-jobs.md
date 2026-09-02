@@ -1,7 +1,7 @@
 ---
 title: "Genie Code virou um tipo de tarefa dentro de Job, e roda sozinho, sem parar pra perguntar nada"
 date: 2026-08-31T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "GenieCode", "Automação", "Opinião"]
 summary: "O novo Genie Code task type deixa rodar um agente autônomo dentro de um job agendado, a partir de um prompt em linguagem natural e com auto-aprovação sempre ligada."
 ShowToc: false

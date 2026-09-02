@@ -1,0 +1,15 @@
+{{- with .Params.videoType }}
+  {{- $slug := "" }}
+  {{- $label := . }}
+  {{- if eq . "Curso" }}{{ $slug = "curso" }}
+  {{- else if eq . "Aula" }}
+    {{- $slug = "aula" }}
+    {{- with $.Params.lessonNumber }}{{ $label = printf "Aula %v" . }}{{ end }}
+  {{- else if eq . "Short" }}{{ $slug = "short" }}
+  {{- else if eq . "Avulso" }}{{ $slug = "avulso" }}
+  {{- else }}{{ $slug = "default" }}
+  {{- end }}
+<div class="event-source-badge-row">
+    <span class="video-type-badge video-type-badge--{{ $slug }}">{{ $label }}</span>
+</div>
+{{- end }}

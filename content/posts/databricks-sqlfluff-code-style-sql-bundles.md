@@ -1,7 +1,7 @@
 ---
 title: "Consistência de estilo no Databricks não é só sobre Python, SQL também precisa de linter"
 date: 2026-08-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "SQL", "Declarative Automation Bundles", "Opinião"]
 summary: "O Databricks MVP Bartosz Konieczny mostra como usar o SQLFluff pra padronizar scripts SQL no Databricks, integrando a verificação ao ciclo de deploy dos Declarative Automation Bundles."
 ShowToc: false

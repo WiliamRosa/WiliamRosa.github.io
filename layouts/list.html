@@ -51,6 +51,10 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+{{- if and (eq .Section "videos") (eq .Kind "section") }}
+{{- partial "course_filter_row.html" . }}
+{{- end }}
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -66,6 +70,8 @@
 <article class="{{ $class }}">
   {{- if eq .Section "events" }}
   {{- partial "event_source_badge.html" . }}
+  {{- else if eq .Section "videos" }}
+  {{- partial "video_type_badge.html" . }}
   {{- end }}
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}

@@ -1,7 +1,7 @@
 ---
 title: "Lakebase ganha disaster recovery entre regiões, mas ainda deixa Delta table de fora"
 date: 2026-08-29T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "DisasterRecovery", "Opinião"]
 summary: "Lakebase Disaster Recovery replica metadado do Unity Catalog, dado de tabela gerenciada e ativos de workspace pra uma região secundária, mas Delta table e pipelines de sincronização ficam fora da replicação por enquanto."
 ShowToc: false

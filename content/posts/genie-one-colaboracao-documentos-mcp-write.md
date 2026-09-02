@@ -1,7 +1,7 @@
 ---
 title: "Genie One virou lugar de escrever relatório em conjunto, não só de perguntar"
 date: 2026-08-29T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie One", "IA Generativa", "Opinião"]
 summary: "A Databricks lançou um pacote de novidades pro Genie One além do app nativo pra macOS já coberto aqui antes: colaboração em documento com versionamento, criação de agente a partir de conversa, compartilhamento de chat, upload de arquivo e ações de escrita via MCP governadas pelo Unity AI Gateway."
 ShowToc: false

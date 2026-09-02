@@ -1,7 +1,7 @@
 ---
 title: "Pages dá ao Genie Ontology o que faltava: uma definição de negócio que alguém realmente escreveu"
 date: 2026-08-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "UnityCatalog", "Opinião"]
 summary: "Pages (Beta) deixa times documentarem conceito de negócio dentro do Unity Catalog, organizado por domínio, e o Genie One passa a priorizar essa definição humana em vez de inferir tudo sozinho."
 ShowToc: false

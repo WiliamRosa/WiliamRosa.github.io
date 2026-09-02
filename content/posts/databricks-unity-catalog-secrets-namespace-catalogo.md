@@ -1,7 +1,7 @@
 ---
 title: "Segredos saem do nível de workspace e viram ativo governado no Unity Catalog"
 date: 2026-08-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Segurança", "Governança", "Opinião"]
 summary: "Segredos agora podem viver no nível de catálogo, com um namespace de três níveis e uma permissão nova (REFERENCE SECRET) pensada especificamente para serviços como Lakeflow Connections."
 ShowToc: false

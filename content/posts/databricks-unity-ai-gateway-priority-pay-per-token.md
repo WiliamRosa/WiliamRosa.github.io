@@ -1,7 +1,7 @@
 ---
 title: "Priority pay-per-token: pagar mais caro pra garantir latência, sem reservar capacidade dedicada"
 date: 2026-08-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity AI Gateway", "Model Serving", "Opinião"]
 summary: "O Unity AI Gateway ganhou um modo de prioridade que promete latência consistente pra aplicações de IA em tempo real, sem exigir capacidade reservada, um meio-termo entre pay-per-token comum e provisioned throughput."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Editar job pela interface web e ver o YAML do bundle mudar sozinho, o melhor dos dois mundos, com uma ressalva"
 date: 2026-09-01T06:15:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Declarative Automation Bundles", "DevOps", "Opinião"]
 summary: "Em modo de desenvolvimento com source-linked deployment, editar job ou pipeline pela UI propaga a mudança automaticamente pros arquivos YML do bundle, low-code e infra-como-código convivendo, mas exige atenção no Git."
 ShowToc: false

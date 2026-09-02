@@ -1,7 +1,7 @@
 ---
 title: "Um agente que responde 'quanto vai custar isso' antes de você rodar em produção"
 date: 2026-08-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "FinOps", "Azure", "Agentes de IA", "Opinião"]
 summary: "O Databricks MVP Casper Lubbers construiu um agente de FinOps focado em avaliação de custo Azure + Databricks, do tipo de pergunta que hoje normalmente só se responde depois do fato, olhando a fatura."
 ShowToc: false

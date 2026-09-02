@@ -1,7 +1,7 @@
 ---
 title: "Auto CDC no Spark 4.2 tira o MERGE manual de cima de quem só queria manter a versão mais recente"
 date: 2026-08-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "ApacheSpark", "SDP", "Opinião"]
 summary: "Auto CDC chega ao Spark Declarative Pipelines pra SCD Type 1: você descreve a regra de mudança (chave, ordenação, o que conta como delete), e o motor aplica, mesmo com evento fora de ordem."
 ShowToc: false

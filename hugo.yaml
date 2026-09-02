@@ -112,6 +112,10 @@ menu:
       name: Eventos
       url: /events/
       weight: 25
+    - identifier: videos
+      name: Vídeos
+      url: /videos/
+      weight: 27
     - identifier: tags
       name: Tags
       url: /tags/
@@ -120,6 +124,10 @@ menu:
       name: Sobre
       url: /about/
       weight: 40
+
+taxonomies:
+  tag: tags
+  curso: curso
 
 pygmentsUseClasses: true
 markup:

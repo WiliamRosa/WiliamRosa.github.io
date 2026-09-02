@@ -1,7 +1,7 @@
 ---
 title: "Vector Store no Databricks virou três produtos diferentes, e escolher errado sai caro"
 date: 2026-08-31T12:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "VectorSearch", "Opinião"]
 summary: "AI Search, o novo lakebase_vector em beta e a variante em batch via SQL resolvem o mesmo problema, guardar e buscar embedding, de formas bem diferentes."
 ShowToc: false

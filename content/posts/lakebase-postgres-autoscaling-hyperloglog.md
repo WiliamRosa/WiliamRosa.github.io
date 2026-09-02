@@ -1,7 +1,7 @@
 ---
 title: "Lakebase Postgres decide sozinho quando trocar de tamanho de máquina, usando HyperLogLog"
 date: 2026-09-01T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Postgres", "Arquitetura"]
 summary: "A Databricks detalhou como o Lakebase Postgres faz autoscaling automático de VM sem derrubar conexão, combinando uso de CPU, uso de memória e uma estimativa de working set feita com uma variante de HyperLogLog sensível a tempo."
 ShowToc: false

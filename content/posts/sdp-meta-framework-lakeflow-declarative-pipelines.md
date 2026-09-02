@@ -1,7 +1,7 @@
 ---
 title: "DLT-META virou SDP-META, com CLI novo e MCP Server pra montar pipeline"
 date: 2026-09-01T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow", "Databricks Labs", "Opinião"]
 summary: "O framework de pipeline metadata-driven dos Databricks Labs mudou de nome, de DLT-META pra SDP-META, na versão 0.1.0, e ganhou CLI própria, Asset Bundles, app de configuração e um MCP Server pra scaffolding assistido por agente."
 ShowToc: false

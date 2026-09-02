@@ -1,7 +1,7 @@
 ---
 title: "Rotear pergunta ambígua pra um modelo de reasoning não compensou, e os números provam"
 date: 2026-06-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "FoundationModelAPIs", "FinOps", "Opinião"]
 summary: "Um experimento comparando modelo base e modelo de reasoning em três níveis de complexidade nas Foundation Model APIs do Databricks mostrou que reasoning só compensa em tarefa de lógica multi-etapa, não em classificação ambígua."
 ShowToc: false

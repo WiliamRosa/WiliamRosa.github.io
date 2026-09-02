@@ -1,7 +1,7 @@
 ---
 title: "O próprio Apache Spark adotou o Ruff, e isso muda como eu penso em lint pra Databricks"
 date: 2026-07-02T09:15:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Apache Spark", "Declarative Automation Bundles", "Opinião"]
 summary: "A comunidade Spark passou a usar Ruff pra lint e formatação a partir da versão 4.2. O Databricks MVP Bartosz Konieczny explica como incorporar isso aos Declarative Automation Bundles sem travar deploys em sandbox."
 ShowToc: false

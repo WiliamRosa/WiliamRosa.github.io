@@ -1,7 +1,7 @@
 ---
 title: "Quem pode usar serverless no seu workspace virou uma decisão explícita, não implícita"
 date: 2026-08-26T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Serverless", "Governança", "Opinião"]
 summary: "Serverless Compute Access Control chegou à disponibilidade geral: admin de workspace agora governa acesso a compute interativo e automatizado por usuário ou grupo, via UI ou API."
 ShowToc: false

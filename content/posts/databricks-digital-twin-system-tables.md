@@ -1,7 +1,7 @@
 ---
 title: "Um MVP transformou o próprio histórico de uso do Databricks num gêmeo digital"
 date: 2026-08-13T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "SystemTables", "IA", "Opinião"]
 summary: "O projeto Databricks Digital Persona lê 90 dias de system tables (query history, jobs, billing, auditoria) e usa isso pra construir um agente que conversa como se fosse você."
 ShowToc: false

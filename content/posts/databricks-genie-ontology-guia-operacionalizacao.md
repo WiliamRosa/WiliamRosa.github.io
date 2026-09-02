@@ -1,7 +1,7 @@
 ---
 title: "Genie Ontology não exige um modelo de dados perfeito para começar a valer a pena"
 date: 2026-09-01T14:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "Governança", "Opinião"]
 summary: "A Databricks publicou um guia com seis formas práticas de operacionalizar o Genie Ontology, defendendo começar pequeno num domínio de alto valor em vez de esperar um modelo corporativo completo."
 ShowToc: false

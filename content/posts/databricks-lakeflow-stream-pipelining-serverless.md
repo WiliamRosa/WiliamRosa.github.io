@@ -1,7 +1,7 @@
 ---
 title: "Micro-batch atrasado não precisa mais travar a fila inteira no Lakeflow serverless"
 date: 2026-08-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow", "SparkStreaming", "Opinião"]
 summary: "Stream Pipelining permite múltiplos micro-batches em voo ao mesmo tempo em pipelines declarativos serverless, em vez de esperar cada um terminar antes do próximo começar."
 ShowToc: false

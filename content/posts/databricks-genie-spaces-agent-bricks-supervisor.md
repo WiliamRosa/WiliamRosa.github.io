@@ -1,7 +1,7 @@
 ---
 title: "Criar Genie Space parou de ser trabalho manual de clicar em tela"
 date: 2026-08-14T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "AgentBricks", "Opinião"]
 summary: "Um MVP usou o Agent Bricks Multi-Agent Supervisor pra criar, atualizar e apagar Genie Spaces automaticamente, sem escrever código de agente do zero."
 ShowToc: false

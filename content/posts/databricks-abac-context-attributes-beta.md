@@ -1,7 +1,7 @@
 ---
 title: "Uma política ABAC agora sabe distinguir se quem pergunta é um agente ou uma pessoa"
 date: 2026-08-26T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "UnityCatalog", "ABAC", "Opinião"]
 summary: "Context Attributes (Beta) deixa política ABAC do Unity Catalog condicionar máscara e row filter ao contexto da requisição, se veio via OAuth on-behalf-of ou de qual client_id, não só a quem pertencem os dados."
 ShowToc: false
