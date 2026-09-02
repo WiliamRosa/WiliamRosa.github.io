@@ -7,5 +7,7 @@
   {{- else if eq . "São Paulo Databricks User Group" }}{{ $slug = "dbxug" }}
   {{- else }}{{ $slug = "default" }}
   {{- end }}
-<span class="event-source-badge event-source-badge--{{ $slug }}">{{ . }}</span>
+<div class="event-source-badge-row">
+    <span class="event-source-badge event-source-badge--{{ $slug }}">{{ . }}</span>
+</div>
 {{- end }}
