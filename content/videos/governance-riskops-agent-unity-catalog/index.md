@@ -3,7 +3,7 @@ title: "🎥 Governance RiskOps Agent: Detecção Inteligente de Riscos no Unity
 date: 2026-09-02T09:05:00-03:00
 draft: false
 tags: ["Vídeo"]
-videoType: "Avulso"
+videoType: "Vídeo"
 youtubeID: "wtWz0tmEVjs"
 cover:
     image: "https://img.youtube.com/vi/wtWz0tmEVjs/hqdefault.jpg"

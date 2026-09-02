@@ -3,7 +3,7 @@ title: "🎥 Automação com Declarative Automation Bundles (DABs)"
 date: 2026-09-02T09:10:00-03:00
 draft: false
 tags: ["Vídeo"]
-videoType: "Avulso"
+videoType: "Vídeo"
 youtubeID: "e8uHBH6DXII"
 cover:
     image: "https://img.youtube.com/vi/e8uHBH6DXII/hqdefault.jpg"

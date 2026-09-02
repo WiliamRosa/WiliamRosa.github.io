@@ -6,7 +6,7 @@
     {{- $slug = "aula" }}
     {{- with $.Params.lessonNumber }}{{ $label = printf "Aula %v" . }}{{ end }}
   {{- else if eq . "Short" }}{{ $slug = "short" }}
-  {{- else if eq . "Avulso" }}{{ $slug = "avulso" }}
+  {{- else if eq . "Vídeo" }}{{ $slug = "video" }}
   {{- else }}{{ $slug = "default" }}
   {{- end }}
 <div class="event-source-badge-row">
