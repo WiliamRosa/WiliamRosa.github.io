@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T23:30:00-03:00",
+  "last_run": "2026-09-01T23:59:00-03:00",
   "processed_sources": [
     "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
     "https://www.linkedin.com/in/hubertdudek/#unity-catalog-secrets-3-level-namespace",
@@ -59,7 +59,13 @@
     "https://learn.microsoft.com/en-us/azure/databricks/uc-semantics/pages",
     "https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference",
     "https://learn.microsoft.com/en-us/azure/databricks/ldp/cdc",
-    "https://www.databricks.com/blog/introducing-apache-spark-42"
+    "https://www.databricks.com/blog/introducing-apache-spark-42",
+    "https://learn.microsoft.com/en-us/azure/databricks/agents/uc-skills/",
+    "https://learn.microsoft.com/en-us/azure/databricks/notebooks/spaces",
+    "https://www.covasant.com/blogs/you-already-have-a-message-bus-why-we-stopped-using-kafka",
+    "https://learn.microsoft.com/en-us/azure/databricks/genie-one/desktop",
+    "https://learn.microsoft.com/en-us/azure/databricks/admin/system-tables/pipeline-events",
+    "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/oauth-m2m"
   ],
   "linkedin_profiles_watched": [
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
