@@ -1,4 +1,4 @@
-{{- $url := site.BaseURL | absURL }}
+{{- $url := site.BaseURL | absURL | strings.TrimSuffix "/" }}
 {{- $title := site.Title }}
 {{- $caption := printf "Artigos e opiniões sobre Databricks, Azure e IA no blog do %s: %s" site.Params.author $url }}
 <div class="share-blog">
