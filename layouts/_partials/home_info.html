@@ -17,6 +17,11 @@
         </a>
     </div>
 
+    <div class="home-featured-tags">
+        <a href="{{ "tags/databricks/" | absURL }}" class="home-featured-tag">Databricks</a>
+        <a href="{{ "tags/azure-databricks/" | absURL }}" class="home-featured-tag">Azure Databricks</a>
+    </div>
+
     <div class="entry-content md-content">
         {{ $opts := dict "display" "block" }}
         {{ .Content | $.Page.RenderString $opts }}
