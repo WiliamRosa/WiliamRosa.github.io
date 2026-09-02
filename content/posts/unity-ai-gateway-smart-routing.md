@@ -1,7 +1,7 @@
 ---
 title: "Unity AI Gateway ganhou roteamento automático de modelo pra tarefa de código"
 date: 2026-08-14T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity AI Gateway", "IA Generativa", "Opinião"]
 summary: "Smart Routing no Unity AI Gateway classifica cada tarefa de codificação e escolhe automaticamente entre modelo mais barato ou mais caro, com ganho reportado de até 65% de economia mantendo qualidade próxima do Opus 5."
 ShowToc: false
