@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-02T15:00:00-03:00",
+  "last_run": "2026-09-02T22:00:00-03:00",
   "processed_sources": [
     "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
     "https://www.linkedin.com/in/hubertdudek/#unity-catalog-secrets-3-level-namespace",
@@ -72,7 +72,18 @@
     "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
     "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
     "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
-    "https://learn.microsoft.com/en-us/azure/databricks/ingestion/zerobus-arrow-flight"
+    "https://learn.microsoft.com/en-us/azure/databricks/ingestion/zerobus-arrow-flight",
+    "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#git-folder-serverless-is-in-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/compute/serverless/notebooks/git-folder-serverless",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#ai-search-supports-struct-and-map-columns-and-filter-only-queries",
+    "https://learn.microsoft.com/en-us/azure/databricks/ai-search/query-ai-search",
+    "https://www.linkedin.com/in/deraralhussein/#industry-data-models-40-industries",
+    "https://www.databricks.com/blog/jumpstart-your-data-modeling-databricks-industry-data-models",
+    "https://www.linkedin.com/in/geir-alstad/#metric-views-spark-4-3-unity-catalog-0-6",
+    "https://unitycatalog.io/blogs/uc-metric-views/",
+    "https://www.linkedin.com/in/1diazdev/#lakeflow-jobs-sql-alert-task-branching",
+    "https://learn.microsoft.com/en-us/azure/databricks/jobs/tasks/alert"
   ],
   "linkedin_profiles_watched": [
     { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
