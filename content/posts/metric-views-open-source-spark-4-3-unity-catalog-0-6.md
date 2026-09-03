@@ -1,7 +1,7 @@
 ---
 title: "Metric Views saiu do Databricks e virou parte do Apache Spark e do Unity Catalog open source"
 date: 2026-08-27T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Apache Spark", "Metric Views"]
 summary: "O Databricks MVP Geir E. Alstad destacou que Metric Views chegou ao Apache Spark 4.3 e ao Unity Catalog 0.6 open source, levando a semântica de negócio definida em YAML e a função MEASURE() pra fora do Databricks hospedado."
 ShowToc: false

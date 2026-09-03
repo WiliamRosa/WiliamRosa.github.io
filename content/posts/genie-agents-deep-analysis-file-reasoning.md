@@ -1,7 +1,7 @@
 ---
 title: "Genie Agents ganha modo de pesquisa em múltiplos passos e aprende a ler arquivo, não só tabela"
-date: 2026-09-03T09:00:00-03:00
-draft: true
+date: 2026-09-02T09:00:00-03:00
+draft: false
 tags: ["Databricks", "Genie", "Agentes", "Unity Catalog"]
 summary: "Agent mode traz raciocínio em múltiplos passos com relatório e visualização, Genie Agents passa a ler PDF, slide e imagem dentro de volume do Unity Catalog, e o Genie Code ganha função pra criar e diagnosticar outros agentes Genie."
 ShowToc: false

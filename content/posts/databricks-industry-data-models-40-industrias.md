@@ -1,7 +1,7 @@
 ---
 title: "40 indústrias, 80 modelos de dado prontos: a Databricks publicou um ponto de partida pra quem não quer desenhar schema do zero"
-date: 2026-09-03T10:30:00-03:00
-draft: true
+date: 2026-09-02T10:30:00-03:00
+draft: false
 tags: ["Databricks", "Modelagem de Dados", "Unity Catalog", "Opinião"]
 summary: "O Databricks MVP Derar Alhussein resgatou os Industry Data Models, biblioteca com modelo de dado de referência pra mais de 40 indústrias, gerada por um agente de modelagem e pensada pra virar a camada Silver do seu Lakehouse."
 ShowToc: false

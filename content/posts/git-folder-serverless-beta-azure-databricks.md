@@ -1,7 +1,7 @@
 ---
 title: "Um Git folder inteiro passou a compartilhar um único ambiente serverless"
-date: 2026-09-03T09:30:00-03:00
-draft: true
+date: 2026-09-02T09:30:00-03:00
+draft: false
 tags: ["Databricks", "Azure Databricks", "Serverless", "Desenvolvimento"]
 summary: "Git Folder Serverless (Beta) deixa notebook e arquivo do mesmo Git folder compartilharem um único compute serverless e um ambiente gerenciado por pyproject.toml, em vez de cada notebook subir seu próprio ambiente."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "AI Search agora filtra dentro de struct e map, e dá pra consultar sem buscar nada"
-date: 2026-09-03T10:00:00-03:00
-draft: true
+date: 2026-09-02T10:00:00-03:00
+draft: false
 tags: ["Databricks", "AI Search", "Vector Search", "Azure Databricks"]
 summary: "AI Search passou a aceitar filtro em campo de struct aninhado e chave de map, e ganhou a opção de consulta só de filtro, sem busca vetorial nem por palavra-chave, útil pra lookup direto por chave."
 ShowToc: false

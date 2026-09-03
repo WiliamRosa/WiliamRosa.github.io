@@ -1,7 +1,7 @@
 ---
 title: "Alerta SQL virou tarefa dentro do Job, e agora dá pra ramificar o fluxo a partir do resultado dele"
-date: 2026-09-03T11:00:00-03:00
-draft: true
+date: 2026-09-02T11:00:00-03:00
+draft: false
 tags: ["Databricks", "Lakeflow Jobs", "Automação", "Opinião"]
 summary: "O Databricks MVP Juan Diaz notou que o Lakeflow Jobs agora aceita alerta SQL como tipo de tarefa, expondo o estado da avaliação como saída pra tarefa seguinte decidir o próximo passo com um If/Else."
 ShowToc: false
