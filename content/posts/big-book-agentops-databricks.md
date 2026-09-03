@@ -1,7 +1,7 @@
 ---
 title: "AgentOps ganha um manual: a Databricks tenta dar nome à disciplina de operar agente em produção"
 date: 2026-09-03T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "AgentOps", "MLflow", "Unity AI Gateway"]
 summary: "O Big Book of AgentOps organiza em seis capítulos e sete fases de projeto o que já vínhamos vendo em pedaços soltos por aqui: MLflow pra avaliação e rastreamento, Unity Gateway pro tráfego de modelo e ferramenta, Unity Catalog pro controle de acesso, com resultado de cliente como FactSet e DXC Technology."
 ShowToc: false

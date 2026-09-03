@@ -1,7 +1,7 @@
 ---
 title: "Como a FDA constrói governança de dado sobre Databricks for Government"
 date: 2026-09-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Governança", "Setor Público"]
 summary: "A FDA construiu o HALO, plataforma sobre Databricks em AWS GovCloud, pra resolver silo de dado entre centros regulatórios distintos, usando Unity Catalog como camada de governança única e um modelo de isolamento por área que a Databricks chama de 'apartment complex'."
 ShowToc: false

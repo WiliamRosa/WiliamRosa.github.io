@@ -1,7 +1,7 @@
 ---
 title: "SCOUT: como a Southern Company junta previsão, resposta e pós-tempestade num único lakehouse"
 date: 2026-09-03T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Lake", "Unity Catalog", "Caso de uso"]
 summary: "SCOUT é o terceiro aplicativo da Southern Company sobre Databricks pra operação de tempestade, cobrindo o momento em tempo real entre a previsão (SPEAR) e a análise pós-evento (RAMP), com dado de outage, clima, terreno e equipe numa única camada."
 ShowToc: false

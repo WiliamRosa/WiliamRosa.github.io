@@ -1,7 +1,7 @@
 ---
 title: "HITRUST e IRAP viram GA no Azure Databricks, e o perfil de segurança de compliance passa a ser obrigatório"
 date: 2026-09-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Governança", "Compliance", "Seguranca"]
 summary: "Controles de compliance HITRUST e IRAP atingiram disponibilidade geral no Azure Databricks em setembro de 2026, e a partir de agora HIPAA, HITRUST e IRAP exigem o compliance security profile ativado, deixou de ser configuração opcional pra quem já usa esses padrões."
 ShowToc: false
