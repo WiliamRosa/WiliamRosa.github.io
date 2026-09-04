@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-09-04T18:00:00-03:00",
+  "last_run": "2026-09-04T20:15:00-03:00",
   "processed_sources": [
+    "https://www.linkedin.com/in/ishashankshekhar/#databricks-apps-vs-model-serving-agentes",
+    "https://www.linkedin.com/in/ishashankshekhar/#langgraph-claude-agent-sdk-deep-agents-databricks",
+    "https://www.linkedin.com/in/zo%C3%AB-van-noppen-7378b6139/#omnigent-llm-local-llama-cpp",
     "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data",
     "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes",
     "https://www.databricks.com/blog/collaboration-makes-us-all-stronger",
