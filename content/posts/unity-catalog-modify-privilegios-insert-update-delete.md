@@ -1,7 +1,7 @@
 ---
 title: "MODIFY deixou de ser um privilégio só, e virou três: INSERT, UPDATE e DELETE"
 date: 2026-08-29T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Governança", "Opinião"]
 summary: "O privilégio MODIFY do Unity Catalog, antes tudo ou nada, ganhou privilégios filhos separados: INSERT, UPDATE e DELETE podem ser concedidos individualmente, com falha explícita quando um principal tenta operação fora do escopo."
 ShowToc: false

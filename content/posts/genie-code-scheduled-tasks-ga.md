@@ -1,7 +1,7 @@
 ---
 title: "Genie Code agora roda sozinho num horário fixo, sem ninguém abrir o chat"
 date: 2026-09-02T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie Code", "Azure Databricks", "Opinião"]
 summary: "O agendamento de tarefas do Genie Code chegou à disponibilidade geral no Azure Databricks: dá pra configurar um prompt fixo pra rodar numa recorrência, gerando um chat continuável a cada execução."
 ShowToc: false

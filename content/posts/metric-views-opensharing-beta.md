@@ -1,7 +1,7 @@
 ---
 title: "Metric Views agora atravessam metastore diferente via OpenSharing"
 date: 2026-09-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Metric Views", "OpenSharing", "Azure Databricks", "Opinião"]
 summary: "O Azure Databricks liberou em beta o compartilhamento de metric views via OpenSharing: quem recebe o share consulta a definição de métrica compartilhada com a função MEASURE(), sem reimplementar a lógica de negócio."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "FILE vira tipo de coluna nativo, e arquivo passa a ter dono e permissão como qualquer tabela"
 date: 2026-08-11T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Dados Não Estruturados", "Opinião"]
 summary: "A Databricks lançou o tipo FILE em beta: documento, imagem, áudio e vídeo agora podem virar coluna nativa de tabela, com a mesma governança de linha, coluna e ABAC do Unity Catalog aplicada também ao arquivo."
 ShowToc: false

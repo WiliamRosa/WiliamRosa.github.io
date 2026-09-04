@@ -1,7 +1,7 @@
 ---
 title: "Databricks compra a Electric e leva Postgres em WASM pra dentro do sandbox de agente"
 date: 2026-08-12T09:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Agentes de IA", "Opinião"]
 summary: "A Databricks adquiriu a Electric, criadora do PGlite, um Postgres compilado para WebAssembly que roda embutido dentro de sandbox de agente, sincronizado em tempo real com o Lakebase central."
 ShowToc: false

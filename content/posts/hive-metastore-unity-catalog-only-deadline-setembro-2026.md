@@ -1,7 +1,7 @@
 ---
 title: "A partir de 30 de setembro, todo workspace novo do Databricks nasce sem Hive metastore"
 date: 2026-08-29T08:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Hive Metastore", "Governança", "Opinião"]
 summary: "A partir de 30 de setembro de 2026, todo workspace novo do Databricks nasce sem DBFS root, DBFS mounts, Hive metastore ou cluster sem isolamento, restrito ao Unity Catalog desde o primeiro dia."
 ShowToc: false

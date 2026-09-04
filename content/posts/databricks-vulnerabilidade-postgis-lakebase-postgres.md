@@ -1,7 +1,7 @@
 ---
 title: "Uma falha no PostGIS expôs todo tenant do Lakebase Postgres, e a Databricks corrigiu antes de qualquer exploração"
 date: 2026-09-02T08:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Segurança", "Opinião"]
 summary: "Um pesquisador encontrou uma falha de bounds-check na extensão address_standardizer do PostGIS, explorável por qualquer usuário comum do Lakebase Postgres e do Neon, e a Databricks corrigiu antes da divulgação pública."
 ShowToc: false
