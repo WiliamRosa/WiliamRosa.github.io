@@ -1,7 +1,7 @@
 ---
 title: "LangGraph, Claude Agent SDK ou Deep Agents no Databricks: qual rastreia melhor e qual sobrevive a uma queda"
 date: 2026-08-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Agentes de IA", "MLflow", "LangChain", "Claude", "Opinião"]
 summary: "Uma comparação prática entre LangGraph, Claude Agent SDK e Deep Agents mostra que a escolha de orquestração muda o que você ganha de graça em rastreamento MLflow e o quanto sobra pra você construir sozinho quando o agente trava no meio de uma tarefa longa."
 ShowToc: false

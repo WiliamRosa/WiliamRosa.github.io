@@ -1,7 +1,7 @@
 ---
 title: "Databricks Apps ou Model Serving pra hospedar seu agente? A resposta depende de três coisas"
 date: 2026-08-30T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Agentes de IA", "Model Serving", "Databricks Apps", "Arquitetura", "Opinião"]
 summary: "Databricks Apps virou o host recomendado pra agente novo, mas Model Serving ainda vence em cenário de baixo custo e alta escala, e a diferença de timeout entre os dois muda qual opção funciona pra que tipo de agente."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Rodei o Omnigent com um LLM local no Mac, e a configuração levou menos de 30 minutos"
 date: 2026-09-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Omnigent", "Agentes de IA", "LLM Local", "Opinião"]
 summary: "Configurar o Omnigent para rodar com um modelo quantizado local via llama.cpp é mais simples do que parece, e ainda revela que o Ollama, apesar de mais popular, é mais lento e mais trabalhoso de configurar pro mesmo modelo."
 ShowToc: false
