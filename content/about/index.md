@@ -6,6 +6,10 @@ ShowReadingTime: false
 ShowWordCount: false
 ---
 
+{{< rawhtml >}}
+<img src="foto-wiliam.png" alt="Foto de Wiliam Rosa" class="about-avatar">
+{{< /rawhtml >}}
+
 Olá! Sou Wiliam Rosa, especialista em **Arquitetura e Engenharia de Dados**, com atuação em plataformas modernas de dados, governança, analytics e Inteligência Artificial utilizando **Databricks**, **Azure**, **AWS** e **Microsoft Fabric**.
 
 ## Certificações e credenciais

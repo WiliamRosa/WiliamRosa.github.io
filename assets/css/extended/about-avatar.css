@@ -1,0 +1,9 @@
+.md-content .about-avatar {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 0 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border);
+}
