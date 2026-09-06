@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-02T01:30:00Z",
+  "last_run": "2026-09-06T23:08:27Z",
   "processed_events": [
     "reactor:27539",
     "meetup:316281449",
@@ -13,6 +13,7 @@
     "tdc:2026:stage-recife",
     "tdc:2026:porto-alegre",
     "tdc:2026:sao-paulo",
-    "dbxug:579"
+    "dbxug:579",
+    "meetup:316313553"
   ]
 }
