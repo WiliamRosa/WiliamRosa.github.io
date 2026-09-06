@@ -1,7 +1,7 @@
 ---
 title: "Governança no Databricks deixou de ser só controle de acesso, virou também gerar significado"
 date: 2026-09-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Governança", "Opinião"]
 summary: "A Databricks defende que tratar governança só como segurança deixa passar a parte que mais encarece IA: dar significado e contexto ao dado, unindo cinco pilares de governança numa lente só via Unity Catalog."
 ShowToc: false

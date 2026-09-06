@@ -1,7 +1,7 @@
 ---
 title: "Skill ou app no Databricks: quando cada um vale a pena pra relatório"
 date: 2026-09-05T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks Apps", "Omnigent", "Opinião"]
 summary: "O Databricks MVP Domonkos Pal publicou um guia prático sobre quando um skill de agente basta pra gerar relatório e quando vale migrar pra um Databricks App, com skill e app compartilhando a mesma camada de governança."
 ShowToc: false

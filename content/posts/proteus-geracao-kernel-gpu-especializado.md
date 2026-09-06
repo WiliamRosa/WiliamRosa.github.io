@@ -1,7 +1,7 @@
 ---
 title: "A Databricks construiu um agente que escreve e valida kernel de GPU sozinho"
 date: 2026-09-05T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "GPU", "Inferência", "Opinião"]
 summary: "O Proteus propõe, valida e faz benchmark de kernel de GPU especializado por formato de operação, com um estudo de caso no Gated DeltaNet do Qwen 3.5 122B atingindo de 1,8x a 5,2x de speedup sobre a melhor implementação do vLLM."
 ShowToc: false

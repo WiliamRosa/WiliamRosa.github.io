@@ -1,7 +1,7 @@
 ---
 title: "Change Data Feed automático chega à disponibilidade geral, sem precisar ligar nada tabela por tabela"
 date: 2026-09-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Lake", "Azure Databricks", "Opinião"]
 summary: "Automatic Change Data Feed (Auto CDF) atingiu disponibilidade geral no Azure Databricks: calcula mudança de linha na hora da consulta usando row tracking, sem exigir habilitar change data feed manualmente em cada tabela."
 ShowToc: false
