@@ -1,7 +1,7 @@
 ---
 title: "A lacuna entre aplicações e analytics, e como o Lakebase a resolve"
 date: 2026-09-10T15:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Postgres", "Arquitetura"]
 summary: "Lakebase é um Postgres totalmente gerenciado e nativo da Databricks Data Intelligence Platform, pensado pra unificar workload transacional e analítico com governança única via Unity Catalog, sincronização bidirecional e recursos como autoscaling, scale-to-zero e database branching."
 ShowToc: true
