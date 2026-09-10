@@ -1,8 +1,25 @@
 {
-  "last_run": "2026-09-10T14:42:00-03:00",
+  "last_run": "2026-09-10T16:10:00-03:00",
   "processed_articles": [
     "https://medium.com/databrickscommunity/full-text-search-index-on-databricks-i-managed-to-search-400-times-faster-27070d3a76cd",
     "https://medium.com/databrickscommunity/databricks-docker-from-runtime-ci-cd-to-compliance-1479cf6cdf8d",
-    "https://medium.com/databrickscommunity/catalog-commits-make-your-managed-delta-layer-safer-and-more-performant-d2d19ee8b795"
+    "https://medium.com/databrickscommunity/catalog-commits-make-your-managed-delta-layer-safer-and-more-performant-d2d19ee8b795",
+    "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
+    "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
+    "https://www.databricks.com/blog/ultra-fast-anomaly-detection-using-apache-spark-real-time-mode",
+    "https://www.databricks.com/blog/ingesting-milky-way-petabyte-scale-zerobus-ingest",
+    "https://www.databricks.com/blog/apache-spark-real-time-mode-gaming-better-way-do-real-time-sessionization",
+    "https://www.databricks.com/blog/scaling-mhhs-how-octopus-energy-achieved-50x-cost-reduction-margin-data-engineering",
+    "https://www.databricks.com/blog/building-databricks-document-intelligence-and-lakeflow",
+    "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+    "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
+    "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+    "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
+    "https://www.databricks.com/blog/generating-coding-tests-llms-focus-spark-sql",
+    "https://www.databricks.com/blog/modernize-your-data-engineering-platform-lakeflow-azure-databricks",
+    "https://www.databricks.com/blog/rethinking-data-streaming-why-its-viable-more-use-cases-you-might-expect",
+    "https://www.databricks.com/blog/best-practices-cost-management-databricks",
+    "https://www.databricks.com/blog/transforming-cybersecurity-data-intelligence",
+    "https://www.databricks.com/blog/open-platform-unified-pipelines-why-dbt-databricks-accelerating"
   ]
 }
