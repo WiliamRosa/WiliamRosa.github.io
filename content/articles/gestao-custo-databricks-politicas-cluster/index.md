@@ -69,7 +69,7 @@ SQL warehouse serverless elimina a cobrança dupla que existia no modelo clássi
 
 ## Monitoramento: da fatura reativa ao dashboard de consumo
 
-Depois que a policy estrutural está no lugar, a segunda camada é visibilidade contínua. A página de uso do Account Console permite visualizar consumo por DBU ou por valor em dólar, filtrado por workspace ou por SKU, tanto de forma agregada quanto detalhada por tabela. No Azure, a integração com Azure Cost Management entrega granularidade por tag através de todo o conjunto de serviço da assinatura, não só Databricks, o que ajuda a comparar gasto de plataforma de dado com o resto do orçamento de nuvem numa visão só. Pra quem quer ir além do dashboard pronto, a exportação diária de log de uso em CSV permite montar pipeline próprio, carregando esse histórico numa tabela Delta e construindo alerta customizado em cima, por exemplo, um aviso quando o gasto semanal de um cost center específico ultrapassa a média das últimas quatro semanas em mais de 20%.
+Depois que a policy estrutural está no lugar, a segunda camada é visibilidade contínua. A página de uso do Account Console permite visualizar consumo por DBU ou por valor em dólar, filtrado por workspace ou por SKU, tanto de forma agregada quanto detalhada por tabela. No Azure, a integração com Azure Cost Management entrega granularidade por tag através de todo o conjunto de serviço da assinatura, não só Azure Databricks, o que ajuda a comparar gasto de plataforma de dado com o resto do orçamento de nuvem numa visão só. Pra quem quer ir além do dashboard pronto, a exportação diária de log de uso em CSV permite montar pipeline próprio, carregando esse histórico numa tabela Delta e construindo alerta customizado em cima, por exemplo, um aviso quando o gasto semanal de um cost center específico ultrapassa a média das últimas quatro semanas em mais de 20%.
 
 ## O que isso não resolve
 
@@ -77,7 +77,7 @@ Cluster policy bem desenhada não substitui monitoramento contínuo. Ela previne
 
 ## Fechamento
 
-Gestão de custo eficaz em Databricks se parece mais com desenho de sistema de permissão do que com trabalho de auditoria financeira. Cluster policy, tag obrigatória e compute serverless bem configurado removem grande parte da superfície onde gasto acidental acontece, antes que ele vire linha na fatura do mês seguinte. O trabalho de monitorar consumo continua sendo necessário depois disso, mas parte de uma base bem menor de coisa que pode dar errado.
+Gestão de custo eficaz em Azure Databricks se parece mais com desenho de sistema de permissão do que com trabalho de auditoria financeira. Cluster policy, tag obrigatória e compute serverless bem configurado removem grande parte da superfície onde gasto acidental acontece, antes que ele vire linha na fatura do mês seguinte. O trabalho de monitorar consumo continua sendo necessário depois disso, mas parte de uma base bem menor de coisa que pode dar errado.
 
 ## Referências
 

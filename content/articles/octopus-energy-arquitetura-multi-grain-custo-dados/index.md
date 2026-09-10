@@ -86,5 +86,6 @@ O ganho de 50x na Octopus Energy não veio de uma feature isolada, veio de recon
 
 - [Scaling MHHS: how Octopus Energy achieved 50x cost reduction in margin data engineering](https://www.databricks.com/blog/scaling-mhhs-how-octopus-energy-achieved-50x-cost-reduction-margin-data-engineering) (blog oficial Databricks)
 - [Delta Lake Change Data Feed](https://docs.databricks.com/aws/en/delta/delta-change-data-feed) (documentação oficial)
+- [Use change data feed on Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/tables/features/change-data-feed) (Microsoft Learn)
 
 #Databricks #DeltaLake #DataEngineering #Custo

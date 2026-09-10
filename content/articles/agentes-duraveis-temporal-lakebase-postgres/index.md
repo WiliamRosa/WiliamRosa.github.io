@@ -76,6 +76,7 @@ Agente que realmente sobrevive à falha de infraestrutura, sem duplicar efeito c
 
 - Post oficial: [Build durable agents with Temporal and Lakebase](https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase)
 - Documentação oficial: [Lakebase autoscaling](https://docs.databricks.com/aws/en/oltp/projects/autoscaling)
+- Documentação oficial (Microsoft Learn): [Autoscaling - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/autoscaling)
 - Documentação oficial: [Temporal Workflows](https://docs.temporal.io/workflows)
 - Repositório de referência: [temporal-sa/temporal-lakebase-agent](https://github.com/temporal-sa/temporal-lakebase-agent)
 

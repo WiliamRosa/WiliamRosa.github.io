@@ -3,7 +3,7 @@ title: "De PDF solto a coluna de tabela: o pipeline que domestica documento não
 date: 2026-04-17T09:00:00-03:00
 draft: true
 tags: ["Databricks", "Document Intelligence", "Lakeflow", "AI Functions", "Unstructured Data"]
-summary: "ai_parse_document, ai_extract e ai_classify já são GA na Databricks, e o pipeline de processamento inteligente de documento (IDP) inteiro roda dentro do Lakeflow, sem infraestrutura separada de OCR ou fila de mensagem. A peça que ainda é Beta, ai_prep_search, é justamente a que decide se o documento processado vira retrieval bom ou lixo semântico."
+summary: "ai_parse_document, ai_extract e ai_classify já são GA no Azure Databricks, e o pipeline de processamento inteligente de documento (IDP) inteiro roda dentro do Lakeflow, sem infraestrutura separada de OCR ou fila de mensagem. A peça que ainda é Beta, ai_prep_search, é justamente a que decide se o documento processado vira retrieval bom ou lixo semântico."
 ShowToc: true
 ---
 
@@ -70,7 +70,7 @@ Um detalhe que faz diferença na prática: o resultado de `ai_parse_document` fi
 
 ## Onde essa arquitetura ganha do modelo antigo de OCR isolado
 
-Vale comparar diretamente com o modelo anterior pra deixar claro o que muda. Antes, um pipeline de IDP típico envolvia um serviço de OCR externo, uma fila de mensagem pra desacoplar processamento pesado, um banco de metadado separado pra guardar resultado de extração, e um processo próprio de sincronização pra levar aquele resultado de volta pro lakehouse. Cada uma dessas peças tinha dono, versão e ciclo de deploy próprio. No modelo baseado em Lakeflow e funções de IA, as quatro peças viram uma sequência de tabela Delta, com linhagem automática, controle de acesso herdado do Unity Catalog e observabilidade compartilhada com qualquer outro pipeline de dado da empresa. O ganho não é só técnico, é organizacional: o time que já sabe operar pipeline de dado no Databricks não precisa aprender uma stack nova pra processar documento.
+Vale comparar diretamente com o modelo anterior pra deixar claro o que muda. Antes, um pipeline de IDP típico envolvia um serviço de OCR externo, uma fila de mensagem pra desacoplar processamento pesado, um banco de metadado separado pra guardar resultado de extração, e um processo próprio de sincronização pra levar aquele resultado de volta pro lakehouse. Cada uma dessas peças tinha dono, versão e ciclo de deploy próprio. No modelo baseado em Lakeflow e funções de IA, as quatro peças viram uma sequência de tabela Delta, com linhagem automática, controle de acesso herdado do Unity Catalog e observabilidade compartilhada com qualquer outro pipeline de dado da empresa. O ganho não é só técnico, é organizacional: o time que já sabe operar pipeline de dado no Azure Databricks não precisa aprender uma stack nova pra processar documento.
 
 **Minha leitura:** o salto de Public Preview pra GA em `ai_extract` e `ai_classify` é o tipo de detalhe que muda a conversa com jurídico e compliance. Preview costuma vir com SLA mais fraco e sem garantia de estabilidade de schema de saída, o que trava qualquer aprovação de produção em setor regulado. GA muda esse cálculo, mas antes de eu apostar um processo crítico nisso eu testaria a extração num lote de documento real do cliente, com letra ruim e formato inconsistente de verdade, porque a demonstração da Databricks sempre usa documento limpo, e o mundo real não é assim.
 
@@ -90,5 +90,6 @@ O que a Databricks está vendendo aqui não é uma feature isolada, é a ideia d
 
 - Post oficial: [Building with Databricks Document Intelligence and Lakeflow](https://www.databricks.com/blog/building-databricks-document-intelligence-and-lakeflow)
 - Documentação oficial: [Intelligent Document Processing](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/intelligent-document-processing)
+- Documentação oficial (Microsoft Learn): [Intelligent document processing - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-bricks/intelligent-document-processing)
 
 #Databricks #DocumentIntelligence #Lakeflow #DataEngineering

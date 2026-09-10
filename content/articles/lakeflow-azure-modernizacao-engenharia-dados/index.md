@@ -79,6 +79,7 @@ Lakeflow não inventa um paradigma novo de engenharia de dados, ele remove a fri
 
 - Databricks Blog, "Modernize your Data Engineering Platform with Lakeflow on Azure Databricks": https://www.databricks.com/blog/modernize-your-data-engineering-platform-lakeflow-azure-databricks
 - Databricks Docs, "Get started: Build an ETL pipeline": https://docs.databricks.com/aws/en/getting-started/data-pipeline-get-started
+- Microsoft Learn, "Tutorial: Build an ETL pipeline with Lakeflow pipelines - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/getting-started/data-pipeline-get-started
 - Microsoft Learn, "System tables": https://learn.microsoft.com/en-us/azure/databricks/admin/system-tables/
 
 #Databricks #Lakeflow #EngenhariaDeDados #AzureDatabricks

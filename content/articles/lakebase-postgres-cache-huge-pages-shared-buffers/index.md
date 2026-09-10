@@ -74,5 +74,6 @@ O Lakebase precisou reinventar a lógica de cache do Postgres porque a premissa 
 
 - [Improving Lakebase Postgres compute cache performance](https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache) (blog oficial Databricks)
 - [Lakebase Postgres architecture](https://docs.databricks.com/aws/en/oltp/projects/architecture) (documentação oficial)
+- [Lakebase architecture](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/architecture) (Microsoft Learn)
 
 #Databricks #Lakebase #Postgres #Performance

@@ -7,7 +7,7 @@ summary: "A divisão rígida entre pipeline batch e pipeline streaming é mais u
 ShowToc: true
 ---
 
-Uma pergunta que volta com frequência em decisão de arquitetura de dado é "esse pipeline precisa ser streaming ou batch pode resolver?", como se fossem dois mundos tecnológicos separados, com trade-off permanente entre um e outro. Essa pergunta parte de uma premissa que já não é verdadeira há alguns anos: no Databricks, batch e streaming rodam no mesmo motor, com o mesmo código, e a decisão real não é qual tecnologia usar, é qual latência o negócio de fato precisa.
+Uma pergunta que volta com frequência em decisão de arquitetura de dado é "esse pipeline precisa ser streaming ou batch pode resolver?", como se fossem dois mundos tecnológicos separados, com trade-off permanente entre um e outro. Essa pergunta parte de uma premissa que já não é verdadeira há alguns anos: no Azure Databricks, batch e streaming rodam no mesmo motor, com o mesmo código, e a decisão real não é qual tecnologia usar, é qual latência o negócio de fato precisa.
 
 Trocar a pergunta "batch ou streaming" por "qual é o tempo certo pra esse dado chegar" muda a conversa inteira. Tem caso que genuinamente precisa de milissegundos, detecção de fraude em transação de cartão, por exemplo. Mas tem uma quantidade grande de pipeline hoje rodando em janela batch de hora em hora só porque foi assim que alguém desenhou há três anos, quando streaming parecia coisa de time de infraestrutura sênior com Kafka cluster próprio pra manter. Isso não é mais verdade.
 
@@ -63,5 +63,6 @@ A pergunta certa deixou de ser "esse pipeline é batch ou streaming" e passou a 
 
 - Databricks Blog, "Rethinking Data Streaming: Why It's Viable for More Use Cases than You Might Expect": https://www.databricks.com/blog/rethinking-data-streaming-why-its-viable-more-use-cases-you-might-expect
 - Databricks Docs, "Structured Streaming": https://docs.databricks.com/en/structured-streaming/index.html
+- Microsoft Learn, "Structured Streaming concepts - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/structured-streaming/concepts
 
 #Databricks #StructuredStreaming #EngenhariaDeDados #DeltaLake

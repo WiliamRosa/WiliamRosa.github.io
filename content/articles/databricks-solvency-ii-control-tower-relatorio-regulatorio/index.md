@@ -19,11 +19,11 @@ A arquitetura descrita se apoia em cinco peças que, individualmente, não são 
 
 1. **Control Tower**: um painel central mostrando Solvency Ratio, prontidão para o prazo, aprovações pendentes, feed atrasado e problema em aberto, tudo num único ponto de visão em vez de espalhado por planilha.
 2. **Ingestão automatizada com checagem de qualidade**, validando frescor de dado, completude, dono do dado e regra de negócio customizada, com fluxo de decisão configurável pra cada tipo de falha.
-3. **Orquestração de modelo atuarial**, onde a Databricks prepara o dado que motores como Prophet, RAFM e Igloo consomem, e depois ingere e governa a saída desses motores de volta pro lakehouse.
+3. **Orquestração de modelo atuarial**, onde o Azure Databricks prepara o dado que motores como Prophet, RAFM e Igloo consomem, e depois ingere e governa a saída desses motores de volta pro lakehouse.
 4. **Governança e trilha de auditoria**, registrando promoção, aprovação e toda atividade relacionada ao relatório, com Unity Catalog como camada de controle de acesso.
 5. **Análise assistida por IA**, com LLM ajudando a redigir seção do relatório ORSA, e agente de IA revisando reconciliação de QRT e rodando análise de cenário (por exemplo, "e se a carteira de seguro cyber dobrar de tamanho").
 
-O ponto estrutural é que o motor atuarial continua sendo o motor atuarial, a Databricks não substitui Prophet ou RAFM, ela vira a camada que prepara o insumo, governa a saída e dá visibilidade do processo inteiro em cima disso.
+O ponto estrutural é que o motor atuarial continua sendo o motor atuarial, o Azure Databricks não substitui Prophet ou RAFM, ele vira a camada que prepara o insumo, governa a saída e dá visibilidade do processo inteiro em cima disso.
 
 ![Fluxo de governança e trilha de auditoria do processo de reporte regulatório](governanca-audit-trail-solvency-ii.png)
 
@@ -63,13 +63,13 @@ Esse padrão de "valida, classifica, roteia" é o tipo de lógica que sustenta o
 
 Vale ser honesto sobre os limites dessa proposta:
 
-- **O motor atuarial legado continua sendo uma caixa preta externa.** A Databricks governa entrada e saída, mas não abre o cálculo atuarial em si, então qualquer erro de modelagem dentro do Prophet ou do RAFM continua fora do alcance dessa camada de governança.
+- **O motor atuarial legado continua sendo uma caixa preta externa.** O Azure Databricks governa entrada e saída, mas não abre o cálculo atuarial em si, então qualquer erro de modelagem dentro do Prophet ou do RAFM continua fora do alcance dessa camada de governança.
 - **"Análise assistida por IA" pra ORSA e reconciliação de QRT é a parte mais nova e menos testada da proposta.** Redigir rascunho de relatório regulatório com LLM ajuda a velocidade, mas não elimina a necessidade de revisão técnica por atuário sênior, e o post oficial não detalha nível de confiança ou processo de validação desse rascunho.
 - **Migrar um processo de fechamento regulatório inteiro pra um control tower novo é projeto de transformação, não configuração.** Seguradora com processo já consolidado (mesmo que manual) enfrenta custo real de mudança de gestão antes de colher o benefício de visibilidade única.
 
 ## Quem já usa Genie e MLflow tem vantagem de adoção
 
-Vale reforçar um ponto prático: nada nessa arquitetura é exclusivo de seguradora ou de Solvency II especificamente. Control Tower como padrão de orquestração, checagem de qualidade configurável com disposição de falha, e trilha de auditoria via Unity Catalog são blocos genéricos que qualquer processo de fechamento regulatório complexo (tributário, contábil, prudencial) pode reaproveitar. A camada de Genie pra consulta em linguagem natural sobre o estado do processo, e MLflow pra rastrear versão e desempenho de modelo, também não são específicos do setor de seguro. Isso quer dizer que uma seguradora que já usa Databricks pra outro workload tem vantagem real de adoção aqui, o esforço de configurar o control tower de Solvency II reaproveita infraestrutura de governança que ela provavelmente já pagou e já opera.
+Vale reforçar um ponto prático: nada nessa arquitetura é exclusivo de seguradora ou de Solvency II especificamente. Control Tower como padrão de orquestração, checagem de qualidade configurável com disposição de falha, e trilha de auditoria via Unity Catalog são blocos genéricos que qualquer processo de fechamento regulatório complexo (tributário, contábil, prudencial) pode reaproveitar. A camada de Genie pra consulta em linguagem natural sobre o estado do processo, e MLflow pra rastrear versão e desempenho de modelo, também não são específicos do setor de seguro. Isso quer dizer que uma seguradora que já usa Azure Databricks pra outro workload tem vantagem real de adoção aqui, o esforço de configurar o control tower de Solvency II reaproveita infraestrutura de governança que ela provavelmente já pagou e já opera.
 
 ## Fechamento
 

@@ -9,7 +9,7 @@ ShowToc: true
 
 A maioria dos times que constrói agente de IA trata avaliação como uma etapa que acontece antes do deploy e depois nunca mais, um notebook rodado uma vez, um número de acurácia bonito num slide, e o agente vai pra produção sem nenhum mecanismo sistemático de saber se ele continua bom depois que o tráfego real, cheio de caso de borda que ninguém previu, começa a chegar. O resultado usual é um agente que degrada silenciosamente, e ninguém percebe até o cliente reclamar.
 
-O case da Zepto usando Databricks e MLflow ilustra um jeito diferente de organizar isso, tratando avaliação como um sistema com dois loops que se retroalimentam, não como um checkpoint único. A escala ajuda a evidenciar o padrão (80%+ de automação de ticket de suporte, redução de custo relatada em 65%), mas o valor real do case está na arquitetura de avaliação em si, que qualquer time construindo agente em produção pode replicar independente do volume de tráfego.
+O case da Zepto usando Azure Databricks e MLflow ilustra um jeito diferente de organizar isso, tratando avaliação como um sistema com dois loops que se retroalimentam, não como um checkpoint único. A escala ajuda a evidenciar o padrão (80%+ de automação de ticket de suporte, redução de custo relatada em 65%), mas o valor real do case está na arquitetura de avaliação em si, que qualquer time construindo agente em produção pode replicar independente do volume de tráfego.
 
 A composição do agente em si também merece nota: em vez de um agente monolítico tentando resolver todo tipo de ticket de suporte, a Zepto usa uma arquitetura composável, com agente especialista vertical pra cada tipo de problema (pedido errado, item faltante, prazo de validade, devolução, qualidade) e agente de supervisão horizontal cuidando de preocupação transversal como detecção de fraude e manipulação de imagem enviada pelo cliente. Isso importa pro tema de avaliação porque cada agente especialista pode ter seu próprio dataset dourado e seu próprio critério de qualidade, em vez de um critério genérico tentando cobrir toda a superfície de problema ao mesmo tempo.
 
@@ -81,6 +81,8 @@ O padrão de loop duplo com portão de qualidade é generalizável bem além de 
 
 - Post oficial: [Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow](https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow)
 - Documentação oficial: [Automatic tracing para GenAI](https://docs.databricks.com/aws/en/mlflow3/genai/tracing/app-instrumentation/automatic)
+- Documentação oficial (Microsoft Learn): [Automatic tracing - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/tracing/app-instrumentation/automatic)
 - Documentação oficial: [Scorers no MLflow GenAI](https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/concepts/scorers)
+- Documentação oficial (Microsoft Learn): [Scorers and LLM judges - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/concepts/scorers)
 
 #Databricks #MLflow #AIEngineering #Avaliação

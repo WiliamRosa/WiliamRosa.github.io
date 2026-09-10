@@ -36,7 +36,7 @@ O ganho reportado de 86% na redução do volume de chamadas upstream é o númer
 
 ## Mão na massa: o padrão aplicado ao seu próprio sistema
 
-Você não implementa essa arquitetura específica da Databricks, mas o padrão é replicável em qualquer sistema seu que sofre do mesmo problema: leitura frequente de configuração que muda raramente. Um esqueleto simplificado em Python usando um cache local atualizado por evento, em vez de consulta síncrona a cada leitura:
+Você não implementa essa arquitetura específica do Azure Databricks, mas o padrão é replicável em qualquer sistema seu que sofre do mesmo problema: leitura frequente de configuração que muda raramente. Um esqueleto simplificado em Python usando um cache local atualizado por evento, em vez de consulta síncrona a cada leitura:
 
 ```python
 import json
@@ -85,5 +85,6 @@ A troca de chamada síncrona por pipeline orientado a eventos pra configuração
 
 - [Databricks network configuration: delivery to tens of millions of serverless VMs](https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms) (blog oficial Databricks)
 - [Serverless compute plane networking](https://docs.databricks.com/aws/en/security/network/serverless-network-security/) (documentação oficial)
+- [Serverless compute plane networking](https://learn.microsoft.com/en-us/azure/databricks/security/network/serverless-network-security/) (Microsoft Learn)
 
 #Databricks #Serverless #Arquitetura #Engenharia

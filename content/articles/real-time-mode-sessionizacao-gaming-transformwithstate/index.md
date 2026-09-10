@@ -87,6 +87,8 @@ Sessionização em tempo real de milhões de usuários simultâneos é um proble
 
 - [Apache Spark Real-Time Mode for gaming: a better way to do real-time sessionization](https://www.databricks.com/blog/apache-spark-real-time-mode-gaming-better-way-do-real-time-sessionization) (blog oficial Databricks)
 - [Apache Spark Structured Streaming Real-Time Mode: concepts](https://docs.databricks.com/aws/en/structured-streaming/real-time/concepts) (documentação oficial)
+- [Real-time mode concepts](https://learn.microsoft.com/en-us/azure/databricks/structured-streaming/real-time/concepts) (Microsoft Learn)
 - [Stateful applications with transformWithState](https://docs.databricks.com/aws/en/stateful-applications/) (documentação oficial)
+- [Build a custom stateful application with transformWithState](https://learn.microsoft.com/en-us/azure/databricks/stateful-applications/) (Microsoft Learn)
 
 #Databricks #ApacheSpark #Streaming #Gaming

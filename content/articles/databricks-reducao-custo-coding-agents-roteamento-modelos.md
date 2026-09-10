@@ -72,5 +72,6 @@ O recado central aqui é que custo de coding agent em escala não se resolve com
 
 - Post oficial: [Managing AI Coding Costs at Scale](https://www.databricks.com/blog/managing-ai-coding-costs-scale)
 - Documentação oficial: [Unity Gateway](https://docs.databricks.com/aws/en/ai-gateway/)
+- Documentação oficial (Microsoft Learn): [AI governance with Unity Gateway - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ai-gateway/)
 
 #Databricks #AIEngineering #FinOps #CodingAgents

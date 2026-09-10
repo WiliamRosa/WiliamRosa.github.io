@@ -97,6 +97,8 @@ O experimento com blockchain Ethereum funciona como prova de conceito de algo ma
 
 - [Ultra-fast anomaly detection using Apache Spark Real-Time Mode](https://www.databricks.com/blog/ultra-fast-anomaly-detection-using-apache-spark-real-time-mode) (blog oficial Databricks)
 - [Apache Spark Structured Streaming Real-Time Mode: concepts](https://docs.databricks.com/aws/en/structured-streaming/real-time/concepts) (documentação oficial)
+- [Real-time mode concepts](https://learn.microsoft.com/en-us/azure/databricks/structured-streaming/real-time/concepts) (Microsoft Learn)
 - [Stateful applications with transformWithState](https://docs.databricks.com/aws/en/stateful-applications/) (documentação oficial)
+- [Build a custom stateful application with transformWithState](https://learn.microsoft.com/en-us/azure/databricks/stateful-applications/) (Microsoft Learn)
 
 #Databricks #ApacheSpark #Streaming #DataEngineering

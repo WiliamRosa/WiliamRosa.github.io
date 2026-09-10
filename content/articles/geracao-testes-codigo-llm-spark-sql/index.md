@@ -3,7 +3,7 @@ title: "Como ensinar um LLM a passar no teste de Spark SQL sem decorar a prova"
 date: 2024-10-03T09:00:00-03:00
 draft: true
 tags: ["Databricks", "Spark SQL", "LLM", "Data Engineering", "Avaliação"]
-summary: "Avaliar modelo de código em biblioteca de nicho como Spark SQL esbarra num problema básico: falta benchmark bom. Um pipeline de quatro estágios da Databricks gera caso de teste automaticamente a partir da própria função, com validação cruzada entre dois modelos, e revela que instrução simples como comentário de notebook Databricks muda o resultado do modelo de forma mensurável."
+summary: "Avaliar modelo de código em biblioteca de nicho como Spark SQL esbarra num problema básico: falta benchmark bom. Um pipeline de quatro estágios da Databricks gera caso de teste automaticamente a partir da própria função, com validação cruzada entre dois modelos, e revela que instrução simples como comentário de notebook do Azure Databricks muda o resultado do modelo de forma mensurável."
 ShowToc: true
 ---
 
@@ -65,7 +65,7 @@ valido = valida_instrucao(instrucao, sql_esperado_resultado=[2, 3])
 
 Esse esqueleto captura o essencial do estágio 2 e 3 do pipeline original, gerar instrução que testa compreensão semântica em vez de memorização de nome de função, e validar com execução real em vez de confiar cegamente na saída do modelo gerador.
 
-**Minha leitura:** o achado mais reaproveitável desse trabalho, pra quem usa Databricks no dia a dia, nem é o benchmark de 286 casos em si, é a descoberta de que incluir o comentário `# Databricks notebook source` no prompt melhorou o desempenho do modelo de forma mensurável. Isso é um lembrete simples e prático: contexto de ambiente (saber que aquilo é um notebook Databricks, não um script solto) muda o comportamento de modelo de código de um jeito que vale a pena testar antes de assumir que seu prompt está bem otimizado. Eu testaria essa mesma ideia, adicionar marcador de contexto de ambiente no prompt, em qualquer pipeline de geração de código assistido por IA que eu estivesse validando hoje, é barato de testar e o ganho relatado não é desprezível.
+**Minha leitura:** o achado mais reaproveitável desse trabalho, pra quem usa Azure Databricks no dia a dia, nem é o benchmark de 286 casos em si, é a descoberta de que incluir o comentário `# Databricks notebook source` no prompt melhorou o desempenho do modelo de forma mensurável. Isso é um lembrete simples e prático: contexto de ambiente (saber que aquilo é um notebook do Azure Databricks, não um script solto) muda o comportamento de modelo de código de um jeito que vale a pena testar antes de assumir que seu prompt está bem otimizado. Eu testaria essa mesma ideia, adicionar marcador de contexto de ambiente no prompt, em qualquer pipeline de geração de código assistido por IA que eu estivesse validando hoje, é barato de testar e o ganho relatado não é desprezível.
 
 ## Adaptando o pipeline pra biblioteca interna própria
 
