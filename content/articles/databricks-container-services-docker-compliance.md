@@ -9,7 +9,7 @@ ShowToc: true
 
 Toda empresa que já passou por auditoria de segurança conhece a pergunta incômoda: "esse ambiente de processamento de dado, quem garante que ele não muda de uma execução pra outra, e quem garante que o certificado interno da empresa está instalado nele?" Num cluster Databricks padrão, a resposta tende a ser vaga, porque o runtime é gerenciado pela Databricks e atualizado com o tempo. Pra times que rodam workload em ambiente regulado, banco, saúde, setor público, isso é exatamente o tipo de resposta que não passa numa auditoria.
 
-O Databricks MVP Hubert Dudek publicou um artigo detalhando como o Databricks Container Services muda essa conversa: em vez de aceitar o runtime padrão como caixa preta, dá pra construir a própria imagem Docker, versionar ela junto do código, escanear ela no mesmo pipeline de CI/CD que já existe pra aplicação, e usar exatamente essa imagem, travada, em produção. A ideia de "ambiente dourado" (golden image) que nunca muda sozinho deixa de ser promessa e vira configuração literal de cluster.
+O Databricks Container Services muda essa conversa: em vez de aceitar o runtime padrão como caixa preta, dá pra construir a própria imagem Docker, versionar ela junto do código, escanear ela no mesmo pipeline de CI/CD que já existe pra aplicação, e usar exatamente essa imagem, travada, em produção. A ideia de "ambiente dourado" (golden image) que nunca muda sozinho deixa de ser promessa e vira configuração literal de cluster.
 
 ## O mecanismo: Databricks entrega o Spark, você entrega o resto
 
