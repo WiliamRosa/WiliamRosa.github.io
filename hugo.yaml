@@ -108,6 +108,10 @@ menu:
       name: Posts
       url: /posts/
       weight: 20
+    - identifier: articles
+      name: Articles
+      url: /articles/
+      weight: 22
     - identifier: events
       name: Eventos
       url: /events/

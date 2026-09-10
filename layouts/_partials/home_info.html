@@ -5,12 +5,17 @@
     </header>
 
     {{- $postsCount := len (where site.RegularPages "Section" "posts") }}
+    {{- $articlesCount := len (where site.RegularPages "Section" "articles") }}
     {{- $eventsCount := len (where site.RegularPages "Section" "events") }}
     {{- $videosCount := len (where site.RegularPages "Section" "videos") }}
     <div class="home-stats">
         <a href="{{ "posts/" | absURL }}" class="home-stat home-stat--posts">
             <span class="home-stat-number">{{ $postsCount }}</span>
             <span class="home-stat-label">{{ if eq $postsCount 1 }}Post{{ else }}Posts{{ end }}</span>
+        </a>
+        <a href="{{ "articles/" | absURL }}" class="home-stat home-stat--articles">
+            <span class="home-stat-number">{{ $articlesCount }}</span>
+            <span class="home-stat-label">{{ if eq $articlesCount 1 }}Article{{ else }}Articles{{ end }}</span>
         </a>
         <a href="{{ "events/" | absURL }}" class="home-stat home-stat--events">
             <span class="home-stat-number">{{ $eventsCount }}</span>
