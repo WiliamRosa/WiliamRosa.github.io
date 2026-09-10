@@ -1,7 +1,7 @@
 ---
 title: "Por que juntar SIEM e lakehouse na mesma tabela muda o cálculo de custo e velocidade em SecOps"
 date: 2025-10-01T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Ciberseguranca", "Unity Catalog", "Lakebase", "Arquitetura"]
 summary: "Data Intelligence for Cybersecurity une Agent Bricks, Lakebase e o padrão aberto OCSF sobre Delta Lake pra tratar telemetria de segurança como dado de lakehouse governado, em vez de um silo isolado dentro de um SIEM proprietário caro por volume ingerido."
 ShowToc: true

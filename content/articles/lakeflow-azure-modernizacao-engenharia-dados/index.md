@@ -1,7 +1,7 @@
 ---
 title: "Lakeflow no Azure Databricks: quando ingestão, transformação e orquestração param de ser três produtos separados"
 date: 2026-02-11T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow", "Azure Databricks", "Engenharia de Dados", "Unity Catalog"]
 summary: "Lakeflow consolida Connect, Spark Declarative Pipelines e Jobs numa única superfície de engenharia de dados dentro do Azure Databricks, substituindo a combinação típica de ferramenta de ingestão, orquestrador externo e scripts de transformação por um único plano de controle governado pelo Unity Catalog."
 ShowToc: true

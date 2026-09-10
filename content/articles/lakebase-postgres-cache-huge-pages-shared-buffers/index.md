@@ -1,7 +1,7 @@
 ---
 title: "Por que o cache padrão do Postgres não funciona dentro de um banco desagregado"
 date: 2026-09-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Postgres", "Performance"]
 summary: "O Lakebase separa compute de storage, e isso quebra a lógica de cache que o Postgres tradicional assume há décadas. A Databricks detalhou como resolveu isso combinando um cache local autoscaling, shared buffers maiores em compute fixo e huge pages na stack inteira, com ganhos de até 5x em leitura de storage."
 ShowToc: true

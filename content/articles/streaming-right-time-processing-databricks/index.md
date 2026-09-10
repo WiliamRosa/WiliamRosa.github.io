@@ -1,7 +1,7 @@
 ---
 title: "Streaming não é sobre velocidade máxima, é sobre acertar o relógio certo pra cada dado"
 date: 2023-11-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Structured Streaming", "Engenharia de Dados", "Delta Lake", "Arquitetura"]
 summary: "A divisão rígida entre pipeline batch e pipeline streaming é mais uma escolha de ferramenta antiga do que uma necessidade real: Spark Structured Streaming trata os dois casos como pontos no mesmo espectro de latência, com o mesmo motor, o mesmo código e as mesmas garantias de tolerância a falha."
 ShowToc: true

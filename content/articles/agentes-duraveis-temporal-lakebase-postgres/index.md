@@ -1,7 +1,7 @@
 ---
 title: "Agente que sobrevive à queda de worker: durabilidade real combinando Temporal e Lakebase"
 date: 2026-09-09T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Temporal", "Agentes", "Postgres"]
 summary: "Agente de IA de longa duração falha de um jeito diferente de API request-response: o processo pode cair no meio de uma etapa que já produziu efeito parcial. Um projeto de referência combina Temporal para reexecução determinística de workflow com Lakebase Postgres para estado operacional consultável, mas a idempotência de cada passo continua sendo responsabilidade de quem escreve o código do agente."
 ShowToc: true

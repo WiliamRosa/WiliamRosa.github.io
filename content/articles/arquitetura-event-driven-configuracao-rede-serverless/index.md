@@ -1,7 +1,7 @@
 ---
 title: "Quando a chamada síncrona vira gargalo em escala de dezenas de milhões de VMs por dia"
 date: 2026-08-13T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Serverless", "Arquitetura", "Engenharia"]
 summary: "A Databricks trocou um caminho de configuração de rede baseado em chamadas síncronas a múltiplos serviços por um pipeline assíncrono orientado a eventos, separando o caminho de gerenciamento do caminho de atendimento crítico. O resultado publicado: latência p99 caindo de cerca de 5 segundos pra 125 milissegundos e disponibilidade subindo de 99,8% para 99,99%."
 ShowToc: true

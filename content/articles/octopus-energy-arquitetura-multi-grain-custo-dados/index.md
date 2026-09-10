@@ -1,7 +1,7 @@
 ---
 title: "Nem tudo precisa da mesma granularidade: como separar SLA por fluxo derrubou custo de dado em 50x"
 date: 2026-05-24T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Delta Lake", "Data Engineering", "Custo"]
 summary: "A Octopus Energy reduziu de 25 bilhões pra 300 milhões de linhas processadas trocando um pipeline mensal monolítico por três fluxos independentes de granularidade diferente, usando Change Data Feed, dbt incremental e Adaptive Query Execution. O custo por dado de liquidação MHHS caiu de cerca de 23 dólares pra menos de 50 centavos."
 ShowToc: true

@@ -1,7 +1,7 @@
 ---
 title: "Detectar dado corrompido em menos de 1 milissegundo: o que muda quando o Spark para de esperar o próximo micro-batch"
 date: 2026-07-14T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Apache Spark", "Streaming", "Data Engineering"]
 summary: "O Apache Spark Real-Time Mode processa evento por evento em vez de esperar o próximo micro-batch fechar, e um experimento publicado pela Databricks usando transações da blockchain Ethereum mostrou latência p99 abaixo de 1 milissegundo classificando dado como válido ou suspeito em tempo real."
 ShowToc: true

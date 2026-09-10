@@ -1,7 +1,7 @@
 ---
 title: "Gestão de custo no Databricks é decisão de política de cluster, não corte de orçamento no fim do mês"
 date: 2022-10-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "FinOps", "Cluster Policies", "Governança", "Custo"]
 summary: "Controlar gasto no Databricks funciona melhor como restrição estrutural definida em cluster policy, autoscaling e auto-termination, do que como auditoria reativa de fatura no fim do mês. O trade-off central é entre restringir demais e travar produtividade, ou liberar demais e perder controle de custo."
 ShowToc: true

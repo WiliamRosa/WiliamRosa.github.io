@@ -1,7 +1,7 @@
 ---
 title: "Sessionizar milhões de jogadores sem reprocessar nada: o que muda com timer nativo no Structured Streaming"
 date: 2026-06-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Apache Spark", "Streaming", "Gaming"]
 summary: "Uma plataforma de gaming usou o Apache Spark Real-Time Mode com transformWithState pra sessionizar 4 milhões de sessões simultâneas com latência p99 de 432 milissegundos, cerca de 20x mais rápido que o mesmo pipeline em micro-batch. O ganho central vem de timers nativos que produzem saída mesmo sem novo evento chegar."
 ShowToc: true

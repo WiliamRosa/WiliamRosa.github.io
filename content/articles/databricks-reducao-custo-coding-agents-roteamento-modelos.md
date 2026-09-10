@@ -1,7 +1,7 @@
 ---
 title: "Cinco alavancas técnicas pra baixar o custo de coding agent sem cortar acesso do time"
 date: 2026-08-08T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "AI Engineering", "Unity Gateway", "FinOps", "LLM"]
 summary: "Orçamento é só uma parte da conta de coding agent em escala. A Databricks lista cinco alavancas técnicas, roteamento dinâmico por modelo mais barato, meta-harness pra trocar de modelo sem fricção, e redução de token via cache e compressão de contexto, que reduziram custo em até 50% sem baixar qualidade percebida pelo engenheiro."
 ShowToc: true

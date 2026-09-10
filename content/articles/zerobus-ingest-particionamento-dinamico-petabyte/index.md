@@ -1,7 +1,7 @@
 ---
 title: "1 petabyte em menos de 24 horas: o que acontece quando você tira a partição fixa do meio do caminho"
 date: 2026-06-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Zerobus", "Streaming", "Data Engineering"]
 summary: "A Databricks publicou um teste de carga do Zerobus Ingest usando o dataset NASA NEOWISE, sustentando 12 milhões de linhas por segundo e ingerindo mais de 1 trilhão de registros em 24 horas. O truque estrutural é deslocar a garantia de ordenação da partição fixa para a conexão de stream, permitindo autoscaling real de pods sem repensar o esquema de particionamento."
 ShowToc: true

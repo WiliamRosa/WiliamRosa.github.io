@@ -1,7 +1,7 @@
 ---
 title: "Avaliação não é etapa final: o loop duplo que decide se um agente de IA vai pra produção"
 date: 2026-09-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "MLflow", "AI Engineering", "Avaliação", "Agentes"]
 summary: "O case da Zepto usando MLflow mostra um padrão generalizável, dois loops separados, um de desenvolvimento e um de produção, ligados por um portão de qualidade, mais dataset dourado que cresce com o tempo e amostragem estratificada por risco em vez de amostragem uniforme. É engenharia de avaliação, não só uma métrica de acurácia isolada."
 ShowToc: true

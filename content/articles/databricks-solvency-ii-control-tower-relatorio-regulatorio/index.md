@@ -1,7 +1,7 @@
 ---
 title: "Control tower, não relatório: orquestrando Solvency II sem sair do lakehouse"
 date: 2026-09-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Financial Services", "Governança", "Genie", "MLflow"]
 summary: "Solvency II não é um relatório, é uma cadeia de ingestão, validação, modelagem atuarial e aprovação que hoje vive espalhada entre planilha, motor atuarial e ferramenta de BI isolada. A Databricks propõe um control tower único sobre o lakehouse, com trilha de auditoria nativa e agente de IA revisando reconciliação de QRT, mas isso não elimina a dependência do motor atuarial legado."
 ShowToc: true

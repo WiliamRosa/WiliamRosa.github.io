@@ -1,7 +1,7 @@
 ---
 title: "dbt dentro do Lakeflow: o que muda quando o orquestrador para de ser um sistema à parte"
 date: 2026-04-17T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "dbt", "Lakeflow", "Unity Catalog", "Engenharia de Dados"]
 summary: "Tratar dbt como tipo de tarefa nativo do Lakeflow Jobs, em vez de um orquestrador externo apontando pra um warehouse, unifica visibilidade de falha, governança via Unity Catalog e performance de Photon numa única stack, mas ainda exige repositório Git e SQL warehouse serverless ou pro como pré-requisito."
 ShowToc: true

@@ -1,7 +1,7 @@
 ---
 title: "Como ensinar um LLM a passar no teste de Spark SQL sem decorar a prova"
 date: 2024-10-03T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Spark SQL", "LLM", "Data Engineering", "Avaliação"]
 summary: "Avaliar modelo de código em biblioteca de nicho como Spark SQL esbarra num problema básico: falta benchmark bom. Um pipeline de quatro estágios da Databricks gera caso de teste automaticamente a partir da própria função, com validação cruzada entre dois modelos, e revela que instrução simples como comentário de notebook do Azure Databricks muda o resultado do modelo de forma mensurável."
 ShowToc: true
