@@ -1,7 +1,7 @@
 ---
 title: "Quando o Unity Catalog vira coordenador de transação, não só o dicionário de tabelas"
 date: 2026-06-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Delta Lake", "Governança", "Arquitetura"]
 summary: "Catalog Commits tira a coordenação de transação do Delta Lake do object storage e coloca dentro do Unity Catalog, habilitando transação atômica entre várias tabelas e leitura de metadado sem round-trip pra nuvem. O recurso central já é GA desde maio de 2026, com Delta Spark, Flink, Trino e DuckDB entre os engines suportados, mas escrita de engine externo continua em Beta e tabela Iceberg gerenciada em Private Preview."
 ShowToc: true

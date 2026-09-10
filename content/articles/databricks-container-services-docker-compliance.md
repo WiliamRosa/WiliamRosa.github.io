@@ -1,7 +1,7 @@
 ---
 title: "Runtime engessado ou imagem Docker própria: o dilema de compliance que o Databricks Container Services resolve"
 date: 2026-06-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Docker", "CI/CD", "Compliance", "DevOps"]
 summary: "Databricks Container Services deixa trocar o runtime gerenciado por uma imagem Docker própria, construída e escaneada no seu próprio pipeline de CI/CD. Resolve certificado corporativo, biblioteca proibida e ambiente travado, mas exige abrir mão de parte do conforto de um cluster totalmente gerenciado."
 ShowToc: true

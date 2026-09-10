@@ -1,7 +1,7 @@
 ---
 title: "Índice de texto no Delta Lake: o que muda quando o Databricks para de escanear tudo pra achar uma palavra"
 date: 2026-07-18T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Delta Lake", "Performance", "SQL"]
 summary: "O índice de busca textual do Unity Catalog (Beta na Databricks Runtime 18.2) deixa de varrer arquivo por arquivo atrás de uma palavra e passa a pular direto pra onde ela realmente está. O ganho de performance é real, mas vem com manutenção manual e uma lista de recursos incompatíveis que vale conhecer antes de sair criando índice em tudo."
 ShowToc: true
