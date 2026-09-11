@@ -1,7 +1,7 @@
 ---
 title: "Kasal: montar um time de agentes arrastando caixinha, não escrevendo orquestrador do zero"
 date: 2026-09-10T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks Labs", "AI Agents", "Azure Databricks"]
 summary: "O Databricks MVP Josue Bogran mostrou o Kasal, projeto do Databricks Labs que dá uma interface visual pra desenhar, testar e publicar um grupo de agentes cooperando, sem escrever o código de orquestração na mão."
 ShowToc: false

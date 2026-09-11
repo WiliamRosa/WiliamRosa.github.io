@@ -1,7 +1,7 @@
 ---
 title: "Marketing parou de precisar de conector customizado pra cada plataforma de anúncio"
 date: 2026-09-11T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow Connect", "Data Engineering", "Azure Databricks"]
 summary: "A Databricks reuniu mais de 15 conectores gerenciados do Lakeflow Connect cobrindo aquisição, engajamento, relacionamento e experiência do cliente, com tabela pronta de gasto e conversão pra plataforma de anúncio direto em Delta table."
 ShowToc: false

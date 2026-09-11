@@ -1,7 +1,7 @@
 ---
 title: "Governança consistente entre motor e catálogo diferente: o Open Lakehouse propõe dois padrões novos"
 date: 2026-09-11T09:15:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Apache Iceberg", "Governança"]
 summary: "A comunidade Apache Iceberg adotou read restrictions e catalog labels, duas especificações que a Databricks detalhou pra resolver o mesmo problema por ângulos diferentes: como manter política de acesso consistente quando motor de consulta e catálogo de dado não são os mesmos."
 ShowToc: false

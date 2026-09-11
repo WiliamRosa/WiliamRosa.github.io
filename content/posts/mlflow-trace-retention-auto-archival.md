@@ -1,7 +1,7 @@
 ---
 title: "Trace antigo do MLflow agora sai sozinho do banco caro e vai pra object storage barato"
 date: 2026-09-11T08:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "MLflow", "Observabilidade", "Azure Databricks"]
 summary: "O Databricks MVP Juan Diaz destacou o Trace Retention & Auto Archival do MLflow 3.13: uma rotina em segundo plano move trace mais antigo que a janela de retenção do backend SQL pra object storage, sem perder leitura via UI nem API."
 ShowToc: false

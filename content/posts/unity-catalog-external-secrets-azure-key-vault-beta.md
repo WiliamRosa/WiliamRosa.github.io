@@ -1,7 +1,7 @@
 ---
 title: "Segredo externo no Unity Catalog: agora dá pra apontar direto pro Azure Key Vault"
 date: 2026-09-10T09:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Segurança", "Azure Databricks"]
 summary: "External secrets (Beta) conecta um schema do Unity Catalog direto ao Azure Key Vault: o segredo aparece como objeto governável e somente leitura, e o valor é lido sob demanda, sem duplicar cópia dentro do Databricks."
 ShowToc: false

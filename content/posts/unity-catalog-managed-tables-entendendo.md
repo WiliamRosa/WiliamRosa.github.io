@@ -1,7 +1,7 @@
 ---
 title: "O que realmente separa uma managed table de uma external table no Unity Catalog"
 date: 2026-09-11T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Data Engineering", "Azure Databricks"]
 summary: "Um artigo do Youssef Mrini, destacado pelo Databricks MVP Jacek Laskowski, revisita um ponto que ainda confunde muita gente: managed table não é só 'tabela sem LOCATION', é a Databricks assumindo o ciclo de vida inteiro do dado."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Path map chega aos dashboards AI/BI pra desenhar trajeto, não só ponto no mapa"
 date: 2026-09-09T09:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "AI/BI Dashboards", "Data Visualization", "Azure Databricks"]
 summary: "O Databricks MVP Geir E. Alstad destacou o path map, novo tipo de visualização nos dashboards AI/BI que desenha linha no mapa a partir de uma coluna de geometria no resultado da consulta, em vez de só marcar ponto isolado."
 ShowToc: false

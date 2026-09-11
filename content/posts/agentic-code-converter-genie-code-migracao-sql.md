@@ -1,7 +1,7 @@
 ---
 title: "Genie Code ganhou subagente pra migrar dialeto de SQL sozinho, com validação e retry"
 date: 2026-09-10T10:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie Code", "Migração", "Azure Databricks"]
 summary: "O Databricks MVP Laurenz Wuttke detalhou o agentic code converter (Beta): o Genie Code converte script de T-SQL, Snowflake, Redshift, Oracle, BigQuery e Teradata pra ANSI SQL, com subagente validando e corrigindo cada arquivo em paralelo."
 ShowToc: false
