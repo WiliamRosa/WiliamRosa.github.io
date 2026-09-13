@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-11T21:30:00-03:00",
+  "last_run": "2026-09-13T20:00:00-03:00",
   "processed_sources": [
     "https://learn.microsoft.com/en-us/azure/databricks/security/secrets/external-secrets",
     "https://community.databricks.com/t5/technical-blog/actually-understanding-unity-catalog-managed-tables/ba-p/168194",
@@ -119,94 +119,531 @@
     "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#environment-version-6-is-now-available",
     "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/abac/deny-policies",
     "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#time_bucket-sql-function-aligns-timestamps-to-fixed-width-time-buckets",
-    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#see-which-chunks-support-each-ai_search-answer-beta"
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#see-which-chunks-support-each-ai_search-answer-beta",
+    "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/ssh-tunnel",
+    "https://www.databricks.com/blog/databricks-document-intelligence-pushing-frontier-complex-document-extraction",
+    "https://www.waitingforcode.com/databricks/continuous-trigger-lakeflow-jobs/read",
+    "https://learn.microsoft.com/en-us/azure/databricks/genie-code/skills",
+    "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/data-quality-monitoring/anomaly-detection/alerts",
+    "https://github.com/databricks/cli/releases",
+    "https://learn.microsoft.com/en-us/azure/databricks/tables/managed",
+    "https://www.databricks.com/blog/automatic-identity-management-entra-id-now-generally-available-azure-databricks",
+    "https://learn.microsoft.com/en-us/azure/databricks/genie/budgets",
+    "https://www.databricks.com/blog/introducing-temporary-tables-databricks-sql",
+    "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#sharing-foreign-iceberg-tables-with-opensharing-is-now-generally-available",
+    "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_search"
   ],
   "linkedin_profiles_watched": [
-    { "name": "Databricks (empresa)", "handle": "databricks", "type": "company", "role": "content_source" },
-    { "name": "Szymon Dybczak", "handle": "szymon-dybczak", "type": "person", "role": "style_reference_only" },
-    { "name": "Hubert Dudek", "handle": "hubertdudek", "type": "person", "role": "content_source" },
-    { "name": "Maria Vechtomova", "handle": "maria-vechtomova", "type": "person", "role": "content_source" },
-    { "name": "Adi Polak", "handle": "polak-adi", "type": "person", "role": "content_source" },
-    { "name": "Jacek Laskowski", "handle": "jaceklaskowski", "type": "person", "role": "content_source" },
-    { "name": "Bartosz Konieczny", "handle": "bartosz-konieczny-waitingforcode", "type": "person", "role": "content_source" },
-    { "name": "Andrew Sitz", "handle": "andrew-sitz", "type": "person", "role": "content_source" },
-    { "name": "Josue Bogran", "handle": "josuebogran", "type": "person", "role": "content_source" },
-    { "name": "Casper Lubbers", "handle": "casper-lubbers", "type": "person", "role": "content_source" },
-    { "name": "Jaco van Gelder", "handle": "jwvangelder", "type": "person", "role": "content_source" },
-    { "name": "Ike Ellis", "handle": "ikeellis", "type": "person", "role": "content_source" },
-    { "name": "Dan Williams", "handle": "decisionforest", "type": "person", "role": "content_source" },
-    { "name": "Awadelrahman Ahmed", "handle": "awadelrahman", "type": "person", "role": "content_source" },
-    { "name": "Aarni Sillanpää", "handle": "aarnisi", "type": "person", "role": "content_source" },
-    { "name": "Abiola David", "handle": "abioladavid01", "type": "person", "role": "content_source" },
-    { "name": "Ajay Kumar Pandey", "handle": "ajaypanday678", "type": "person", "role": "content_source" },
-    { "name": "Alex Wiss-Wolferding", "handle": "alex-wiss-wolferding-33928b46", "type": "person", "role": "content_source" },
-    { "name": "Ansh Lambda", "handle": "ansh-lamba-793681184", "type": "person", "role": "content_source" },
-    { "name": "Anuj Kumar Sen", "handle": "anuj-kumar-sen-05550076", "type": "person", "role": "content_source" },
-    { "name": "Behzad Nikzad", "handle": "behzad-nikzad", "type": "person", "role": "content_source" },
-    { "name": "Bianca Stratulat", "handle": "bianca-stratulat", "type": "person", "role": "content_source" },
-    { "name": "Chalapathi Rao Komirisetti", "handle": "chalapathi-rao-komirisetti", "type": "person", "role": "content_source" },
-    { "name": "Daniel Sahal", "handle": "dsahal", "type": "person", "role": "content_source" },
-    { "name": "Derar Alhussein", "handle": "deraralhussein", "type": "person", "role": "content_source" },
-    { "name": "Dilorom Abdullah", "handle": "diloromabdullah", "type": "person", "role": "content_source" },
-    { "name": "Dip Kharod", "handle": "dipkharod", "type": "person", "role": "content_source" },
-    { "name": "Doug MacWilliams", "handle": "doug-macwilliams-4a85511", "type": "person", "role": "content_source" },
-    { "name": "Domonkos Pal", "handle": "paldom", "type": "person", "role": "content_source" },
-    { "name": "Dr. Alan L. Dennis", "handle": "alandennis", "type": "person", "role": "content_source" },
-    { "name": "Dylan Ford", "handle": "dylan-ford-0219b924", "type": "person", "role": "content_source" },
-    { "name": "Eddie Edgeworth", "handle": "eddieedgeworth", "type": "person", "role": "content_source" },
-    { "name": "Elena Boiarskaia", "handle": "elena-boiarskaia", "type": "person", "role": "content_source" },
-    { "name": "Eloisa Elias T", "handle": "eloeliasds", "type": "person", "role": "content_source" },
-    { "name": "Gary Nakanelua", "handle": "gnakan", "type": "person", "role": "content_source" },
-    { "name": "Gavita Regunath", "handle": "gavitaregunath", "type": "person", "role": "content_source" },
-    { "name": "Geir Alstad", "handle": "geir-alstad", "type": "person", "role": "content_source" },
-    { "name": "Geoffrey Freeman", "handle": "geoff-freeman-a092901", "type": "person", "role": "content_source" },
-    { "name": "Jake Duckers", "handle": "stephen-jake-duckers", "type": "person", "role": "content_source" },
-    { "name": "Jason Yip", "handle": "jasonyip1", "type": "person", "role": "content_source" },
-    { "name": "Jonathan Rioux", "handle": "jonathanrx", "type": "person", "role": "content_source" },
-    { "name": "Josh Adams", "handle": "joshuaadams3", "type": "person", "role": "content_source" },
-    { "name": "Juan Diaz", "handle": "1diazdev", "type": "person", "role": "content_source" },
-    { "name": "Julia Førde", "handle": "julia-førde-725258100", "type": "person", "role": "content_source" },
-    { "name": "KyJah Keys", "handle": "kyjahkeys", "type": "person", "role": "content_source" },
-    { "name": "Laurenz Wuttke", "handle": "laurenz-wuttke", "type": "person", "role": "content_source" },
-    { "name": "Lara Rachidi", "handle": "lara-rachidi", "type": "person", "role": "content_source" },
-    { "name": "Maksim Pachkouski", "handle": "protmaks", "type": "person", "role": "content_source" },
-    { "name": "Mani Kandasamy", "handle": "manikandasamy", "type": "person", "role": "content_source" },
-    { "name": "Mantu Samadder", "handle": "mantus", "type": "person", "role": "content_source" },
-    { "name": "Mate Gulyas", "handle": "gulyasm", "type": "person", "role": "content_source" },
-    { "name": "Maulik Dixit", "handle": "maulik-dixit", "type": "person", "role": "content_source" },
-    { "name": "Michael Green", "handle": "michael-cerny-green", "type": "person", "role": "content_source" },
-    { "name": "Miguel Diaz", "handle": "migueldr", "type": "person", "role": "content_source" },
-    { "name": "Nidhi Gupta", "handle": "nidhig631", "type": "person", "role": "content_source" },
-    { "name": "Nivethan Venkatachalam", "handle": "nivethan-venkatachalam-b7047a73", "type": "person", "role": "content_source" },
-    { "name": "Pål de Vibe", "handle": "paal-de-vibe", "type": "person", "role": "content_source" },
-    { "name": "Phani Reddy Janga", "handle": "phani-reddy-janga", "type": "person", "role": "content_source" },
-    { "name": "Prakash Trivedi", "handle": "prakash-trivedi-2761479b", "type": "person", "role": "content_source" },
-    { "name": "Rahul Gupta", "handle": "rahul-gupta-9607a327", "type": "person", "role": "content_source" },
-    { "name": "Rajaniesh Kaushikk", "handle": "rajanieshkaushikk", "type": "person", "role": "content_source" },
-    { "name": "Ranjit Nagesh", "handle": "ranjitnagesh", "type": "person", "role": "content_source" },
-    { "name": "Rishabh Pandey", "handle": "rishabhpandey20", "type": "person", "role": "content_source" },
-    { "name": "Robert Thompson", "handle": "rdt000", "type": "person", "role": "content_source" },
-    { "name": "Ryan Shiva", "handle": "ryan-shiva", "type": "person", "role": "content_source" },
-    { "name": "Sai Nageshwaran", "handle": "sainageshwaran", "type": "person", "role": "content_source" },
-    { "name": "Scott Davis", "handle": "4scottdavis", "type": "person", "role": "content_source" },
-    { "name": "Shashank Shekhar", "handle": "ishashankshekhar", "type": "person", "role": "content_source" },
-    { "name": "Shekhar Shukla", "handle": "shekhar888", "type": "person", "role": "content_source" },
-    { "name": "Shubham Kumar", "handle": "shubhamkrsh", "type": "person", "role": "content_source" },
-    { "name": "Shraddha Shetty", "handle": "dataninsight", "type": "person", "role": "content_source" },
-    { "name": "Simon Whiteley", "handle": "simon-whiteley-uk", "type": "person", "role": "content_source" },
-    { "name": "Soumya Ghosh", "handle": "soumya-ghosh-65924116", "type": "person", "role": "content_source" },
-    { "name": "Soufiane Darraz", "handle": "soufiane-darraz", "type": "person", "role": "content_source" },
-    { "name": "Srivathsan RL", "handle": "rlsrivathsan", "type": "person", "role": "content_source" },
-    { "name": "Steve Notley", "handle": "stephen-notley", "type": "person", "role": "content_source" },
-    { "name": "Sudarshan Koirala", "handle": "sudarshan-koirala", "type": "person", "role": "content_source" },
-    { "name": "Sudhir Gajre", "handle": "sudhir-gajre", "type": "person", "role": "content_source" },
-    { "name": "Subramanian Iyer", "handle": "subramanian-iyer", "type": "person", "role": "content_source" },
-    { "name": "Tejas Pandit", "handle": "tejas-pandit", "type": "person", "role": "content_source" },
-    { "name": "Vipul Choudhary", "handle": "vipchoudhary", "type": "person", "role": "content_source" },
-    { "name": "Vitalija Bartusevičiūtė", "handle": "vitalijabart", "type": "person", "role": "content_source" },
-    { "name": "Yash Mahendra Joshi", "handle": "yash-mahendra-joshi", "type": "person", "role": "content_source" },
-    { "name": "Yuki Saito", "handle": "yuki-saito-52b4481a6", "type": "person", "role": "content_source" },
-    { "name": "Zoë van Noppen", "handle": "https://www.linkedin.com/in/zo%C3%AB-van-noppen-7378b6139/", "type": "person", "role": "content_source" }
+    {
+      "name": "Databricks (empresa)",
+      "handle": "databricks",
+      "type": "company",
+      "role": "content_source"
+    },
+    {
+      "name": "Szymon Dybczak",
+      "handle": "szymon-dybczak",
+      "type": "person",
+      "role": "style_reference_only"
+    },
+    {
+      "name": "Hubert Dudek",
+      "handle": "hubertdudek",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Maria Vechtomova",
+      "handle": "maria-vechtomova",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Adi Polak",
+      "handle": "polak-adi",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Jacek Laskowski",
+      "handle": "jaceklaskowski",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Bartosz Konieczny",
+      "handle": "bartosz-konieczny-waitingforcode",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Andrew Sitz",
+      "handle": "andrew-sitz",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Josue Bogran",
+      "handle": "josuebogran",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Casper Lubbers",
+      "handle": "casper-lubbers",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Jaco van Gelder",
+      "handle": "jwvangelder",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Ike Ellis",
+      "handle": "ikeellis",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Dan Williams",
+      "handle": "decisionforest",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Awadelrahman Ahmed",
+      "handle": "awadelrahman",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Aarni Sillanpää",
+      "handle": "aarnisi",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Abiola David",
+      "handle": "abioladavid01",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Ajay Kumar Pandey",
+      "handle": "ajaypanday678",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Alex Wiss-Wolferding",
+      "handle": "alex-wiss-wolferding-33928b46",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Ansh Lambda",
+      "handle": "ansh-lamba-793681184",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Anuj Kumar Sen",
+      "handle": "anuj-kumar-sen-05550076",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Behzad Nikzad",
+      "handle": "behzad-nikzad",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Bianca Stratulat",
+      "handle": "bianca-stratulat",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Chalapathi Rao Komirisetti",
+      "handle": "chalapathi-rao-komirisetti",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Daniel Sahal",
+      "handle": "dsahal",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Derar Alhussein",
+      "handle": "deraralhussein",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Dilorom Abdullah",
+      "handle": "diloromabdullah",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Dip Kharod",
+      "handle": "dipkharod",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Doug MacWilliams",
+      "handle": "doug-macwilliams-4a85511",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Domonkos Pal",
+      "handle": "paldom",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Dr. Alan L. Dennis",
+      "handle": "alandennis",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Dylan Ford",
+      "handle": "dylan-ford-0219b924",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Eddie Edgeworth",
+      "handle": "eddieedgeworth",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Elena Boiarskaia",
+      "handle": "elena-boiarskaia",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Eloisa Elias T",
+      "handle": "eloeliasds",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Gary Nakanelua",
+      "handle": "gnakan",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Gavita Regunath",
+      "handle": "gavitaregunath",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Geir Alstad",
+      "handle": "geir-alstad",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Geoffrey Freeman",
+      "handle": "geoff-freeman-a092901",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Jake Duckers",
+      "handle": "stephen-jake-duckers",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Jason Yip",
+      "handle": "jasonyip1",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Jonathan Rioux",
+      "handle": "jonathanrx",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Josh Adams",
+      "handle": "joshuaadams3",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Juan Diaz",
+      "handle": "1diazdev",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Julia Førde",
+      "handle": "julia-førde-725258100",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "KyJah Keys",
+      "handle": "kyjahkeys",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Laurenz Wuttke",
+      "handle": "laurenz-wuttke",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Lara Rachidi",
+      "handle": "lara-rachidi",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Maksim Pachkouski",
+      "handle": "protmaks",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Mani Kandasamy",
+      "handle": "manikandasamy",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Mantu Samadder",
+      "handle": "mantus",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Mate Gulyas",
+      "handle": "gulyasm",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Maulik Dixit",
+      "handle": "maulik-dixit",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Michael Green",
+      "handle": "michael-cerny-green",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Miguel Diaz",
+      "handle": "migueldr",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Nidhi Gupta",
+      "handle": "nidhig631",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Nivethan Venkatachalam",
+      "handle": "nivethan-venkatachalam-b7047a73",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Pål de Vibe",
+      "handle": "paal-de-vibe",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Phani Reddy Janga",
+      "handle": "phani-reddy-janga",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Prakash Trivedi",
+      "handle": "prakash-trivedi-2761479b",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Rahul Gupta",
+      "handle": "rahul-gupta-9607a327",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Rajaniesh Kaushikk",
+      "handle": "rajanieshkaushikk",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Ranjit Nagesh",
+      "handle": "ranjitnagesh",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Rishabh Pandey",
+      "handle": "rishabhpandey20",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Robert Thompson",
+      "handle": "rdt000",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Ryan Shiva",
+      "handle": "ryan-shiva",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Sai Nageshwaran",
+      "handle": "sainageshwaran",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Scott Davis",
+      "handle": "4scottdavis",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Shashank Shekhar",
+      "handle": "ishashankshekhar",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Shekhar Shukla",
+      "handle": "shekhar888",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Shubham Kumar",
+      "handle": "shubhamkrsh",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Shraddha Shetty",
+      "handle": "dataninsight",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Simon Whiteley",
+      "handle": "simon-whiteley-uk",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Soumya Ghosh",
+      "handle": "soumya-ghosh-65924116",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Soufiane Darraz",
+      "handle": "soufiane-darraz",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Srivathsan RL",
+      "handle": "rlsrivathsan",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Steve Notley",
+      "handle": "stephen-notley",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Sudarshan Koirala",
+      "handle": "sudarshan-koirala",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Sudhir Gajre",
+      "handle": "sudhir-gajre",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Subramanian Iyer",
+      "handle": "subramanian-iyer",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Tejas Pandit",
+      "handle": "tejas-pandit",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Vipul Choudhary",
+      "handle": "vipchoudhary",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Vitalija Bartusevičiūtė",
+      "handle": "vitalijabart",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Yash Mahendra Joshi",
+      "handle": "yash-mahendra-joshi",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Yuki Saito",
+      "handle": "yuki-saito-52b4481a6",
+      "type": "person",
+      "role": "content_source"
+    },
+    {
+      "name": "Zoë van Noppen",
+      "handle": "https://www.linkedin.com/in/zo%C3%AB-van-noppen-7378b6139/",
+      "type": "person",
+      "role": "content_source"
+    }
   ],
   "mvp_directory_note": "Fonte: https://www.databricks.com/discover/mvps (mapeado em 2026-09-01). Excluídos: MVPs do Brasil (ex: Luan Moreno), e 3 pessoas sem link de LinkedIn na página oficial (Liping Huang, Raul Sarachaga, R. Tyler Croy só têm YouTube/GitHub)."
 }
