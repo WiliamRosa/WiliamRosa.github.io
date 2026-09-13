@@ -1,7 +1,7 @@
 ---
 title: "Databricks SQL ganhou tabela temporária de verdade, escopada por sessão e com limpeza automática"
-date: 2026-09-14T18:00:00-03:00
-draft: true
+date: 2026-09-13T07:45:00-03:00
+draft: false
 tags: ["Databricks", "Databricks SQL", "Delta Lake", "Opinião"]
 summary: "CREATE TEMPORARY TABLE cria uma tabela Delta física que existe só durante a sessão que a criou, com limite máximo de sete dias de vida, usando a mesma infraestrutura de cache e performance de uma tabela padrão, mas sem exigir limpeza manual nem poluir o catálogo com objeto de vida curta."
 ShowToc: false

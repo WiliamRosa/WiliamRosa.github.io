@@ -1,7 +1,7 @@
 ---
 title: "Genie Code agora pode bloquear uso de verdade quando o orçamento estoura, não só avisar"
-date: 2026-09-14T17:00:00-03:00
-draft: true
+date: 2026-09-13T07:30:00-03:00
+draft: false
 tags: ["Databricks", "Genie Code", "FinOps", "Opinião"]
 summary: "A opção Block usage nos controles de orçamento do Genie Code impede o usuário de continuar usando o produto assim que o limite mensal, geral, por time ou por pessoa, é excedido, até o orçamento resetar no início do mês ou um admin liberar mais uso; antes só existia alerta, sem bloqueio efetivo."
 ShowToc: false

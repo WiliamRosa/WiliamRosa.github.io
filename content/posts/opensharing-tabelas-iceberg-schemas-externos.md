@@ -1,7 +1,7 @@
 ---
 title: "OpenSharing agora compartilha tabela Iceberg e schema inteiro vindo de fonte externa via federação"
-date: 2026-09-14T19:00:00-03:00
-draft: true
+date: 2026-09-13T08:00:00-03:00
+draft: false
 tags: ["Databricks", "OpenSharing", "Delta Lake", "Opinião"]
 summary: "Duas novidades GA no OpenSharing: compartilhar tabela Iceberg federada de catálogo externo via Lakehouse Federation, inclusive pra cliente Iceberg de fora do Databricks, sem copiar dado; e compartilhar schema ou tabela inteira federada de fonte externa, essa última materializando o dado do lado do provedor e gerando custo extra de compute e armazenamento."
 ShowToc: false

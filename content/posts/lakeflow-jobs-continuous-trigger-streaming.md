@@ -1,7 +1,7 @@
 ---
 title: "Lakeflow Jobs ganhou trigger contínuo pra job de streaming parar de depender de gambiarra de CRON"
-date: 2026-09-14T11:00:00-03:00
-draft: true
+date: 2026-09-13T11:00:00-03:00
+draft: false
 tags: ["Databricks", "Lakeflow", "Streaming", "Opinião"]
 summary: "O trigger continuous transforma um Lakeflow Job em serviço always-on que reinicia sozinho assim que termina ou falha, delegando pra Databricks a responsabilidade de manter o job rodando sem interrupção, em vez de forçar CRON ou trigger orientado a evento a fazer papel de scheduler contínuo."
 ShowToc: false

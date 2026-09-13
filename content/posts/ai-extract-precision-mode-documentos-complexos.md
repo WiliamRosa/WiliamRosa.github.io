@@ -1,7 +1,7 @@
 ---
 title: "AI Extract ganhou modo Precision pra documento longo e schema complexo demais pro chunk-and-merge"
-date: 2026-09-14T10:00:00-03:00
-draft: true
+date: 2026-09-13T10:00:00-03:00
+draft: false
 tags: ["Databricks", "AI Functions", "Document Intelligence", "Opinião"]
 summary: "Precision Mode no ai_extract combina modelo especializado com um harness agentico que dispara subagentes em paralelo por seção do documento e depois junta os resultados, atingindo 94,7% de acurácia em benchmark contra 9 mil documentos, sete pontos acima do melhor baseline de modelo de fronteira com chunk-and-merge."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "`databricks environments setup-local` sincroniza venv local com a versão exata do compute remoto"
-date: 2026-09-14T14:00:00-03:00
-draft: true
+date: 2026-09-13T14:00:00-03:00
+draft: false
 tags: ["Databricks", "CLI", "Developer Experience", "Opinião"]
 summary: "O comando resolve o compute alvo, seja cluster clássico ou serverless, descobre a versão de Python e de databricks-connect fixadas pra aquele ambiente e provisiona um .venv gerenciado por uv já casado com essas versões, atualizando o pyproject.toml com backup automático em pyproject.toml.bak."
 ShowToc: false

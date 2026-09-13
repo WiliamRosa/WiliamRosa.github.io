@@ -1,7 +1,7 @@
 ---
 title: "Automatic Identity Management chegou pra AWS e GCP, e Okta entrou em preview"
-date: 2026-09-14T16:00:00-03:00
-draft: true
+date: 2026-09-13T07:15:00-03:00
+draft: false
 tags: ["Databricks", "Unity Catalog", "Segurança", "Opinião"]
 summary: "O AIM (Automatic Identity Management) via Entra ID já era GA no Azure Databricks e agora chega GA também em AWS e GCP, com Okta entrando em preview público; junto vieram políticas de ingress baseadas em contexto pra controlar acesso de agente de IA a Genie, dashboard e Databricks Apps."
 ShowToc: false

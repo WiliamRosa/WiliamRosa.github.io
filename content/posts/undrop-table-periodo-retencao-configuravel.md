@@ -1,7 +1,7 @@
 ---
 title: "UNDROP TABLE ganhou período de retenção configurável em vez dos sete dias fixos"
-date: 2026-09-14T15:00:00-03:00
-draft: true
+date: 2026-09-13T07:00:00-03:00
+draft: false
 tags: ["Databricks", "Unity Catalog", "Governança", "Opinião"]
 summary: "Em Public Preview, ALTER CATALOG ou ALTER SCHEMA com a cláusula RETAIN DROPPED TO permite configurar entre zero (desabilita recuperação) e trinta dias quanto tempo uma tabela gerenciada derrubada fica recuperável via UNDROP TABLE, com a configuração de schema tendo precedência sobre a de catálogo."
 ShowToc: false

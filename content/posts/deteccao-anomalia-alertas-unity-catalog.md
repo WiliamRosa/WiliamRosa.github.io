@@ -1,7 +1,7 @@
 ---
 title: "Unity Catalog agora manda alerta por e-mail quando anomaly detection acha tabela doente"
-date: 2026-09-14T13:00:00-03:00
-draft: true
+date: 2026-09-13T13:00:00-03:00
+draft: false
 tags: ["Databricks", "Unity Catalog", "Data Quality", "Opinião"]
 summary: "Alertas de anomaly detection, em Beta na Data Quality Monitoring UI, notificam por e-mail usuário do workspace quando uma tabela monitorada fica insalubre dentro do escopo de catálogo ou schema configurado, sem exigir regra manual de qualidade escrita à mão."
 ShowToc: false

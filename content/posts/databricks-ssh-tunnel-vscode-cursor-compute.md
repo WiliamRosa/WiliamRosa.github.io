@@ -1,7 +1,7 @@
 ---
 title: "Agora dá pra plugar VS Code, Cursor ou terminal direto no compute do Azure Databricks via SSH"
-date: 2026-09-14T09:00:00-03:00
-draft: true
+date: 2026-09-13T09:00:00-03:00
+draft: false
 tags: ["Databricks", "Developer Experience", "VS Code", "Opinião"]
 summary: "O túnel SSH conecta editor local ou CLI direto num cluster serverless, AI Runtime ou dedicado do Azure Databricks, com Cursor e Copilot funcionando de fábrica e Claude Code instalável na sessão. Sessão cai depois de uma hora e o limite é de dez conexões por cluster, então não é substituto de workflow de produção."
 ShowToc: false

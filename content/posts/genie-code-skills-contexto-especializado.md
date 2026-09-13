@@ -1,7 +1,7 @@
 ---
 title: "Genie Code agora aceita Skills pra carregar contexto especializado só quando precisa"
-date: 2026-09-14T12:00:00-03:00
-draft: true
+date: 2026-09-13T12:00:00-03:00
+draft: false
 tags: ["Databricks", "Genie Code", "IA Generativa", "Opinião"]
 summary: "Skills empacotam instrução, exemplo e script executável num arquivo SKILL.md dentro de .assistant/skills/, e o Genie Code carrega automaticamente a skill relevante conforme o pedido do usuário, em vez de manter tudo em instrução global que consome contexto em toda conversa."
 ShowToc: false
