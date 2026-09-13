@@ -1,7 +1,7 @@
 ---
 title: "Antes de abrir o Grafana: como a Databricks usa agente de IA pra investigar o próprio incidente"
 date: 2026-08-25T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "AI Engineering", "Observabilidade", "Agentes", "SRE"]
 summary: "A Databricks documentou o AI SRE, agente interno que roda checagem de plataforma, análise de log e runbook de time em paralelo assim que um incidente dispara, entregando causa raiz com evidência rastreável antes de um engenheiro terminar de montar o contexto manualmente."
 ShowToc: true

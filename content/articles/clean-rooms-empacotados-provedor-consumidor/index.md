@@ -1,7 +1,7 @@
 ---
 title: "Clean Rooms empacotados: como rodar o algoritmo de um parceiro sem nunca ver o código dele"
 date: 2026-06-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Clean Rooms", "Governança", "Data Engineering"]
 summary: "O modo 'empacotado' das Clean Rooms do Azure Databricks separa o papel de provedor (que traz o algoritmo e nunca expõe o código) do papel de consumidor (que traz o dado e nunca vê a lógica), permitindo cruzar identidade ou fazer matching entre empresas sem que nenhum dos dois lados abra mão do que é proprietário."
 ShowToc: true
