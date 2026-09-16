@@ -1,7 +1,7 @@
 ---
 title: "Databricks é mais barato no fim das contas, mas você só descobre isso depois de gastar"
 date: 2026-09-15T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "FinOps", "Preços", "Opinião"]
 summary: "O Databricks MVP Josue Bogran apontou que a forma como o Azure Databricks comunica preço, DBU e controle de custo antes do uso ainda deixa a desejar, mesmo a plataforma sendo competitiva depois que os workloads já estão rodando."
 ShowToc: false

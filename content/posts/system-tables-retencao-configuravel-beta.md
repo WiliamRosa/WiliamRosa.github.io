@@ -1,7 +1,7 @@
 ---
 title: "Retenção de system table agora é escolha sua, não mais um número fixo"
 date: 2026-09-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "System Tables", "Governança", "Azure Databricks"]
 summary: "Administradores da conta agora conseguem configurar, em beta, um período de retenção entre 30 e 3.650 dias pras system tables suportadas, em vez de depender do período fixo padrão da plataforma."
 ShowToc: false

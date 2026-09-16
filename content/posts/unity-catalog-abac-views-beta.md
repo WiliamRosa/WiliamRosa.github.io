@@ -1,7 +1,7 @@
 ---
 title: "Row filter e column mask do Unity Catalog agora valem pra view também, não só pra tabela"
-date: 2026-09-16T09:00:00-03:00
-draft: true
+date: 2026-09-16T07:00:00-03:00
+draft: false
 tags: ["Databricks", "Unity Catalog", "ABAC", "Governança", "Azure Databricks"]
 summary: "ABAC em view chegou em beta no Unity Catalog: as mesmas políticas de row filter e column mask baseadas em atributo que já valiam pra tabela agora se aplicam também a dado sensível exposto através de view."
 ShowToc: false

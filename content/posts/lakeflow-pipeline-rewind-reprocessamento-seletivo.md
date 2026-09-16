@@ -1,7 +1,7 @@
 ---
 title: "Pipeline com dado errado desde ontem? Agora dá pra voltar só até esse ponto e reprocessar"
 date: 2026-09-15T09:15:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow", "Engenharia de Dados", "Azure Databricks"]
 summary: "O Pipeline Rewind do Lakeflow permite voltar uma pipeline a um ponto anterior a um problema conhecido e reprocessar só o dado afetado, restaurando versão de tabela, offset de origem e estado do operador juntos."
 ShowToc: false

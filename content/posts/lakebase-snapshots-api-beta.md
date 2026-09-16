@@ -1,7 +1,7 @@
 ---
 title: "Snapshot de branch do Lakebase agora se cria, lista e restaura por API, sem passar pela UI"
-date: 2026-09-16T10:00:00-03:00
-draft: true
+date: 2026-09-16T07:15:00-03:00
+draft: false
 tags: ["Databricks", "Lakebase", "Postgres", "Azure Databricks"]
 summary: "A Lakebase snapshots API, em beta, permite criar, listar e apagar snapshots pontuais de um branch de projeto Lakebase, e restaurar um snapshot criando um branch novo a partir dele, tudo de forma programática."
 ShowToc: false

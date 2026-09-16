@@ -1,7 +1,7 @@
 ---
 title: "Resposta do Genie no Slack agora vem com o gráfico de verdade, não só o texto"
 date: 2026-09-15T09:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "Slack", "Azure Databricks"]
 summary: "Em public preview, quando a resposta do Genie inclui um gráfico, a visualização passa a aparecer como imagem direto na resposta do Slack, exigindo reinstalar o app do Genie no Slack pra quem já tinha instalado antes."
 ShowToc: false
