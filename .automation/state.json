@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-18T09:05:00-03:00",
+  "last_run": "2026-09-20T16:30:00-03:00",
   "processed_sources": [
     "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/provider-github",
     "https://www.linkedin.com/feed/update/urn:li:activity:7505896749887254528/",
@@ -145,7 +145,11 @@
     "https://learn.microsoft.com/en-us/azure/databricks/genie/budgets",
     "https://www.databricks.com/blog/introducing-temporary-tables-databricks-sql",
     "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/september#sharing-foreign-iceberg-tables-with-opensharing-is-now-generally-available",
-    "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_search"
+    "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_search",
+    "https://www.linkedin.com/in/paldom/#dabs-completo-databricks-apps",
+    "https://www.linkedin.com/in/gnakan/#mlflow-juiz-correcao-golden-dataset",
+    "https://www.linkedin.com/in/julia-f%C3%B8rde-725258100/#genie-ontology-pages-domains-skills-teste",
+    "https://www.linkedin.com/in/sudarshan-koirala/#databricks-agent-skills-cli-oficial"
   ],
   "linkedin_profiles_watched": [
     {
