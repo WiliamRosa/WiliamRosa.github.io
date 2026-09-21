@@ -1,7 +1,7 @@
 ---
 title: "MATCH_RECOGNIZE chega ao Databricks SQL pra achar padrão de evento sem gambiarra de CTE"
 date: 2026-09-17T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "SQL", "Databricks SQL", "Análise de Dados"]
 summary: "A Databricks lançou em Public Preview o operador MATCH_RECOGNIZE, que detecta sequência e padrão em dados de evento de forma declarativa, substituindo o empilhamento de CTE, window function e lógica de gaps and islands que esse tipo de análise normalmente exige."
 ShowToc: false

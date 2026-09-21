@@ -1,7 +1,7 @@
 ---
 title: "Databricks Asset Bundles viraram o jeito completo de publicar um Databricks App inteiro"
 date: 2026-09-17T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks Asset Bundles", "Databricks Apps", "Lakebase"]
 summary: "Uma série de atualizações nos Databricks Asset Bundles neste verão tornou o deploy de um Databricks App completo, incluindo banco Lakebase, índice de busca e segredos, uma operação de um único arquivo databricks.yml e um só comando de bundle."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Uma função SQL nova pra quando o intervalo de tempo não bate com dia, mês ou ano"
 date: 2026-09-09T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "SQL", "Azure Databricks"]
 summary: "A função time_bucket chegou ao SQL do Azure Databricks pra alinhar timestamp a um intervalo de largura fixa e origem escolhida, útil quando a janela de tempo não é uma unidade de calendário, como 15 minutos ou 3 meses."
 ShowToc: false

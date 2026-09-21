@@ -1,7 +1,7 @@
 ---
 title: "AI Search agora mostra qual pedaço de documento sustentou cada resposta"
 date: 2026-09-09T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "AI Search", "IA", "Azure Databricks"]
 summary: "A opção generate_citations na função ai_search (Beta) do Azure Databricks expõe quais chunks recuperados o modelo efetivamente usou para sustentar cada resposta gerada, dando visibilidade que antes ficava escondida dentro da recuperação."
 ShowToc: false

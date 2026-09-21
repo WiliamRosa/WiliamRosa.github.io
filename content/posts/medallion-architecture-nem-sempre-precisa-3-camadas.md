@@ -1,7 +1,7 @@
 ---
 title: "Nem todo pipeline precisa das três camadas do Medallion"
 date: 2026-09-18T07:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Arquitetura de Dados", "Medallion", "Lakehouse"]
 summary: "Bartosz Konieczny questiona quando vale a pena simplificar a arquitetura Medallion pra duas camadas, e lista seis cenários concretos em que as três camadas (bronze, silver e gold) continuam valendo o esforço."
 ShowToc: false

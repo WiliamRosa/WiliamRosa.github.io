@@ -1,7 +1,7 @@
 ---
 title: "Genie parou de responder com informação desatualizada, agora ele pode simplesmente buscar na web"
 date: 2026-09-10T14:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "IA"]
 summary: "Genie One (em beta) e Genie Code passaram a ter acesso à web pública pra responder pergunta que depende de informação atual, como release note recente ou notícia, citando a fonte externa usada na resposta."
 ShowToc: false

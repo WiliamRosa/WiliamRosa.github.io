@@ -1,7 +1,7 @@
 ---
 title: "Databricks CLI agora autentica no GitHub Actions sem guardar segredo nenhum"
 date: 2026-09-17T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks CLI", "Segurança", "CI/CD"]
 summary: "O Databricks CLI passou a suportar workload identity federation via OIDC, então um workflow do GitHub Actions consegue autenticar num service principal do Azure Databricks sem nunca guardar client secret no repositório."
 ShowToc: false

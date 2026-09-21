@@ -1,7 +1,7 @@
 ---
 title: "Job do Databricks ganhou um jeito mais simples de rodar script Python solto, sem empacotar wheel"
 date: 2026-09-10T12:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow Jobs", "Python", "Opinião"]
 summary: "O Databricks MVP Bartosz Konieczny detalhou o suporte a script Python como tipo de tarefa no Lakeflow Jobs, uma opção mais leve que wheel ou notebook pra tarefa simples como sensor ou geração de parâmetro dinâmico."
 ShowToc: false

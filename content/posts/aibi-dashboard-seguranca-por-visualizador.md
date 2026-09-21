@@ -1,7 +1,7 @@
 ---
 title: "Um dashboard publicado, segurança diferente para cada pessoa que abre ele"
 date: 2026-09-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "AI/BI", "Unity Catalog", "Segurança", "Opinião"]
 summary: "A Databricks detalhou um padrão para aplicar segurança em nível de linha em AI/BI Dashboards incorporados, usando um token assinado por visualizador, uma tabela de direitos de acesso central e as proteções nativas do Unity Catalog."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Metric view implantada via bundle em ambiente diferente quebra por causa de um nome qualificado a mais"
 date: 2026-09-10T13:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Metric Views", "Declarative Automation Bundles", "Opinião"]
 summary: "O Databricks MVP Geir E. Alstad identificou uma pegadinha real ao implantar metric views via Declarative Automation Bundles em múltiplos ambientes: o asset_name do dashboard precisa ficar não qualificado no arquivo versionado, ou a implantação em outro ambiente falha."
 ShowToc: false

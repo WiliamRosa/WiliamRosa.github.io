@@ -1,7 +1,7 @@
 ---
 title: "Testei Genie Ontology, Pages, Domains e Skills lado a lado, e o workspace enriquecido respondeu até 40% mais rápido"
 date: 2026-09-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "Genie Ontology", "Unity Catalog"]
 summary: "A Databricks MVP Julia Førde comparou dois workspaces com o mesmo dado, um enriquecido com Genie Ontology, Pages, Domains e Skills e outro sem, e viu respostas melhores e até 40% mais rápidas no workspace enriquecido."
 ShowToc: false

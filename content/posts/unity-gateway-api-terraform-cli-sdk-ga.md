@@ -1,7 +1,7 @@
 ---
 title: "Unity Gateway virou API gerenciável por Terraform, CLI e SDK, não só pela interface"
 date: 2026-09-17T12:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity AI Gateway", "Terraform", "Infraestrutura como Código"]
 summary: "A API do Unity Gateway pra gerenciar model services, provedor de modelo externo e servidor MCP chegou à disponibilidade geral no Azure Databricks, com suporte oficial em Terraform, Databricks CLI e SDKs Python, Go, Java e JavaScript."
 ShowToc: false

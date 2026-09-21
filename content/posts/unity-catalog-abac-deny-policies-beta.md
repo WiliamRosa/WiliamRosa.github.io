@@ -1,7 +1,7 @@
 ---
 title: "Agora dá pra negar permissão de administrar permissão, mesmo pro dono do objeto"
 date: 2026-09-09T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "ABAC", "Governança", "Azure Databricks"]
 summary: "ABAC DENY policies chegaram em beta no Unity Catalog: uma política pode negar explicitamente o privilégio MANAGE ACCESS CONTROL a um principal específico, incluindo o dono do objeto, e essa negação sempre tem prioridade sobre qualquer concessão."
 ShowToc: false

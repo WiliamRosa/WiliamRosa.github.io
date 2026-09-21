@@ -1,7 +1,7 @@
 ---
 title: "Um modelo de busca que decide sozinho quando vale a pena procurar de novo"
 date: 2026-09-10T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "IA", "Mosaic Research", "Busca", "Opinião"]
 summary: "A Databricks publicou o Adaptive Instructed-Retriever, um modelo de recuperação treinado com aprendizado por reforço que decide quando vale a pena buscar de novo, entregando qualidade de ponta com até metade da latência."
 ShowToc: false

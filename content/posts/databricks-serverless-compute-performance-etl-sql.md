@@ -1,7 +1,7 @@
 ---
 title: "Testei Serverless compute pra ETL e pra SQL do dia a dia, e o resultado surpreendeu"
 date: 2026-09-17T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Serverless", "Performance", "ETL"]
 summary: "Teste hands-on de Josue Bogran mostrou o Serverless compute do Azure Databricks batendo resultados anteriores de SQL Serverless em velocidade e ficando competitivo em custo pra ETL, mesmo sem nenhum ajuste fino de cluster."
 ShowToc: false

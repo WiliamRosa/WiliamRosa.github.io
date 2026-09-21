@@ -1,7 +1,7 @@
 ---
 title: "Environment version 6 chegou, e ele confirma que o Databricks Runtime 19 já existe"
 date: 2026-09-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Serverless", "Databricks Runtime", "Azure Databricks"]
 summary: "A versão 6 do ambiente serverless e de compute clássico standard já está disponível no Azure Databricks, e ela é a primeira confirmação pública de que o Databricks Runtime 19 já está em campo, sucessor do Runtime 18 LTS."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Replit ganhou suporte nativo a Lakebase pra criar app full-stack com dado corporativo"
 date: 2026-09-12T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Databricks Apps", "Integrações"]
 summary: "A integração entre Replit e Databricks virou geral e passou a incluir suporte nativo ao Lakebase, com o Replit Agent provisionando banco automaticamente no deploy e mudança de schema proposta por IA exigindo aprovação humana antes de ir pra produção."
 ShowToc: false

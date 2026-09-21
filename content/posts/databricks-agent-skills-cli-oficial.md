@@ -1,7 +1,7 @@
 ---
 title: "Skills de agente saíram do AI Dev Kit e viraram comando oficial da Databricks CLI"
 date: 2026-09-15T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks CLI", "Claude Code", "Genie Code"]
 summary: "O Databricks MVP Sudarshan Koirala mostrou que as Agent Skills, antes soltas no AI Dev Kit, agora fazem parte oficial da Databricks CLI, com um comando único que instala a mesma skill em Claude Code, Cursor, Copilot, Gemini CLI e no Genie Code."
 ShowToc: false

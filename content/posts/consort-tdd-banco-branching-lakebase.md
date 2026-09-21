@@ -1,7 +1,7 @@
 ---
 title: "Testar contra banco de verdade, não mock, cada agente com sua própria cópia instantânea do banco"
 date: 2026-09-10T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Agentes de IA", "DevOps", "Opinião"]
 summary: "A Databricks lançou o Consort, um framework agêntico de código aberto que usa branching de banco do Lakebase Postgres pra levar teste de integração de verdade pro loop interno de desenvolvimento, com agentes assumindo papéis como arquiteto, DBA e desenvolvedor."
 ShowToc: false

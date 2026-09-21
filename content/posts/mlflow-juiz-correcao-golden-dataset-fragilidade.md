@@ -1,7 +1,7 @@
 ---
 title: "Testei o juiz de correção do MLflow e um 'ou' a menos virou a diferença entre passar e reprovar"
 date: 2026-09-14T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "MLflow", "Avaliação de Agentes", "Foundation Model APIs"]
 summary: "O Databricks MVP Gary Nakanelua testou o juiz de correção do MLflow contra duas Foundation Model APIs e descobriu que remover uma única palavra de um fato esperado, sem mudar a resposta do modelo, foi suficiente pra virar o veredito de reprovado pra aprovado."
 ShowToc: false

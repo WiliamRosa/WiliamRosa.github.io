@@ -1,7 +1,7 @@
 ---
 title: "Uma política ABAC agora cobre todos os catálogos do metastore de uma vez"
 date: 2026-09-18T08:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "ABAC", "Governança de Dados"]
 summary: "O Azure Databricks lançou em Beta o suporte a políticas ABAC no nível do metastore, permitindo que uma única política de row filter, column mask, GRANT ou DENY cubra todos os catálogos automaticamente, inclusive os criados depois, mas com uma lacuna real em disaster recovery."
 ShowToc: false

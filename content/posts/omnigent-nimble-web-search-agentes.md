@@ -1,7 +1,7 @@
 ---
 title: "Busca na web de agente de IA virou parte do Omnigent, com Nimble no lugar da busca genérica"
 date: 2026-09-18T07:30:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Omnigent", "Agentes de IA", "Unity AI Gateway"]
 summary: "A Databricks integrou o provedor de busca Nimble ao Omnigent pra resolver a inconsistência de qualidade entre as ferramentas de busca na web embutidas em cada harness de agente, com ganho relatado de 46% pra 71% de acurácia em benchmark e custo de busca cortado pela metade."
 ShowToc: false
