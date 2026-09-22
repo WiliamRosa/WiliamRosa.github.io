@@ -1,7 +1,7 @@
 ---
 title: "Consulta pontual em tabela de 50 bilhões de linhas em 0,33 segundo: o que o Lakehouse//RT resolve sem sair do Unity Catalog"
 date: 2026-08-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Azure Databricks", "Lakehouse", "SQL Warehouse", "Performance"]
 summary: "Lakehouse//RT é um novo tipo de warehouse serverless da Azure Databricks, em Beta, construído sobre o motor Reyden para entregar latência sub-segundo em consulta de leitura direto sobre tabela Delta e Iceberg do Unity Catalog, sem exigir um banco separado de serving em tempo real."
 ShowToc: true

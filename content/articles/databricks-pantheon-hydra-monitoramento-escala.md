@@ -1,7 +1,7 @@
 ---
 title: "5 bilhões de séries temporais, um motor só não basta: como a Databricks separou alerta rápido de investigação profunda"
 date: 2026-05-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Observabilidade", "Auto Loader", "Structured Streaming", "Delta Lake"]
 summary: "A própria Databricks conta como escalou monitoramento interno para 10 trilhões de amostras por dia e 5 bilhões de séries temporais ativas combinando um fork do Thanos para alerta rápido, uma camada de agregação que absorve pico de cardinalidade, e uma plataforma baseada em lakehouse para investigação profunda sobre dado bruto."
 ShowToc: true
