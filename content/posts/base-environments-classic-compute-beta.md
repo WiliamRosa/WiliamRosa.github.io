@@ -1,7 +1,7 @@
 ---
 title: "Ambientes gerenciados por YAML chegam ao compute clássico do Azure Databricks"
 date: 2026-09-18T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Compute", "Azure Databricks"]
 summary: "Base environments, o mecanismo de dependência declarada em YAML que já existia pro compute serverless, agora também funciona (em Beta) no compute clássico, unificando como o workspace gerencia biblioteca Python."
 ShowToc: false

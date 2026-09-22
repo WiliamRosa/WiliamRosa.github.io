@@ -1,7 +1,7 @@
 ---
 title: "RADAR: como a Databricks detecta falha parcial antes que o cliente reclame"
 date: 2026-09-20T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Observability", "AI"]
 summary: "A Databricks publicou o RADAR, um sistema interno de quatro estágios pra achar 'falha cinza', apagão parcial que passa batido pelo dashboard verde, usando um modelo de detecção de anomalia não supervisionado e um dashboard Genie pra investigar a causa raiz; internamente reduziu o tempo de descoberta de incidente em 95%."
 ShowToc: false

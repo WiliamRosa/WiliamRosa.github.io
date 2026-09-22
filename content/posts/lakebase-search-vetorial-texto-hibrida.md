@@ -1,7 +1,7 @@
 ---
 title: "Lakebase Search junta busca vetorial e busca por palavra-chave dentro do próprio Postgres"
 date: 2026-09-16T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "Azure Databricks", "AI"]
 summary: "Lakebase Search chega como camada de busca híbrida dentro do Lakebase: lakebase_vector faz busca semântica compatível com pgvector e lakebase_text faz busca por palavra-chave com BM25, os dois combináveis via Reciprocal Rank Fusion sem sair do banco operacional."
 ShowToc: false

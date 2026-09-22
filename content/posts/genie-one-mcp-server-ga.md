@@ -1,7 +1,7 @@
 ---
 title: "Genie One virou uma ferramenta MCP oficial, com permissão do Unity Catalog em cada chamada"
-date: 2026-09-26T09:00:00-03:00
-draft: true
+date: 2026-09-22T07:00:00-03:00
+draft: false
 tags: ["Databricks", "Genie", "MCP", "Azure Databricks"]
 summary: "O servidor MCP do Genie One (system.ai.genie_one_mcp) chegou à disponibilidade geral no Unity Gateway, expondo o Genie como ferramenta conversacional pra qualquer cliente MCP, como Claude, ChatGPT ou Cursor, sempre respeitando a permissão do Unity Catalog; o endpoint Beta antigo será desligado em 31 de outubro."
 ShowToc: false

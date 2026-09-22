@@ -1,7 +1,7 @@
 ---
 title: "A tabela de histórico de consulta do Unity Catalog saiu do beta"
 date: 2026-09-22T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Observability", "Azure Databricks"]
 summary: "O system.query.history chegou à disponibilidade geral: uma system table única, em nível de conta, com todo o histórico de consulta rodado em SQL warehouse ou compute serverless, incluindo status de execução, duração e origem da consulta."
 ShowToc: false

@@ -6,7 +6,8 @@ tags: ["Evento", "MVP Conf", "Genie", "Azure Databricks"]
 eventSource: "MVP Conf"
 summary: "Apresento a palestra Genie One no Azure Databricks, transformando a forma como conversamos com os dados, na trilha Data Platform da MVP Conf 2026, em São Paulo."
 ShowToc: false
-cover: "cover.jpg"
+cover:
+    image: "cover.jpg"
 ---
 
 **📅 26 de setembro de 2026 · 📍 São Paulo, SP**
