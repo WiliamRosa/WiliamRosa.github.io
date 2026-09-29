@@ -19,7 +19,7 @@ Até que alguém pergunta: "e a aplicação de produção? Onde ela armazena os 
 
 É assim que a maioria das empresas opera hoje:
 
-![Arquitetura tradicional: aplicações escrevem num banco OLTP externo, com pipelines de CDC e reverse ETL fazendo a ponte com o lakehouse](imagem-01-arquitetura-tradicional.jpg)
+![Arquitetura tradicional: aplicações escrevem num banco OLTP externo, com pipelines de CDC e reverse ETL fazendo a ponte com o lakehouse](imagem-01-arquitetura-tradicional.png)
 
 Os pontos de dor dessa arquitetura são conhecidos de quem já operou algo parecido:
 
@@ -38,7 +38,7 @@ Desde 2 de março de 2026, o Lakebase está em disponibilidade geral (GA) no Azu
 
 ## A nova arquitetura com Lakebase
 
-![Nova arquitetura: aplicações, AI Agents e Databricks Apps escrevem direto no Lakebase Postgres, com Synced Tables e Lakehouse Sync fazendo a sincronização nativa com o Unity Catalog](imagem-02-nova-arquitetura-lakebase.jpg)
+![Nova arquitetura: aplicações, AI Agents e Databricks Apps escrevem direto no Lakebase Postgres, com Synced Tables e Lakebase Change Data Feed fazendo a sincronização nativa com o Unity Catalog](imagem-02-nova-arquitetura-lakebase.png)
 
 O que muda em relação ao modelo tradicional:
 
@@ -61,13 +61,13 @@ Lakebase não é só mais um Postgres gerenciado. Ele leva conceito moderno de e
 
 **Alta disponibilidade.** Failover automático configurável por branch, mantendo o banco disponível mesmo quando o compute primário falha.
 
-![Ciclo de vida do compute do Lakebase: wake up, auto scale up, auto scale down, scale-to-zero e de volta ao wake up quando chega requisição](imagem-03-autoscaling-scale-to-zero.jpg)
+![Ciclo de vida do compute do Lakebase: wake up, auto scale up, auto scale down, scale-to-zero e de volta ao wake up quando chega requisição](imagem-03-autoscaling-scale-to-zero.png)
 
 ## Database branching: Git pros seus dados
 
 Esse é provavelmente o recurso mais inovador. Assim como desenvolvedor cria branch no Git pra trabalhar numa feature isolada, o Lakebase deixa criar branch pro banco de dados inteiro.
 
-![Fluxo de branches do banco de dados: main, dev-feature-x e staging, com teste de feature, migração de schema e validação de QA em paralelo à produção](imagem-04-database-branching.jpg)
+![Fluxo de branches do banco de dados: main, dev-feature-x e staging, com teste de feature, migração de schema e validação de QA em paralelo à produção](imagem-04-database-branching.png)
 
 Casos de uso poderosos:
 
@@ -79,9 +79,7 @@ Casos de uso poderosos:
 
 Uma das maiores vantagens é a sincronização nativa entre lakehouse e Lakebase:
 
-![Synced Tables leva dado do lakehouse pro Lakebase, e Lakehouse Sync leva dado transacional do Lakebase de volta pro lakehouse como tabela histórica SCD Type 2](imagem-05-lakebase-lakehouse-sync.jpg)
-
-*Nota: a imagem usa a nomenclatura antiga ("Lakehouse Sync" / SCD Type 2). Veja abaixo o nome e o mecanismo atuais.*
+![Synced Tables leva dado do lakehouse pro Lakebase, e o Lakebase Change Data Feed leva dado transacional do Lakebase de volta pro lakehouse como log de mudanças append-only](imagem-05-lakebase-lakehouse-sync.png)
 
 **Synced Tables (lakehouse para Lakebase).** Tabela do Unity Catalog é sincronizada automaticamente com o Lakebase, permitindo que aplicação consulte dado analítico enriquecido com baixa latência. Há suporte aos modos snapshot, triggered e continuous.
 
