@@ -7,6 +7,8 @@ summary: "Lakebase é um Postgres totalmente gerenciado e nativo da Databricks D
 ShowToc: true
 ---
 
+*Atualizado em 28/09/2026: corrigida a lista de regiões (o texto original trazia códigos da AWS), atualizada a seção de sincronização reversa pra refletir o Lakebase Change Data Feed, que substituiu o antigo Lakehouse Sync, corrigida a janela de restore, e adicionada menção a GA, read replicas, alta disponibilidade e suporte a Postgres 16/17/18.*
+
 Imagine este cenário: seu time de dados construiu um lakehouse impecável. Pipelines de ingestão, camadas bronze/silver/gold, dashboards brilhando. Tudo está funcionando perfeitamente.
 
 Até que alguém pergunta: "e a aplicação de produção? Onde ela armazena os dados transacionais?"
@@ -32,6 +34,8 @@ Lakebase é um banco de dados Postgres totalmente gerenciado e integrado nativam
 
 Em termos simples: é como ter um servidor Postgres de alto desempenho vivendo dentro do seu lakehouse, com governança unificada via Unity Catalog, sincronização bidirecional nativa e recursos modernos como autoscaling, scale-to-zero e database branching.
 
+Desde 2 de março de 2026, o Lakebase está em disponibilidade geral (GA) no Azure Databricks, com autoscaling, scale-to-zero, branching e instant restore como recursos GA. A plataforma suporta Postgres 16, 17 (versão padrão) e 18.
+
 ## A nova arquitetura com Lakebase
 
 ![Nova arquitetura: aplicações, AI Agents e Databricks Apps escrevem direto no Lakebase Postgres, com Synced Tables e Lakehouse Sync fazendo a sincronização nativa com o Unity Catalog](imagem-02-nova-arquitetura-lakebase.jpg)
@@ -53,6 +57,10 @@ Lakebase não é só mais um Postgres gerenciado. Ele leva conceito moderno de e
 
 **Autoscaling e scale-to-zero.** O compute ajusta a capacidade automaticamente conforme a demanda. Em período de inatividade, o banco executa scale-to-zero, eliminando custo, e volta a acordar em segundos quando chega uma requisição nova.
 
+**Read replicas.** Além do compute primário de leitura e escrita, dá pra adicionar réplicas de leitura, até 6 por branch, pra escalar consulta analítica e de relatório sem competir com o workload transacional principal.
+
+**Alta disponibilidade.** Failover automático configurável por branch, mantendo o banco disponível mesmo quando o compute primário falha.
+
 ![Ciclo de vida do compute do Lakebase: wake up, auto scale up, auto scale down, scale-to-zero e de volta ao wake up quando chega requisição](imagem-03-autoscaling-scale-to-zero.jpg)
 
 ## Database branching: Git pros seus dados
@@ -65,7 +73,7 @@ Casos de uso poderosos:
 
 - **Desenvolvimento:** cada desenvolvedor tem sua própria branch do banco de dados, sem interferir em produção.
 - **Teste de migração:** teste alteração de schema numa branch isolada antes de aplicar em produção.
-- **Instant restore:** restaure o banco pra qualquer ponto no tempo (janela configurável de 0 a 30 dias) criando uma branch a partir desse ponto.
+- **Instant restore:** restaure o banco pra qualquer ponto no tempo (janela configurável de 2 a 30 dias, padrão de 7 dias) criando uma branch a partir desse ponto.
 
 ## Sincronização bidirecional: o fim do reverse ETL
 
@@ -73,11 +81,13 @@ Uma das maiores vantagens é a sincronização nativa entre lakehouse e Lakebase
 
 ![Synced Tables leva dado do lakehouse pro Lakebase, e Lakehouse Sync leva dado transacional do Lakebase de volta pro lakehouse como tabela histórica SCD Type 2](imagem-05-lakebase-lakehouse-sync.jpg)
 
+*Nota: a imagem usa a nomenclatura antiga ("Lakehouse Sync" / SCD Type 2). Veja abaixo o nome e o mecanismo atuais.*
+
 **Synced Tables (lakehouse para Lakebase).** Tabela do Unity Catalog é sincronizada automaticamente com o Lakebase, permitindo que aplicação consulte dado analítico enriquecido com baixa latência. Há suporte aos modos snapshot, triggered e continuous.
 
-**Lakehouse Sync (Lakebase para lakehouse).** Dado transacional do Lakebase é replicado continuamente pra Delta Tables no Unity Catalog usando change data capture. A tabela de destino segue o padrão SCD Type 2, mantendo histórico completo das alterações.
+**Lakebase Change Data Feed, CDF (Lakebase para lakehouse).** Esse recurso, antes chamado de Lakehouse Sync, foi reformulado: hoje é implementado pela extensão `wal2delta`, que captura a mudança direto do write-ahead log do Postgres e grava como Delta Table gerenciada no Unity Catalog (`lb_<tabela>_history`). Diferente da versão anterior, o destino não é mais uma dimensão SCD Type 2, e sim um log de eventos append-only: cada linha marcada com `_pg_change_type` (insert, delete, update_preimage, update_postimage), LSN e timestamp, no mesmo formato do Delta Change Data Feed. Ainda está em Public Preview.
 
-**Minha leitura:** isso elimina completamente a necessidade de ferramenta externa de CDC (Debezium, Fivetran), pipeline de reverse ETL (Census, Hightouch) e job customizado de sincronização em Airflow ou Prefect. Pra quem já manteve essa esteira de ferramentas rodando, a economia de superfície operacional é o argumento que mais pesa, mais até do que a promessa de latência baixa.
+**Minha leitura:** isso elimina completamente a necessidade de ferramenta externa de CDC (Debezium, Fivetran), pipeline de reverse ETL (Census, Hightouch) e job customizado de sincronização em Airflow ou Prefect. Pra quem já manteve essa esteira de ferramentas rodando, a economia de superfície operacional é o argumento que mais pesa, mais até do que a promessa de latência baixa. Vale só lembrar que, sendo Public Preview, o formato de destino (log append-only, não SCD Type 2) ainda pode evoluir antes de virar GA.
 
 ## Três casos de uso estratégicos
 
@@ -99,12 +109,14 @@ Uma das maiores vantagens é a sincronização nativa entre lakehouse e Lakebase
 | Custo de inatividade | Paga compute ocioso | Zero (scale-to-zero) |
 | Time-to-recovery | Restore de backup (minutos/horas) | Instant restore (segundos) |
 | Feature serving | Infra separada (Redis, DynamoDB) | Online store nativo |
+| Réplicas de leitura | Configuração manual externa | Nativo, até 6 por branch |
+| Alta disponibilidade | Depende de arquitetura externa | Failover automático nativo |
 
 ## Disponibilidade
 
-O Lakebase Autoscaling está disponível nas seguintes regiões da AWS: us-east-1, us-east-2, us-west-2, ca-central-1, sa-east-1, eu-central-1, eu-west-1, eu-west-2, ap-south-1, ap-southeast-1 e ap-southeast-2.
+O Lakebase Postgres Autoscaling está disponível nas seguintes regiões do Azure: eastus, eastus2, centralus, northcentralus, southcentralus, westus, westus2, canadacentral, brazilsouth, northeurope, uksouth, westeurope, francecentral, germanywestcentral, australiaeast, centralindia, southeastasia, eastasia e japaneast.
 
-A presença em sa-east-1 é particularmente relevante pra nós da comunidade brasileira, garantindo baixa latência pra aplicação hospedada no Brasil.
+A presença em brazilsouth é particularmente relevante pra nós da comunidade brasileira, garantindo baixa latência pra aplicação hospedada no Brasil.
 
 ## O que isso não resolve
 
@@ -121,6 +133,10 @@ O lakehouse finalmente tem seu banco de dados transacional nativo. E ele fala Po
 ## Referências
 
 - Microsoft Learn, "Lakebase Postgres - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/
+- Microsoft Learn, "Lakebase Change Data Feed - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/lakebase-cdf
+- Microsoft Learn, "Manage projects - Azure Databricks (region availability)": https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/manage-projects
+- Microsoft Learn, "Branches - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/branches
+- Databricks Blog, "Databricks Lakebase is now Generally Available": https://www.databricks.com/blog/databricks-lakebase-generally-available
 - Databricks, "Lakebase - Serverless Postgres for Agents and Apps": https://www.databricks.com/product/lakebase
 
 #Databricks #Lakebase #Postgres #Arquitetura
