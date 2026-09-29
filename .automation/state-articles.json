@@ -1,6 +1,7 @@
 {
-  "last_run": "2026-09-24T09:00:00-03:00",
+  "last_run": "2026-09-28T09:00:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
     "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
     "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
     "https://medium.com/databrickscommunity/i-benchmarked-the-new-lakehouse-rt-for-billion-record-tables-and-it-is-crazy-fast-and-crazy-cheap-cf674ad40fc3",
