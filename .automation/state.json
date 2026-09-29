@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-09-22T18:00:00-03:00",
+  "last_run": "2026-09-22T15:40:00-03:00",
   "processed_sources": [
+    "https://www.linkedin.com/in/diloromabdullah/#pii-deteccao-documento-nao-estruturado",
+    "https://finopsway.com/",
+    "https://www.linkedin.com/in/manikandasamy/#power-bi-metric-views-conector-removido",
     "https://learn.microsoft.com/en-us/azure/databricks/compute/environments-mode",
     "https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/lakebase-search",
     "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection",
