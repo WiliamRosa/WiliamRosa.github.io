@@ -1,6 +1,6 @@
 ---
 title: "Modelo novo custa 60% mais caro por padrão: como isolar o risco financeiro de testar IA de fronteira em produção"
-date: 2026-09-29T09:00:00-03:00
+date: 2026-09-28T09:00:00-03:00
 draft: false
 tags: ["Databricks", "Azure Databricks", "Unity Gateway", "Governança", "IA"]
 summary: "A Databricks documentou o próprio processo interno de liberar modelo de fronteira novo pra mais de 12 mil funcionários no dia do lançamento, isolando o risco financeiro em orçamento por camada e decidindo promoção ou descarte em três dias com três sinais combinados, benchmark, feedback de usuário e rastreamento de custo por OpenTelemetry."
