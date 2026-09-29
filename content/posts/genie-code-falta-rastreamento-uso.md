@@ -1,7 +1,7 @@
 ---
 title: "Genie Code resolve a fricção de codar com agente, mas ainda não sabe dizer quem fez o quê"
 date: 2026-09-24T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie Code", "Unity Gateway", "MLflow", "Opinião"]
 summary: "O Databricks MVP Casper Lubbers elogia o Genie Code por manter quem está acostumado com a UI do Databricks longe da fricção de configurar contexto num IDE, mas aponta que a plataforma ainda não rastreia quem usa o quê dentro do próprio Genie Code, apesar de já ter toda a infraestrutura pronta para isso."
 ShowToc: false

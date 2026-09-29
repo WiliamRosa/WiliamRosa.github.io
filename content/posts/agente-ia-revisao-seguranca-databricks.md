@@ -1,7 +1,7 @@
 ---
 title: "Sete agentes especializados, não um só, é como esse time reduziu revisão de segurança de dias para minutos"
 date: 2026-09-25T15:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Agentes de IA", "Unity Catalog", "Segurança", "MLflow"]
 summary: "Um engenheiro da Databricks construiu um sistema de revisão de segurança com sete agentes especializados (intake, risco, requisitos, revisão dedicada, validação, workflow e aprendizado) rodando sobre Unity Catalog, Foundation Models e Lakeflow Jobs, reduzindo pedido de rotina de dias para minutos sem tirar humano da decisão final."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Lakeflow Jobs basta como orquestrador, ou você ainda precisa de Airflow?"
 date: 2026-09-25T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakeflow Jobs", "Apache Airflow", "Data Engineering", "Arquitetura"]
 summary: "Lakeflow Jobs resolve orquestração sozinho quando a operação vive inteira dentro do Azure Databricks, mas perde força em branching complexo, infraestrutura fora da plataforma e recuperação automática de execução perdida, cenários em que Apache Airflow ainda vale a pena."
 ShowToc: false

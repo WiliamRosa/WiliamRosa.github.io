@@ -1,7 +1,7 @@
 ---
 title: "As Serverless Micro Apps que faltavam no Databricks Apps chegaram, e vieram acompanhadas"
 date: 2026-09-25T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks Apps", "Genie", "Governança", "Arquitetura"]
 summary: "Databricks Apps ganhou em Beta App Spaces (ambiente governado sem sandbox separada), Serverless Micro Apps (escala a zero quando ociosa) e Genie App Builder (criar app em linguagem natural), fechando justamente a lacuna de custo ocioso que ainda restava na plataforma."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "LTAP não é um Lakebase com nome novo, é o Databricks tentando apagar o pipeline entre transação e análise"
 date: 2026-09-28T10:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Lakebase", "LTAP", "Arquitetura de Dados"]
 summary: "O Databricks MVP Awadelrahman Ahmed explica LTAP (Lake Transactional/Analytical Processing) como uma extensão do padrão HTAP aplicada à camada de armazenamento do lakehouse: Postgres continua fazendo transação e o motor do lakehouse continua fazendo análise, só que sem CDC no meio, porque os dois leem o mesmo dado na mesma storage."
 ShowToc: false

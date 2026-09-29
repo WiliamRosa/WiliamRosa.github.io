@@ -1,7 +1,7 @@
 ---
 title: "Um trigger novo nas Databricks Asset Bundles dispara o job assim que o deploy termina"
 date: 2026-09-28T08:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Databricks Asset Bundles", "Lakeflow Jobs", "DevOps"]
 summary: "O trigger on_bundle_deploy em job_runs faz um job rodar automaticamente assim que uma Databricks Asset Bundle é implantada, sem agendamento externo, útil para DDL e povoamento único de tabela logo após o deploy."
 ShowToc: false
