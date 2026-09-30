@@ -2,7 +2,7 @@
 title: "Control tower, não relatório: orquestrando Solvency II sem sair do lakehouse"
 date: 2026-09-10T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Financial Services", "Governança", "Genie", "MLflow"]
+tags: ["Azure Databricks", "Financial Services", "Governança", "Genie", "MLflow"]
 summary: "Solvency II não é um relatório, é uma cadeia de ingestão, validação, modelagem atuarial e aprovação que hoje vive espalhada entre planilha, motor atuarial e ferramenta de BI isolada. A Databricks propõe um control tower único sobre o lakehouse, com trilha de auditoria nativa e agente de IA revisando reconciliação de QRT, mas isso não elimina a dependência do motor atuarial legado."
 ShowToc: true
 ---
@@ -69,7 +69,7 @@ Vale ser honesto sobre os limites dessa proposta:
 
 ## Quem já usa Genie e MLflow tem vantagem de adoção
 
-Vale reforçar um ponto prático: nada nessa arquitetura é exclusivo de seguradora ou de Solvency II especificamente. Control Tower como padrão de orquestração, checagem de qualidade configurável com disposição de falha, e trilha de auditoria via Unity Catalog são blocos genéricos que qualquer processo de fechamento regulatório complexo (tributário, contábil, prudencial) pode reaproveitar. A camada de Genie pra consulta em linguagem natural sobre o estado do processo, e MLflow pra rastrear versão e desempenho de modelo, também não são específicos do setor de seguro. Isso quer dizer que uma seguradora que já usa Azure Databricks pra outro workload tem vantagem real de adoção aqui, o esforço de configurar o control tower de Solvency II reaproveita infraestrutura de governança que ela provavelmente já pagou e já opera.
+Vale reforçar um ponto prático: nada nessa arquitetura é exclusivo de seguradora ou de Solvency II especificamente. Control Tower como padrão de orquestração, checagem de qualidade configurável com disposição de falha, e trilha de auditoria via Unity Catalog são blocos genéricos que qualquer processo de fechamento regulatório complexo (tributário, contábil, prudencial) pode reaproveitar. A camada de Genie pra consulta em linguagem natural sobre o estado do processo, e MLflow pra rastrear versão e desempenho de modelo, também não são específicos do setor de seguro. Isso quer dizer que uma seguradora que já usa Azure Databricks pra outro workload tem vantagem real de adoção aqui, o esforço de configurar o control tower de Solvency II reaproveita infraestrutura de governança que ela provavelmente já pagou e já opera. Vale o esclarecimento: o control tower de Solvency II em si é uma arquitetura de referência publicada pela Databricks, sem página própria na documentação da Microsoft, mas Unity Catalog, Genie e MLflow, os três blocos genéricos que sustentam ele, são capacidades documentadas e disponíveis no Azure Databricks, não dependem de nenhum recurso exclusivo de outra nuvem.
 
 ## Fechamento
 
@@ -78,5 +78,8 @@ Solvency II sempre foi mais um problema de processo do que de cálculo, e atacar
 ## Referências
 
 - Post oficial: [A practical approach to end-to-end Solvency II reporting in Databricks](https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks)
+- Microsoft Learn, "What is Unity Catalog? - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/
+- Microsoft Learn, "Genie - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/genie/
+- Microsoft Learn, "MLflow on Databricks - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/mlflow/
 
 #Databricks #FinancialServices #Governança #SolvencyII

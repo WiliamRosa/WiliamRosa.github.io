@@ -2,7 +2,7 @@
 title: "Modelo novo custa 60% mais caro por padrão: como isolar o risco financeiro de testar IA de fronteira em produção"
 date: 2026-09-28T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Azure Databricks", "Unity Gateway", "Governança", "IA"]
+tags: ["Azure Databricks", "Unity Gateway", "Governança", "IA"]
 summary: "A Databricks documentou o próprio processo interno de liberar modelo de fronteira novo pra mais de 12 mil funcionários no dia do lançamento, isolando o risco financeiro em orçamento por camada e decidindo promoção ou descarte em três dias com três sinais combinados, benchmark, feedback de usuário e rastreamento de custo por OpenTelemetry."
 ShowToc: true
 ---
@@ -31,36 +31,46 @@ A documentação oficial do Unity Gateway detalha como esse orçamento é config
 
 ## Mão na massa: criando um orçamento de Unity Gateway pro grupo experimental
 
-Um orçamento pro time que vai testar modelo experimental, com limite compartilhado e individual, e as duas ações de alerta e bloqueio configuradas:
+Um orçamento pro time que vai testar modelo experimental, com limite compartilhado e individual, e as duas ações de alerta e bloqueio configuradas. O schema real da API de orçamento de conta usa `resource_type` (não uma lista) para escopar o orçamento em Unity Gateway, e cada limite vive dentro de `alert_configurations`, com o tipo de ação numa lista separada, `action_configurations`:
 
 ```bash
 databricks account budgets create --json '{
-  "budget_configuration": {
+  "budget": {
     "display_name": "modelo-experimental-time-plataforma",
+    "resource_type": "BUDGET_RESOURCE_TYPE_UNITY_AI_GATEWAY",
     "filter": {
-      "workspace_id": ["all"],
-      "tags": {"team": ["ml-platform"]}
+      "tags": [
+        {"key": "team", "value": {"operator": "IN", "values": ["ml-platform"]}}
+      ]
     },
-    "resource_types": ["UNITY_AI_GATEWAY"],
     "alert_configurations": [
       {
-        "scope": "SHARED",
-        "monthly_threshold_usd": 1000,
-        "alert_emails": ["plataforma-ia@empresa.com"],
-        "action": "ALERT"
+        "time_period": "MONTH",
+        "trigger_type": "CUMULATIVE_SPENDING_EXCEEDED",
+        "quantity_type": "LIST_PRICE_DOLLARS_USD",
+        "quantity_threshold": "1000",
+        "scope_type": "ALERT_CONFIGURATION_SCOPE_TYPE_SHARED",
+        "action_configurations": [
+          {"action_type": "EMAIL_NOTIFICATION", "target": "plataforma-ia@empresa.com"}
+        ]
       },
       {
-        "scope": "PER_USER",
-        "monthly_threshold_usd": 100,
-        "alert_emails": ["plataforma-ia@empresa.com"],
-        "action": "BLOCK_USAGE"
+        "time_period": "MONTH",
+        "trigger_type": "CUMULATIVE_SPENDING_EXCEEDED",
+        "quantity_type": "LIST_PRICE_DOLLARS_USD",
+        "quantity_threshold": "100",
+        "scope_type": "ALERT_CONFIGURATION_SCOPE_TYPE_PER_USER",
+        "action_configurations": [
+          {"action_type": "EMAIL_NOTIFICATION", "target": "plataforma-ia@empresa.com"},
+          {"action_type": "BLOCK_USAGE"}
+        ]
       }
     ]
   }
 }'
 ```
 
-O ponto prático desse desenho é que o limite compartilhado funciona como alarme cedo pro time inteiro, enquanto o bloqueio por usuário individual é a rede de segurança que impede uma única pessoa de consumir o orçamento do grupo inteiro sozinha, sem exigir revisão manual de cada requisição.
+O ponto prático desse desenho é que o limite compartilhado funciona como alarme cedo pro time inteiro, enquanto o bloqueio por usuário individual é a rede de segurança que impede uma única pessoa de consumir o orçamento do grupo inteiro sozinha, sem exigir revisão manual de cada requisição. Vale reforçar que cada orçamento aceita no máximo quatro limites compartilhados e vinte overrides por usuário, e que o bloqueio, como a própria documentação admite, é aplicado de forma aproximada, baseado em estimativa quase em tempo real, não numa garantia matemática de teto de gasto.
 
 ## Fase 3: três sinais decidem promover ou descartar em poucos dias
 
@@ -81,5 +91,7 @@ O ganho real aqui não é liberar modelo novo mais rápido por si só, é conseg
 - Databricks Blog, "How Databricks rolls out frontier models to 12,000 employees on Day 1": https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1
 - Databricks Docs, "Manage budgets for Unity AI Gateway": https://docs.databricks.com/aws/en/ai-gateway/budgets
 - Microsoft Learn, "Manage budgets for Unity Gateway - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/ai-gateway/budgets
+- Microsoft Learn, "Create and monitor budgets - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/admin/account-settings/budgets
+- Databricks REST API reference (Azure), "Create a budget": https://docs.databricks.com/api/azure/account/budgets/create
 
 #Databricks #AzureDatabricks #UnityGateway #Governanca

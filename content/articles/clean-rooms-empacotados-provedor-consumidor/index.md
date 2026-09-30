@@ -2,7 +2,7 @@
 title: "Clean Rooms empacotados: como rodar o algoritmo de um parceiro sem nunca ver o código dele"
 date: 2026-06-19T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Unity Catalog", "Clean Rooms", "Governança", "Data Engineering"]
+tags: ["Azure Databricks", "Unity Catalog", "Clean Rooms", "Governança", "Data Engineering"]
 summary: "O modo 'empacotado' das Clean Rooms do Azure Databricks separa o papel de provedor (que traz o algoritmo e nunca expõe o código) do papel de consumidor (que traz o dado e nunca vê a lógica), permitindo cruzar identidade ou fazer matching entre empresas sem que nenhum dos dois lados abra mão do que é proprietário."
 ShowToc: true
 ---
@@ -85,6 +85,7 @@ Faz sentido quando existe assimetria real de propriedade intelectual entre as pa
 
 - Microsoft Learn, "What is Azure Databricks Clean Rooms?": https://learn.microsoft.com/en-us/azure/databricks/clean-rooms/
 - Microsoft Learn, "Packaged clean rooms": https://learn.microsoft.com/en-us/azure/databricks/clean-rooms/packaged-clean-rooms
+- Microsoft Learn, "Create clean rooms": https://learn.microsoft.com/en-us/azure/databricks/clean-rooms/create-clean-room
 - Databricks Docs, "Create a clean room (REST API)": https://docs.databricks.com/api/workspace/cleanrooms/create
 - Databricks Blog, "How Stagwell built privacy-safe ID matching on Databricks": https://www.databricks.com/blog/how-stagwell-built-privacy-safe-id-matching-databricks
 

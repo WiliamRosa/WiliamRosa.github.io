@@ -2,7 +2,7 @@
 title: "Antes de abrir o Grafana: como a Databricks usa agente de IA pra investigar o próprio incidente"
 date: 2026-08-25T09:00:00-03:00
 draft: false
-tags: ["Databricks", "AI Engineering", "Observabilidade", "Agentes", "SRE"]
+tags: ["Azure Databricks", "AI Engineering", "Observabilidade", "Agentes", "SRE"]
 summary: "A Databricks documentou o AI SRE, agente interno que roda checagem de plataforma, análise de log e runbook de time em paralelo assim que um incidente dispara, entregando causa raiz com evidência rastreável antes de um engenheiro terminar de montar o contexto manualmente."
 ShowToc: true
 ---
@@ -73,5 +73,6 @@ O ganho aqui não vem de um modelo mais esperto interpretando o incidente, vem d
 
 - Databricks Blog, "How Databricks Uses AI to Accelerate Incident Investigation": https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation
 - Databricks Docs, "Extend Genie Code with agent skills": https://docs.databricks.com/aws/en/genie-code/skills
+- Microsoft Learn, "Extend Genie Code with agent skills - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/genie-code/skills
 
 #Databricks #AIEngineering #Observabilidade #SRE

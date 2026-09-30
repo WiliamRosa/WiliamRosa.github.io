@@ -2,7 +2,7 @@
 title: "1 petabyte em menos de 24 horas: o que acontece quando você tira a partição fixa do meio do caminho"
 date: 2026-06-12T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Zerobus", "Streaming", "Data Engineering"]
+tags: ["Azure Databricks", "Zerobus", "Streaming", "Data Engineering"]
 summary: "A Databricks publicou um teste de carga do Zerobus Ingest usando o dataset NASA NEOWISE, sustentando 12 milhões de linhas por segundo e ingerindo mais de 1 trilhão de registros em 24 horas. O truque estrutural é deslocar a garantia de ordenação da partição fixa para a conexão de stream, permitindo autoscaling real de pods sem repensar o esquema de particionamento."
 ShowToc: true
 ---
@@ -11,7 +11,7 @@ Ingestão de streaming tradicional carrega uma decisão que ninguém gosta de to
 
 ## O que é o Zerobus Ingest
 
-Zerobus é o serviço de ingestão de streaming totalmente gerenciado e serverless do Azure Databricks. Funciona como uma API push, onde produtores empurram dados diretamente para tabelas Delta governadas pelo Unity Catalog, sem provisionar broker de mensagens, sem gerenciar conector nem decidir esquema de partição antecipadamente. Segundo a documentação oficial, o fluxo de uso se resume a duas etapas: criar a tabela Delta com schema definido, e então enviar dados pra ela via gRPC, REST, OpenTelemetry (OTLP) ou, mais recentemente, um protocolo Kafka-compatível (ainda em Beta). A maior parte do serviço já está em disponibilidade geral (GA); os SDKs de C#/.NET e as APIs compatíveis com Kafka são as exceções documentadas em Beta.
+Zerobus é o serviço de ingestão de streaming totalmente gerenciado e serverless do Azure Databricks. Funciona como uma API push, onde produtores empurram dados diretamente para tabelas Delta governadas pelo Unity Catalog, sem provisionar broker de mensagens, sem gerenciar conector nem decidir esquema de partição antecipadamente. Segundo a documentação oficial, o fluxo de uso se resume a duas etapas: criar a tabela Delta com schema definido, e então enviar dados pra ela via gRPC, REST, OpenTelemetry (OTLP) ou, mais recentemente, um protocolo Kafka-compatível (ainda em Beta). A maior parte do serviço já está em disponibilidade geral (GA); os SDKs de C++ e C#/.NET e as APIs compatíveis com Kafka são as exceções documentadas em Beta.
 
 ## O mecanismo: particionamento dinâmico por conexão
 
@@ -83,5 +83,6 @@ Deslocar a garantia de ordenação da partição fixa pra conexão de stream é 
 - [Ingesting the Milky Way at petabyte scale with Zerobus Ingest](https://www.databricks.com/blog/ingesting-milky-way-petabyte-scale-zerobus-ingest) (blog oficial Databricks)
 - [Zerobus Ingest overview](https://docs.databricks.com/aws/en/ingestion/zerobus-overview) (documentação oficial)
 - [Zerobus Ingest overview](https://learn.microsoft.com/en-us/azure/databricks/ingestion/zerobus-overview) (Microsoft Learn)
+- [Zerobus Ingest concepts](https://learn.microsoft.com/en-us/azure/databricks/ingestion/zerobus-concepts) (Microsoft Learn, confirma ordenação por stream e particionamento dinâmico)
 
-#Databricks #Zerobus #Streaming #DataEngineering
+#AzureDatabricks #Zerobus #Streaming #DataEngineering

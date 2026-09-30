@@ -2,7 +2,7 @@
 title: "Por que o cache padrão do Postgres não funciona dentro de um banco desagregado"
 date: 2026-09-10T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Lakebase", "Postgres", "Performance"]
+tags: ["Azure Databricks", "Lakebase", "Postgres", "Performance"]
 summary: "O Lakebase separa compute de storage, e isso quebra a lógica de cache que o Postgres tradicional assume há décadas. A Databricks detalhou como resolveu isso combinando um cache local autoscaling, shared buffers maiores em compute fixo e huge pages na stack inteira, com ganhos de até 5x em leitura de storage."
 ShowToc: true
 ---
@@ -17,7 +17,7 @@ No Postgres tradicional, uma página que não está nos shared buffers cai no ca
 
 ![Arquitetura do Lakebase Postgres: camada de compute stateless com shared buffers e cache local, separada da camada de storage durável com safekeepers e pageservers](lakebase-arquitetura-cache.png)
 
-A solução documentada combina três frentes, cada uma endereçando um ponto de fricção diferente:
+A solução documentada combina três frentes, cada uma endereçando um ponto de fricção diferente. Vale registrar que a documentação oficial do Azure Databricks descreve a mesma hierarquia de cache de leitura em termos ligeiramente diferentes do post original: buffer pool (os shared buffers do Postgres em memória do compute) e cache local de compute (disco rápido anexado ao nó de compute, equivalente ao que o post chama de Local File Cache), antes de cair no pageserver e por fim no object storage. O mecanismo é o mesmo descrito abaixo, só a nomenclatura oficial varia:
 
 **Local File Cache (LFC)**: uma camada de cache autoscaling que roda em paralelo aos shared buffers, usando NVMe local como storage secundário. Ela absorve o volume de leitura que não cabe nos shared buffers sem exigir round-trip até a camada de storage remota.
 
@@ -74,6 +74,7 @@ O Lakebase precisou reinventar a lógica de cache do Postgres porque a premissa 
 
 - [Improving Lakebase Postgres compute cache performance](https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache) (blog oficial Databricks)
 - [Lakebase Postgres architecture](https://docs.databricks.com/aws/en/oltp/projects/architecture) (documentação oficial)
-- [Lakebase architecture](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/architecture) (Microsoft Learn)
+- [Lakebase architecture - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/architecture) (Microsoft Learn)
+- [Autoscaling - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/autoscaling) (Microsoft Learn)
 
-#Databricks #Lakebase #Postgres #Performance
+#AzureDatabricks #Lakebase #Postgres #Performance

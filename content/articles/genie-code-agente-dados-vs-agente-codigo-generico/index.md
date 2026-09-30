@@ -2,7 +2,7 @@
 title: "Por que um agente que já conhece seu catálogo vence um agente de código genérico em tarefa de dado"
 date: 2026-07-24T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Genie Code", "Unity Catalog", "AI Engineering", "Agentes"]
+tags: ["Azure Databricks", "Genie Code", "Unity Catalog", "AI Engineering", "Agentes"]
 summary: "Um benchmark interno da Databricks com 401 tarefas reais de descoberta de dado mostra o Genie Code batendo agentes de código genéricos em acurácia e custo, e a explicação não é o modelo por trás, é o agente não precisar explorar o workspace às cegas."
 ShowToc: true
 ---
@@ -73,5 +73,6 @@ O argumento de fundo aqui é simples de generalizar: agente de propósito geral 
 - Databricks Docs, "Genie Code features and capabilities": https://docs.databricks.com/aws/en/genie-code/features-capabilities
 - Microsoft Learn, "Genie Code features and capabilities - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/genie-code/features-capabilities
 - Databricks Docs, "Extend Genie Code with agent skills": https://docs.databricks.com/aws/en/genie-code/skills
+- Microsoft Learn, "Extend Genie Code with agent skills - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/genie-code/skills
 
 #Databricks #GenieCode #AIEngineering #Agentes

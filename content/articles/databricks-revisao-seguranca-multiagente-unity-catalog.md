@@ -2,7 +2,7 @@
 title: "Revisão de segurança não precisa escolher entre rápido e criterioso: o padrão de sete agentes que a Databricks documentou"
 date: 2026-09-25T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Azure Databricks", "Agentes de IA", "Segurança", "Unity Catalog"]
+tags: ["Azure Databricks", "Agentes de IA", "Segurança", "Unity Catalog"]
 summary: "A Databricks documentou como construiu um fluxo de revisão de segurança com sete agentes de responsabilidade estreita, orquestrados sobre Unity Catalog, Lakeflow Jobs e Databricks Apps, escalando caso de risco baixo automaticamente e escalonando pra revisor humano com evidência estruturada quando o risco é alto ou ambíguo."
 ShowToc: true
 ---
@@ -78,7 +78,7 @@ orchestrator = Agent(
 )
 ```
 
-O deploy segue o mesmo caminho de qualquer app de agente no Databricks: declarar os recursos necessários, tipo o Genie Space e o endpoint de cada subagente, em `databricks.yml`, com permissão explícita (`CAN_RUN` pro Genie Agent, `CAN_USE` pro app alvo), rodar `databricks bundle validate` e `databricks bundle deploy`, e então `databricks bundle run` pra efetivamente subir o app.
+O deploy segue o mesmo caminho de qualquer app de agente no Azure Databricks: declarar os recursos necessários, tipo o Genie Space (com permissão `CAN_RUN`) e o serving endpoint (com `CAN_QUERY`), em `databricks.yml`, rodar `databricks bundle validate` e `databricks bundle deploy`, e então `databricks bundle run` pra efetivamente subir o app. Um detalhe que a documentação da Microsoft destaca à parte: quando um subagente é outro Databricks App (o caso do agente de avaliação de risco e do agente de requisitos aqui), a permissão `CAN_USE` sobre esse app alvo não pode ser declarada como recurso do bundle, ela precisa ser concedida manualmente depois do deploy, via `databricks apps update-permissions`, usando o client ID (UUID) do service principal do orquestrador, não o nome de exibição, porque usar o nome de exibição falha silenciosamente sem conceder a permissão.
 
 ## O que esse desenho não resolve sozinho
 

@@ -2,7 +2,7 @@
 title: "De PDF solto a coluna de tabela: o pipeline que domestica documento não estruturado no lakehouse"
 date: 2026-04-17T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Document Intelligence", "Lakeflow", "AI Functions", "Unstructured Data"]
+tags: ["Azure Databricks", "Document Intelligence", "Lakeflow", "AI Functions", "Unstructured Data"]
 summary: "ai_parse_document, ai_extract e ai_classify já são GA no Azure Databricks, e o pipeline de processamento inteligente de documento (IDP) inteiro roda dentro do Lakeflow, sem infraestrutura separada de OCR ou fila de mensagem. A peça que ainda é Beta, ai_prep_search, é justamente a que decide se o documento processado vira retrieval bom ou lixo semântico."
 ShowToc: true
 ---
@@ -91,5 +91,6 @@ O que a Databricks está vendendo aqui não é uma feature isolada, é a ideia d
 - Post oficial: [Building with Databricks Document Intelligence and Lakeflow](https://www.databricks.com/blog/building-databricks-document-intelligence-and-lakeflow)
 - Documentação oficial: [Intelligent Document Processing](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/intelligent-document-processing)
 - Documentação oficial (Microsoft Learn): [Intelligent document processing - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-bricks/intelligent-document-processing)
+- Documentação oficial (Microsoft Learn): [ai_parse_document function - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_parse_document)
 
 #Databricks #DocumentIntelligence #Lakeflow #DataEngineering

@@ -2,7 +2,7 @@
 title: "Agente que sobrevive à queda de worker: durabilidade real combinando Temporal e Lakebase"
 date: 2026-09-09T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Lakebase", "Temporal", "Agentes", "Postgres"]
+tags: ["Azure Databricks", "Lakebase", "Temporal", "Agentes", "Postgres"]
 summary: "Agente de IA de longa duração falha de um jeito diferente de API request-response: o processo pode cair no meio de uma etapa que já produziu efeito parcial. Um projeto de referência combina Temporal para reexecução determinística de workflow com Lakebase Postgres para estado operacional consultável, mas a idempotência de cada passo continua sendo responsabilidade de quem escreve o código do agente."
 ShowToc: true
 ---
@@ -77,6 +77,8 @@ Agente que realmente sobrevive à falha de infraestrutura, sem duplicar efeito c
 - Post oficial: [Build durable agents with Temporal and Lakebase](https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase)
 - Documentação oficial: [Lakebase autoscaling](https://docs.databricks.com/aws/en/oltp/projects/autoscaling)
 - Documentação oficial (Microsoft Learn): [Autoscaling - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/autoscaling)
+- Documentação oficial (Microsoft Learn): [Lakebase Change Data Feed - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/lakebase-cdf)
+- Documentação oficial (Microsoft Learn): [Serve lakehouse data with synced tables - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/sync-tables)
 - Documentação oficial: [Temporal Workflows](https://docs.temporal.io/workflows)
 - Repositório de referência: [temporal-sa/temporal-lakebase-agent](https://github.com/temporal-sa/temporal-lakebase-agent)
 

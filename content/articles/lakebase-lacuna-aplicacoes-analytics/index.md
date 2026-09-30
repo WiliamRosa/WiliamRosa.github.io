@@ -2,7 +2,7 @@
 title: "A lacuna entre aplicações e analytics, e como o Lakebase a resolve"
 date: 2026-09-10T15:00:00-03:00
 draft: false
-tags: ["Databricks", "Lakebase", "Postgres", "Arquitetura"]
+tags: ["Azure Databricks", "Lakebase", "Postgres", "Arquitetura"]
 summary: "Lakebase é um Postgres totalmente gerenciado e nativo da Databricks Data Intelligence Platform, pensado pra unificar workload transacional e analítico com governança única via Unity Catalog, sincronização bidirecional e recursos como autoscaling, scale-to-zero e database branching."
 ShowToc: true
 ---
@@ -30,7 +30,7 @@ Os pontos de dor dessa arquitetura são conhecidos de quem já operou algo parec
 
 ## O que é o Lakebase
 
-Lakebase é um banco de dados Postgres totalmente gerenciado e integrado nativamente à Databricks Data Intelligence Platform, projetado pra preencher a lacuna entre workload transacional (OLTP) e analítico (OLAP), unificando os dois num único ecossistema.
+Lakebase é um banco de dados Postgres totalmente gerenciado e integrado nativamente à plataforma Azure Databricks, projetado pra preencher a lacuna entre workload transacional (OLTP) e analítico (OLAP), unificando os dois num único ecossistema.
 
 Em termos simples: é como ter um servidor Postgres de alto desempenho vivendo dentro do seu lakehouse, com governança unificada via Unity Catalog, sincronização bidirecional nativa e recursos modernos como autoscaling, scale-to-zero e database branching.
 
@@ -89,7 +89,7 @@ Uma das maiores vantagens é a sincronização nativa entre lakehouse e Lakebase
 
 ## Três casos de uso estratégicos
 
-**Feature serving pra ML em tempo real.** O Lakebase funciona como online store pro Feature Store da Databricks. Feature calculada no lakehouse é sincronizada via Synced Tables pro Lakebase, de onde o modelo de ML consulta com latência de milissegundos.
+**Feature serving pra ML em tempo real.** O Lakebase funciona como online store pro Feature Store do Azure Databricks. Feature calculada no lakehouse é sincronizada via Synced Tables pro Lakebase, de onde o modelo de ML consulta com latência de milissegundos.
 
 **Estado de AI Agents.** Agente de IA precisa persistir estado entre requisição, contexto de conversa, histórico de ação, dado de workflow. O Lakebase fornece banco de dados transacional nativo pra guardar esse estado com consistência ACID.
 
@@ -137,4 +137,4 @@ O lakehouse finalmente tem seu banco de dados transacional nativo. E ele fala Po
 - Databricks Blog, "Databricks Lakebase is now Generally Available": https://www.databricks.com/blog/databricks-lakebase-generally-available
 - Databricks, "Lakebase - Serverless Postgres for Agents and Apps": https://www.databricks.com/product/lakebase
 
-#Databricks #Lakebase #Postgres #Arquitetura
+#AzureDatabricks #Lakebase #Postgres #Arquitetura

@@ -1,8 +1,8 @@
 ---
-title: "Índice de texto no Delta Lake: o que muda quando o Databricks para de escanear tudo pra achar uma palavra"
+title: "Índice de texto no Delta Lake: o que muda quando o Azure Databricks para de escanear tudo pra achar uma palavra"
 date: 2026-07-18T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Unity Catalog", "Delta Lake", "Performance", "SQL"]
+tags: ["Azure Databricks", "Unity Catalog", "Delta Lake", "Performance", "SQL"]
 summary: "O índice de busca textual do Unity Catalog (Beta na Databricks Runtime 18.2) deixa de varrer arquivo por arquivo atrás de uma palavra e passa a pular direto pra onde ela realmente está. O ganho de performance é real, mas vem com manutenção manual e uma lista de recursos incompatíveis que vale conhecer antes de sair criando índice em tudo."
 ShowToc: true
 ---
@@ -52,13 +52,13 @@ O ponto de comparação que mais importa aqui não é "quanto tempo demora", é 
 
 ## O detalhe que passa despercebido: refresh não é automático
 
-Diferente de uma estatística de tabela, o índice de busca textual não se atualiza sozinho quando a tabela recebe escrita nova. É preciso rodar `REFRESH INDEX log_idx` pra incorporar linhas novas de forma incremental, ou `REFRESH INDEX log_idx FULL` quando também é preciso remover entradas de linhas deletadas. Ignorar isso não quebra a query, porque o Databricks garante corretude usando table scan como fallback pra dado não indexado, mas o ganho de performance vai encolhendo silenciosamente conforme a tabela recebe escrita e ninguém lembra de atualizar o índice.
+Diferente de uma estatística de tabela, o índice de busca textual não se atualiza sozinho quando a tabela recebe escrita nova. É preciso rodar `REFRESH INDEX log_idx` pra incorporar linhas novas de forma incremental, ou `REFRESH INDEX log_idx FULL` quando também é preciso remover entradas de linhas deletadas. Ignorar isso não quebra a query, porque o Azure Databricks garante corretude usando table scan como fallback pra dado não indexado, mas o ganho de performance vai encolhendo silenciosamente conforme a tabela recebe escrita e ninguém lembra de atualizar o índice.
 
 **Minha leitura:** esse design é sensato pra evitar surpresa de resultado errado, mas cria um tipo de dívida técnica que é fácil não perceber, porque a query continua funcionando, só fica cada vez mais lenta sem avisar. Se o índice vai proteger uma tela de busca em produção, o refresh precisa entrar no mesmo job que faz a ingestão, não ficar como tarefa manual esporádica.
 
 ## O que isso não resolve
 
-O índice de busca textual não é um substituto de motor de busca full-text de verdade. Não existe ranking por relevância, não existe stemming, não existe busca fuzzy tolerante a erro de digitação, e três recursos bem usados em ambiente corporativo ficam de fora da lista de compatibilidade: OpenSharing, shallow clone e qualquer tabela com controle de acesso baseado em atributo (ABAC), máscara de coluna ou row-level security. Se a tabela adotar qualquer um desses depois de o índice já existir, o Databricks simplesmente ignora o índice na hora da query, silenciosamente, sem erro. Vale testar explicitamente `DESCRIBE INDEX` depois de qualquer mudança de política de acesso na tabela pra confirmar que o índice ainda está sendo considerado.
+O índice de busca textual não é um substituto de motor de busca full-text de verdade. Não existe ranking por relevância, não existe stemming, não existe busca fuzzy tolerante a erro de digitação, e três recursos bem usados em ambiente corporativo ficam de fora da lista de compatibilidade: OpenSharing, shallow clone e qualquer tabela com controle de acesso baseado em atributo (ABAC), máscara de coluna ou row-level security. Se a tabela adotar qualquer um desses depois de o índice já existir, o Azure Databricks simplesmente ignora o índice na hora da query, silenciosamente, sem erro. Vale testar explicitamente `DESCRIBE INDEX` depois de qualquer mudança de política de acesso na tabela pra confirmar que o índice ainda está sendo considerado.
 
 Também vale lembrar que é Beta: a documentação já avisa que índice criado nessa fase não tem garantia de compatibilidade quando o recurso virar Public Preview, e que vai ser preciso recriar. Não é o tipo de coisa que eu colocaria como dependência crítica de um pipeline de produção ainda em 2026.
 

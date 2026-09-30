@@ -2,7 +2,7 @@
 title: "Cinco alavancas técnicas pra baixar o custo de coding agent sem cortar acesso do time"
 date: 2026-08-08T09:00:00-03:00
 draft: false
-tags: ["Databricks", "AI Engineering", "Unity Gateway", "FinOps", "LLM"]
+tags: ["Azure Databricks", "AI Engineering", "Unity Gateway", "FinOps", "LLM"]
 summary: "Orçamento é só uma parte da conta de coding agent em escala. A Databricks lista cinco alavancas técnicas, roteamento dinâmico por modelo mais barato, meta-harness pra trocar de modelo sem fricção, e redução de token via cache e compressão de contexto, que reduziram custo em até 50% sem baixar qualidade percebida pelo engenheiro."
 ShowToc: true
 ---
@@ -16,7 +16,7 @@ Vale marcar uma diferença importante em relação a outro material que a própr
 ## O mecanismo: cinco alavancas, não uma bala de prata
 
 1. **Seleção por fronteira de eficiência**: em vez de sempre chamar o modelo de ponta, o sistema escolhe o modelo mais barato que ainda entrega qualidade aceitável pra aquela tarefa específica, reservando o modelo caro pra caso que realmente precisa de raciocínio pesado.
-2. **Meta-harness com flexibilidade de modelo**: uma camada de abstração (a Databricks chama a própria ferramenta interna de Omnigent) desacopla o harness de coding agent do modelo por trás, permitindo trocar de modelo sem que o engenheiro precise mudar de ferramenta ou de fluxo de trabalho.
+2. **Meta-harness com flexibilidade de modelo**: uma camada de abstração, documentada pela Microsoft como Omnigent, desacopla o harness de coding agent do modelo por trás, permitindo trocar de modelo sem que o engenheiro precise mudar de ferramenta ou de fluxo de trabalho. Não é uma ferramenta só de uso interno da Databricks: o Azure Databricks documenta a instalação (`omni setup`) e a conexão da máquina do desenvolvedor ao servidor (`omni host --server <workspace-url>`) como parte normal de configuração do Unity Gateway.
 3. **Roteamento dinâmico de requisição e tarefa**: um sistema de Smart Routing decide, por requisição ou por tipo de tarefa, qual o modelo mais barato capaz de resolver aquilo, incluindo padrão de escalonamento pra modelo mais caro só quando o mais barato falha. A Databricks relata 30% de redução de custo mantendo qualidade equivalente.
 4. **Visibilidade do desenvolvedor com fricção progressiva**: em vez de bloqueio duro quando o orçamento acaba, o sistema usa dashboard de gasto visível pro próprio engenheiro, portão de autoliberação, e downshift de modelo (troca automática pra opção mais barata) em vez de suspensão total.
 5. **Redução de overhead de token**: compressão de contexto, harness mais eficiente e cache de prompt, com redução relatada de 50% no volume de token sem perda de qualidade percebida.
@@ -61,7 +61,7 @@ Um ponto que passa despercebido na primeira leitura é que "modelo mais barato q
 Essa lista de técnica ataca o "quanto se gasta por chamada", não resolve tudo:
 
 - **Downshift automático de modelo pode degradar qualidade de um jeito que só aparece depois**, quando o código gerado por um modelo mais barato introduz um bug sutil que passa despercebido no code review. Métrica de "qualidade equivalente" comparada em benchmark interno não é garantia de qualidade equivalente no seu código específico.
-- **Meta-harness e roteamento dinâmico são investimento de engenharia de plataforma**, não configuração de dez minutos. Time pequeno sem squad de platform engineering dedicado provavelmente não vai construir um Omnigent próprio, vai depender do que o fornecedor de ferramenta já oferecer pronto.
+- **Meta-harness e roteamento dinâmico ainda exigem investimento real**, não é configuração de dez minutos. O Omnigent em si já vem pronto pra instalar via CLI, mas escrever política de roteamento própria, curar a lista de modelo candidato por tarefa e manter isso atualizado é trabalho de engenharia contínuo. Time pequeno sem squad de platform engineering dedicado tende a ficar só no Smart Routing por agente, habilitado direto na Unity Gateway CLI (`ug claude --enable-smart-routing`), sem entrar em roteamento cruzado entre harness via Omnigent.
 - **Redução de token via compressão de contexto tem limite prático**: comprimir demais o contexto de um repositório grande derruba a qualidade da sugestão do agente, porque ele perde referência de código relacionado que estava fora da janela comprimida.
 
 ## Fechamento
@@ -73,5 +73,6 @@ O recado central aqui é que custo de coding agent em escala não se resolve com
 - Post oficial: [Managing AI Coding Costs at Scale](https://www.databricks.com/blog/managing-ai-coding-costs-scale)
 - Documentação oficial: [Unity Gateway](https://docs.databricks.com/aws/en/ai-gateway/)
 - Documentação oficial (Microsoft Learn): [AI governance with Unity Gateway - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ai-gateway/)
+- Documentação oficial (Microsoft Learn): [Smart Routing for coding agents - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ai-gateway/smart-routing)
 
 #Databricks #AIEngineering #FinOps #CodingAgents

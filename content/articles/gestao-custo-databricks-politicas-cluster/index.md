@@ -1,9 +1,9 @@
 ---
-title: "Gestão de custo no Databricks é decisão de política de cluster, não corte de orçamento no fim do mês"
+title: "Gestão de custo no Azure Databricks é decisão de política de cluster, não corte de orçamento no fim do mês"
 date: 2022-10-19T09:00:00-03:00
 draft: false
-tags: ["Databricks", "FinOps", "Cluster Policies", "Governança", "Custo"]
-summary: "Controlar gasto no Databricks funciona melhor como restrição estrutural definida em cluster policy, autoscaling e auto-termination, do que como auditoria reativa de fatura no fim do mês. O trade-off central é entre restringir demais e travar produtividade, ou liberar demais e perder controle de custo."
+tags: ["Azure Databricks", "FinOps", "Cluster Policies", "Governança", "Custo"]
+summary: "Controlar gasto no Azure Databricks funciona melhor como restrição estrutural definida em cluster policy, autoscaling e auto-termination, do que como auditoria reativa de fatura no fim do mês. O trade-off central é entre restringir demais e travar produtividade, ou liberar demais e perder controle de custo."
 ShowToc: true
 ---
 
@@ -48,9 +48,9 @@ Uma policy típica pra ambiente de desenvolvimento, limitando tamanho de cluster
     "type": "fixed",
     "value": "dados-analytics"
   },
-  "aws_attributes.availability": {
+  "azure_attributes.availability": {
     "type": "fixed",
-    "value": "SPOT_WITH_FALLBACK"
+    "value": "SPOT_WITH_FALLBACK_AZURE"
   }
 }
 ```
@@ -83,5 +83,6 @@ Gestão de custo eficaz em Azure Databricks se parece mais com desenho de sistem
 
 - Databricks Blog, "Best Practices for Cost Management on Databricks": https://www.databricks.com/blog/best-practices-cost-management-databricks
 - Microsoft Learn, "Classic compute configuration best practices - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/compute/cluster-config-best-practices
+- Microsoft Learn, "Compute policy reference - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/admin/clusters/policy-definition
 
-#Databricks #FinOps #ClusterPolicies #Governança
+#AzureDatabricks #FinOps #ClusterPolicies #Governança

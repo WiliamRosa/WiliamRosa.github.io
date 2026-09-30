@@ -2,7 +2,7 @@
 title: "Nem toda decisão de IA precisa de um chat: rodando um modelo de decisão puro direto do SQL"
 date: 2026-09-25T09:00:00-03:00
 draft: false
-tags: ["Databricks", "AI Engineering", "SQL", "Model Serving"]
+tags: ["Azure Databricks", "AI Engineering", "SQL", "Model Serving"]
 summary: "Modelos de decisão como o Jev respondem a partir de um conjunto fechado de opções, mais rápido e mais barato que um LLM de raciocínio, e o Azure Databricks deixa consultar esse tipo de modelo direto do SQL via ai_query, sem montar interface de chat nem pipeline de inferência à parte."
 ShowToc: true
 ---
@@ -60,7 +60,7 @@ O retorno estruturado (`categoria`, `urgencia`, `confianca`) já sai pronto pra 
 
 **Modelo customizado ou externo**, categoria onde entra um modelo de decisão tipo Jev: modelo de ML tradicional, treinado fora do ecossistema de foundation models, ou hospedado fora do Azure Databricks via endpoint de modelo externo. É a opção com mais controle e também a que exige mais decisão de infraestrutura por conta própria, criar e manter o endpoint de serving é responsabilidade de quem opera.
 
-Pra quem está decidindo onde investir esforço de plataforma, essa lista já é um roteiro de priorização: comece pelo que a Databricks hospeda de graça, e só desça pra opção customizada quando o modelo específico da tarefa justificar o trabalho extra de operar o endpoint.
+Pra quem está decidindo onde investir esforço de plataforma, essa lista já é um roteiro de priorização: comece pelo que o Azure Databricks hospeda de graça, e só desça pra opção customizada quando o modelo específico da tarefa justificar o trabalho extra de operar o endpoint.
 
 ## Governança pelo Unity Gateway, com uma ressalva real
 
@@ -82,4 +82,4 @@ Nem todo problema com IA é um problema de conversa. Quando a saída é uma deci
 - Microsoft Learn, "Structured outputs on Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-serving/structured-outputs
 - Databricks Blog, "Running open-Jev in SQL on Databricks": https://www.databricks.com/blog/running-open-jev-sql-databricks
 
-#Databricks #AIEngineering #SQL #ModelServing
+#AzureDatabricks #AIEngineering #SQL #ModelServing

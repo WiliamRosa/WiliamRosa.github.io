@@ -2,7 +2,7 @@
 title: "Por que juntar SIEM e lakehouse na mesma tabela muda o cálculo de custo e velocidade em SecOps"
 date: 2025-10-01T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Ciberseguranca", "Unity Catalog", "Lakebase", "Arquitetura"]
+tags: ["Azure Databricks", "Ciberseguranca", "Unity Catalog", "Lakebase", "Arquitetura"]
 summary: "Data Intelligence for Cybersecurity une Agent Bricks, Lakebase e o padrão aberto OCSF sobre Delta Lake pra tratar telemetria de segurança como dado de lakehouse governado, em vez de um silo isolado dentro de um SIEM proprietário caro por volume ingerido."
 ShowToc: true
 ---
@@ -56,6 +56,8 @@ O argumento de fundo que sustenta essa arquitetura vale destacar de forma isolad
 
 Normalizar telemetria em OCSF exige mapeamento de fonte que não segue o padrão nativamente, e esse trabalho de mapeamento não desaparece só porque a plataforma de destino é melhor, alguém ainda precisa garantir que o conector ou pipeline de ingestão está traduzindo o evento da ferramenta de endpoint específica pra dentro do schema OCSF corretamente. Detecção baseada em regra e correlação que hoje já roda madura dentro de um SIEM tradicional também não é recriada automaticamente: migrar a lógica de detecção existente, ajustada ao longo de anos pra reduzir falso positivo, é trabalho manual de reescrita e reteste, não portabilidade automática. E depender de um ecossistema de parceiro (mais de 25 citados no anúncio, incluindo ferramenta de SIEM, descoberta de dado e segurança de agente de IA) significa que parte da experiência final depende da maturidade da integração de cada parceiro específico, não só da Databricks.
 
+Vale um esclarecimento pra quem roda especificamente no Azure: "Data Intelligence for Cybersecurity" foi anunciado como iniciativa multi-cloud, sem página dedicada na documentação da Microsoft. Mas as três peças técnicas que sustentam a arquitetura, governança via Unity Catalog, automação via Agent Bricks e banco operacional via Lakebase, são todas capacidades documentadas e disponíveis no Azure Databricks hoje, então quem já usa a plataforma no Azure não depende de nenhum recurso exclusivo de outra nuvem pra montar essa arquitetura de segurança.
+
 ## Fechamento
 
 Tratar dado de segurança como dado de lakehouse, governado pelo mesmo Unity Catalog e armazenado no mesmo formato aberto que o resto da plataforma, ataca um problema estrutural real de SOC moderno: o custo de retenção que hoje limita visibilidade. Vale a pena avaliar com cuidado a extensão do esforço de migração de regra de detecção existente antes de tratar isso como troca simples de fornecedor.
@@ -65,5 +67,8 @@ Tratar dado de segurança como dado de lakehouse, governado pelo mesmo Unity Cat
 - Databricks Blog, "Announcing Data Intelligence for Cybersecurity": https://www.databricks.com/blog/transforming-cybersecurity-data-intelligence
 - Databricks, "Lakebase": https://www.databricks.com/product/lakebase
 - Databricks, "Databricks AI Security Framework (DASF)": https://www.databricks.com/resources/whitepaper/databricks-ai-security-framework-dasf
+- Microsoft Learn, "What is Unity Catalog? - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/
+- Microsoft Learn, "Lakebase Postgres - Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/oltp/projects/
+- Microsoft Learn, "Build agents on Azure Databricks": https://learn.microsoft.com/en-us/azure/databricks/agents/
 
 #Databricks #Ciberseguranca #UnityCatalog #Lakebase

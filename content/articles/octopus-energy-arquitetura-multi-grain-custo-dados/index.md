@@ -2,7 +2,7 @@
 title: "Nem tudo precisa da mesma granularidade: como separar SLA por fluxo derrubou custo de dado em 50x"
 date: 2026-05-24T09:00:00-03:00
 draft: false
-tags: ["Databricks", "Delta Lake", "Data Engineering", "Custo"]
+tags: ["Azure Databricks", "Delta Lake", "Data Engineering", "Custo"]
 summary: "A Octopus Energy reduziu de 25 bilhões pra 300 milhões de linhas processadas trocando um pipeline mensal monolítico por três fluxos independentes de granularidade diferente, usando Change Data Feed, dbt incremental e Adaptive Query Execution. O custo por dado de liquidação MHHS caiu de cerca de 23 dólares pra menos de 50 centavos."
 ShowToc: true
 ---
@@ -35,7 +35,7 @@ A arquitetura multi-grain sozinha não explica o ganho de custo, o que faz a dif
 
 **Adaptive Query Execution (AQE) do Spark**: ajusta o plano de execução da query em tempo real, com base em estatística real coletada durante a própria execução, em vez de depender só de estimativa estática feita antes de rodar.
 
-**Databricks Serverless**: elimina a latência de start de cluster no ciclo de desenvolvimento iterativo, o que segundo a Octopus Energy foi relevante pra acelerar a própria reformulação do pipeline.
+**Azure Databricks serverless compute**: elimina a latência de start de cluster no ciclo de desenvolvimento iterativo, o que segundo a Octopus Energy foi relevante pra acelerar a própria reformulação do pipeline.
 
 **Workflow "job of jobs"**: orquestra a dependência entre os três fluxos e a camada de consumo unificada, garantindo ordem de execução correta sem acoplamento rígido entre eles.
 
@@ -87,5 +87,6 @@ O ganho de 50x na Octopus Energy não veio de uma feature isolada, veio de recon
 - [Scaling MHHS: how Octopus Energy achieved 50x cost reduction in margin data engineering](https://www.databricks.com/blog/scaling-mhhs-how-octopus-energy-achieved-50x-cost-reduction-margin-data-engineering) (blog oficial Databricks)
 - [Delta Lake Change Data Feed](https://docs.databricks.com/aws/en/delta/delta-change-data-feed) (documentação oficial)
 - [Use change data feed on Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/tables/features/change-data-feed) (Microsoft Learn)
+- [Serverless compute - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/compute/serverless/) (Microsoft Learn)
 
-#Databricks #DeltaLake #DataEngineering #Custo
+#AzureDatabricks #DeltaLake #DataEngineering #Custo
