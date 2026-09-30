@@ -1,7 +1,7 @@
 ---
 title: "Onde sua managed table mora não precisa mais ser decisão do metastore inteiro"
 date: 2026-09-29T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Azure Databricks", "Governança"]
 summary: "A Databricks publicou um guia detalhando o comando SET MANAGED LOCATION em três níveis de hierarquia, metastore, catálogo e schema, cada um sobrepondo o anterior, além de ALTER CATALOG/SCHEMA para redirecionar tabela nova sem afetar a existente e ALTER TABLE para converter external em managed copiando o dado."
 ShowToc: false
