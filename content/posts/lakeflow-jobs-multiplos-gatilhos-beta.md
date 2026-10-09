@@ -1,7 +1,7 @@
 ---
 title: "Um job do Lakeflow agora pode esperar por até cinco gatilhos diferentes ao mesmo tempo"
 date: 2026-10-09T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakeflow Jobs", "Opinião"]
 summary: "O Databricks MVP Derar Alhussein destacou o suporte a múltiplos gatilhos (Beta) no Lakeflow Jobs: um job pode combinar até cinco triggers de tipos iguais ou diferentes, cada um pausável de forma independente, e qualquer um que disparar inicia a execução."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Agente de atendimento lê dado do Databricks sem cópia, e devolve a conversa estruturada de volta"
 date: 2026-10-01T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "OpenSharing", "Agentes", "Opinião"]
 summary: "A parceria entre Decagon e Databricks usa OpenSharing zero-copy nos dois sentidos: agentes de atendimento leem registro de cliente governado direto do Databricks sem ETL, e cada conversa volta estruturada, com intenção, causa raiz e sentimento, pra enriquecer tabela de receita e produto."
 ShowToc: false

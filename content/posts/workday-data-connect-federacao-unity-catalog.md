@@ -1,7 +1,7 @@
 ---
 title: "Ler tabela do Workday direto do Unity Catalog, sem pipeline de ingestão no meio"
 date: 2026-10-02T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Unity Catalog", "Federação", "Opinião"]
 summary: "Workday Data Connect catalog federation (Beta) registra tabela do Workday como foreign table no Unity Catalog, lida direto do cloud storage via autenticação OAuth com Integration System User, sem copiar dado nem construir pipeline de ingestão, mas só em modo de acesso padrão."
 ShowToc: false

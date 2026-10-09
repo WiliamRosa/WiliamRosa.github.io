@@ -1,7 +1,7 @@
 ---
 title: "A Databricks comprou uma planilha de bilhão de linhas pra virar a mão do Genie"
 date: 2026-09-25T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Genie", "Aquisição", "Opinião"]
 summary: "A Databricks adquiriu a Row Zero, startup de planilha que roda cada arquivo numa instância dedicada e aguenta bilhão de linha, pra dar ao Genie uma interface de planilha nativa, governada por Unity Catalog e Unity Gateway, com permissão, auditoria e write-back."
 ShowToc: false
