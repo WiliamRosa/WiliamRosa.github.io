@@ -1,6 +1,13 @@
 {
-  "last_run": "2026-09-28T09:00:00-03:00",
+  "last_run": "2026-10-09T18:00:00-03:00",
   "processed_articles": [
+    "https://medium.com/databrickscommunity/databricks-dabs-ci-cd-4-ways-to-automate-your-deployments-6a732d9e928c",
+    "https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks",
+    "https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres",
+    "https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents",
+    "https://www.databricks.com/blog/running-open-jev-sql-databricks",
+    "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook",
+    "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks",
     "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
     "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
     "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
