@@ -1,7 +1,7 @@
 ---
 title: "CI/CD pra Declarative Automation Bundles: quatro caminhos possíveis, e o que separa eles de verdade"
 date: 2026-10-08T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Declarative Automation Bundles", "CI/CD", "DevOps"]
 summary: "Depois que uma Declarative Automation Bundle funciona no notebook de alguém, o problema seguinte é sempre o mesmo: como fazer o deploy acontecer sem um token pessoal sentado num GitHub Secret pra sempre. Mapeei os quatro caminhos recomendados pelo Azure Databricks e o que realmente muda entre eles."
 ShowToc: true

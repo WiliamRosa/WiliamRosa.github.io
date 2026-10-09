@@ -1,7 +1,7 @@
 ---
 title: "Carregar 1 TB em menos de 5 minutos no Lakebase: o que o LTAP Direct Writes contorna no gargalo clássico do Postgres"
 date: 2026-10-09T14:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakebase", "Postgres", "LTAP"]
 summary: "Um cliente levava mais de 8 horas carregando cerca de 1 bilhão de linhas por dia via Synced Tables, saturando CPU e memória do Postgres. O LTAP Direct Writes contorna o escritor único do banco construindo os dados em paralelo fora da instância primária, e a Databricks reporta carga de 1 TB em menos de 5 minutos."
 ShowToc: true

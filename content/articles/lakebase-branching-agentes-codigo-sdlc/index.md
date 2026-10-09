@@ -1,7 +1,7 @@
 ---
 title: "Cada agente de código com seu próprio banco: branching do Lakebase aplicado ao ciclo de desenvolvimento agêntico"
 date: 2026-10-09T18:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakebase", "Agentic AI", "DevOps"]
 summary: "Agentes de código rodando em paralelo contra um único banco de desenvolvimento compartilhado criam conflito de schema, interferência de dado e risco de exposição de dado sensível. Branching instantâneo do Lakebase, aplicado por worktree ou por pull request, dá a cada agente seu próprio banco isolado."
 ShowToc: true

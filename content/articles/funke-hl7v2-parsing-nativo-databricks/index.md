@@ -1,7 +1,7 @@
 ---
 title: "Parsing de HL7v2 direto no lakehouse: o que o Funke resolve que converter pra FHIR primeiro não resolve"
 date: 2026-10-09T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Saúde", "HL7v2", "Unity Catalog"]
 summary: "Funke é um acelerador open source que faz parsing nativo de mensagens HL7v2 em tipos Spark dentro do lakehouse, evitando tanto a perda de informação de converter pra FHIR primeiro quanto o custo de um motor de terceiro pra achatar a mensagem."
 ShowToc: true
