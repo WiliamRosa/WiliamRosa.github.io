@@ -1,7 +1,7 @@
 ---
 title: "Seu Databricks App não devia mostrar o mesmo dado pra todo mundo que faz login"
 date: 2026-10-08T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Databricks Apps", "Unity Catalog", "Segurança"]
 summary: "Autorização on-behalf-of-user em Databricks Apps (GA) encaminha o token de acesso de quem está logado pra dentro da aplicação, fazendo linha e coluna respeitarem a permissão individual do usuário no Unity Catalog, em vez de depender do service principal único e compartilhado do app."
 ShowToc: true

@@ -1,7 +1,7 @@
 ---
 title: "O gargalo da IA em imagem médica não é o modelo, é conseguir ler o arquivo DICOM rápido o suficiente"
 date: 2026-10-09T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Saúde", "Engenharia de Dados", "DICOM"]
 summary: "Antes de qualquer modelo de segmentação ou classificação entrar em cena, times de imagem médica esbarram num problema mais chato: biblioteca de parsing DICOM é de thread única, e des-identificar PHI em cabeçalho e pixel em escala exige um pipeline próprio, não só mais GPU."
 ShowToc: true

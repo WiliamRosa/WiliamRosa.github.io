@@ -1,7 +1,7 @@
 ---
 title: "Busca vetorial em lote não devia depender do tamanho do endpoint, e agora não depende mais"
 date: 2026-10-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Databricks SQL", "Vector Search", "Performance"]
 summary: "A cláusula NEAREST BY transforma busca vetorial em lote num tipo de join nativo do Databricks SQL, tirando o gargalo que antes vinha do tamanho do endpoint de serving e jogando o problema pra cima do cluster inteiro, com kernel Photon fundido e índice IVF opcional."
 ShowToc: true
