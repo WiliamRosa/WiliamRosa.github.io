@@ -1,7 +1,7 @@
 ---
 title: "Como a Concurrence governa IA clínica numa escala de 1,2 trilhão de tokens por ano com Unity Gateway"
 date: 2026-09-24T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Unity Gateway", "Lakebase", "Saúde"]
 summary: "A Concurrence consolidou documentação ambiente e resumo de plano de cuidado sobre Lakebase, Unity Catalog e Unity Gateway, processando hoje cerca de 100,8 bilhões de tokens de entrada e 11,2 milhões de chamadas de LLM por mês, taxa anualizada de 1,2 trilhão de tokens, crescimento de cinco vezes desde o fim de 2025."
 ShowToc: false

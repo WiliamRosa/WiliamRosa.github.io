@@ -1,7 +1,7 @@
 ---
 title: "Testei o Agent Bricks CLI em Beta: de pasta vazia a agente no ar em cinco comandos"
 date: 2026-10-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Agent Bricks", "CLI"]
 summary: "O Databricks MVP Gary Nakanelua testou o novo Agent Bricks CLI, em Beta, e levou cerca de 188 segundos de uma pasta vazia até um agente no ar com memória, sessão e rastreamento já conectados, encontrando dois pontos de atrito no caminho: um erro no primeiro deploy por causa dos stores de memória e sessão, e um projeto Lakebase que o comando de exclusão deixa para trás."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Dataset Materialization no AI/BI: pré-computar resultado pra não repetir a mesma consulta cara"
 date: 2026-10-10T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "AI/BI", "Dashboards"]
 summary: "A Databricks MVP Nidhi Gupta detalhou a Dataset Materialization dos dashboards AI/BI: em vez de rodar a mesma consulta a cada abertura do dashboard, o resultado fica pré-computado e é servido direto, opção habilitada via Previews pra dataset em SQL ou tabela."
 ShowToc: false

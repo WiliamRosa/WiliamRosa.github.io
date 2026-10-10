@@ -1,7 +1,7 @@
 ---
 title: "Worldpanel by Numerator cortou um relatório de 12 dias para 1 trocando a camada de consulta por Lakebase"
 date: 2026-08-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakebase", "Caso de Cliente"]
 summary: "A Worldpanel by Numerator construiu o Item Picker sobre Lakebase para dar a times inteiros acesso direto a cerca de 18 bilhões de registros de transação por painel, sem depender de um grupo pequeno de especialistas, e cortou um relatório global de 12 dias para 1."
 ShowToc: false

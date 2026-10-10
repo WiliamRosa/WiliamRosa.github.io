@@ -1,7 +1,7 @@
 ---
 title: "Pipeline do Lakeflow agora pode rodar como grupo, não só como usuário ou service principal"
 date: 2026-10-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakeflow", "Governança"]
 summary: "A identidade run-as de uma pipeline do Lakeflow agora aceita um grupo de conta, além de usuário e service principal: atualização da pipeline passa a rodar com a permissão do grupo, e a propriedade das tabelas publicadas acompanha essa mesma identidade, útil pra time inteiro ser dono de uma pipeline automatizada."
 ShowToc: false

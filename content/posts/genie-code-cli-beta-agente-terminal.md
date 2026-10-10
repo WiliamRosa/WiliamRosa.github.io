@@ -1,7 +1,7 @@
 ---
 title: "Genie Code CLI chega em Beta: um agente de terminal que já nasce entendendo seu workspace Azure Databricks"
 date: 2026-10-07T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Genie Code", "CLI"]
 summary: "O Genie Code CLI, em Beta, é um agente de codificação que roda localmente no terminal, pré-configurado pra entender Azure Databricks e trabalhar com dado, pipeline, modelo e app via Unity Catalog e Databricks CLI, com acesso a modelo provido e governado pelo Unity Gateway durante o Beta."
 ShowToc: false

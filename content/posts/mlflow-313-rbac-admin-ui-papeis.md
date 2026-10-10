@@ -1,7 +1,7 @@
 ---
 title: "MLflow 3.13 trocou permissão por recurso avulso por um sistema de papéis com UI própria de admin"
 date: 2026-10-04T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "MLflow", "Governança"]
 summary: "O Databricks MVP Juan Diaz destacou o RBAC completo do MLflow 3.13: papel reutilizável com permissão agrupada, UI de admin via navegador e matriz de permissão cobrindo experimento, modelo e artefato, fechando uma lacuna de quem hospeda o próprio MLflow em vez de pagar por plataforma gerenciada só por causa de controle de acesso."
 ShowToc: false

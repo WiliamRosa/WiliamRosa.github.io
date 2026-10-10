@@ -1,7 +1,7 @@
 ---
 title: "Cinco pilares pra controlar gasto de SQL warehouse: atribuição, orçamento, alerta, dashboard e otimização"
 date: 2026-10-08T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "FinOps", "SQL Warehouse"]
 summary: "A Databricks publicou um guia estruturado em cinco pilares pra controlar gasto de SQL warehouse: tag de warehouse e de consulta alimentando system table, orçamento por workspace ou tag no Account Console, alerta de SQL rodando sobre essa mesma system table, e otimização via auto-stop e predictive optimization."
 ShowToc: false
