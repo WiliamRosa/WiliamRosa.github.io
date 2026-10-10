@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-10-09T18:00:00-03:00",
+  "last_run": "2026-10-10T12:00:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
+    "https://www.databricks.com/blog/now-ga-building-permission-aware-databricks-apps-behalf-user-authorization",
+    "https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model",
     "https://medium.com/databrickscommunity/databricks-dabs-ci-cd-4-ways-to-automate-your-deployments-6a732d9e928c",
     "https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks",
     "https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres",
