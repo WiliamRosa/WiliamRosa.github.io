@@ -1,6 +1,11 @@
 {
-  "last_run": "2026-10-10T20:00:00-03:00",
+  "last_run": "2026-10-12T22:00:00-03:00",
   "processed_sources": [
+    "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
+    "https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime",
+    "https://learn.microsoft.com/en-us/azure/databricks/admin/workspace-settings/default-package-repositories",
+    "https://mlflow.org/releases/3.17.0/",
+    "https://docs.databricks.com/aws/en/dashboards/manage/data-modeling/dashboard-relationships/",
     "https://mlflow.org/releases/3.13.0/#rbac",
     "https://medium.com/@nidhig631/databricks-dataset-materialization-594bef4f21ce",
     "https://www.databricks.com/customers/numerator/lakebase",
