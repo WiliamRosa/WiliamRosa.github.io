@@ -1,6 +1,8 @@
 {
-  "last_run": "2026-10-10T12:00:00-03:00",
+  "last_run": "2026-10-12T14:00:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
+    "https://www.databricks.com/blog/using-memalign-improve-evaluation-traditional-machine-learning-genie-code",
     "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
     "https://www.databricks.com/blog/now-ga-building-permission-aware-databricks-apps-behalf-user-authorization",
     "https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model",
