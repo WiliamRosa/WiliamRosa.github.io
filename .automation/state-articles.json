@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-10-12T14:00:00-03:00",
+  "last_run": "2026-10-14T22:00:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
+    "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages",
+    "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
     "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
     "https://www.databricks.com/blog/using-memalign-improve-evaluation-traditional-machine-learning-genie-code",
     "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
