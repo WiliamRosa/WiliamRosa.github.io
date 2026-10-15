@@ -1,7 +1,7 @@
 ---
 title: "Lakeflow Designer ganhou guardrails, profiling completo e versionamento visual, e começa a parecer ferramenta de produção"
 date: 2026-10-14T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakeflow", "Governança de Dados", "No-Code"]
 summary: "O roundup de outubro do Lakeflow Designer trouxe operadores de qualidade de dado (Prepare, Unique, Guardrails), saída em materialized view e versionamento visual, consolidando num só release o tipo de recurso que normalmente vem espalhado por meses."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Previsão de série temporal como modelo de fundação: a aposta do ai_forecast dentro do SQL do Databricks"
 date: 2026-10-14T10:30:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "SQL", "Machine Learning", "AI Functions"]
 summary: "As Predictive AI Functions, em Beta, trazem um ai_forecast renovado baseado em modelo de fundação para série temporal, mais quatro funções SQL novas de análise de driver, anomalia e predição, sem exigir que o usuário treine ou gerencie modelo."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Agentes no Azure Databricks ganharam memória de longo prazo, destilada por um LLM a cada 24 horas"
 date: 2026-10-14T12:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Agentes de IA", "LLM"]
 summary: "Agent memory pipelines, em Beta, conectam um session store a um memory store e usam um LLM para destilar fato, preferência e decisão de conversas passadas em entradas de memória que o agente recupera depois, rodando sob demanda ou a cada 24 horas."
 ShowToc: false

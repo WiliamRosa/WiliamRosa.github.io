@@ -1,7 +1,7 @@
 ---
 title: "Pipeline que passa inteira não significa número certo: teste unitário nativo chega ao Lakeflow"
 date: 2026-10-13T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Azure Databricks", "Lakeflow", "Data Engineering", "Testes"]
 summary: "O Databricks MVP Shashank Shekhar documentou o teste unitário nativo (Beta) de Spark Declarative Pipelines: roda dentro do próprio editor, redireciona tabela pra um schema isolado com dado mockado via test_spark, executa refresh seletivo com TestPipeline.active() e checa resultado, pegando bug de lógica que passaria despercebido mesmo com toda expectation satisfeita."
 ShowToc: false

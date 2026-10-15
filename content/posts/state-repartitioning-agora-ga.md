@@ -1,7 +1,7 @@
 ---
 title: "O repartition sob demanda que era Public Preview virou GA, e dois Databricks MVPs bateram nisso no mesmo dia"
 date: 2026-10-14T20:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Azure Databricks", "Structured Streaming", "Apache Spark"]
 summary: "On-demand state repartitioning, que já cobrimos aqui como Public Preview, chegou à disponibilidade geral: redimensionar partição de shuffle de uma query stateful ou pipeline do Lakeflow sem perder o estado do checkpoint, e agora os Databricks MVPs Hubert Dudek e Derar Alhussein confirmaram, cada um por conta própria, que o recurso está liberado pra uso geral."
 ShowToc: false

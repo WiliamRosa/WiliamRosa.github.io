@@ -1,7 +1,7 @@
 ---
 title: "A Databricks CLI 1.20 não deprecia mais o Terraform em bundle, ela remove de vez"
 date: 2026-10-14T19:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Azure Databricks", "Databricks Asset Bundles", "Terraform", "DevOps"]
 summary: "O Databricks MVP Daniel Sahal destacou que a Databricks CLI 1.20.0 removeu de vez o engine Terraform de Databricks Asset Bundles: setar bundle.engine: terraform ou a variável de ambiente equivalente agora retorna erro, e falha de migração de state também vira erro em vez de cair de volta pro Terraform."
 ShowToc: false

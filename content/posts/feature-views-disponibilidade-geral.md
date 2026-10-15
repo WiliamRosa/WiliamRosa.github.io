@@ -1,7 +1,7 @@
 ---
 title: "Feature Views chegou à disponibilidade geral, e unifica feature de batch, streaming e tempo de requisição numa peça só"
 date: 2026-10-14T13:30:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Machine Learning", "Feature Store"]
 summary: "Feature Views atingiu disponibilidade geral no Azure Databricks para dado de batch, streaming e tempo de requisição, mas só chega a workspaces com compliance security profile em meados de novembro de 2026, quase um mês depois do resto."
 ShowToc: false
