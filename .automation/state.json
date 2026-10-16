@@ -1,6 +1,10 @@
 {
-  "last_run": "2026-10-14T22:40:00-03:00",
+  "last_run": "2026-10-16T23:00:00-03:00",
   "processed_sources": [
+    "https://www.databricks.com/blog/ip-functions-are-generally-available-bringing-high-performance-network-analytics-lakehouse",
+    "https://www.databricks.com/blog/reducing-noise-how-atlassian-built-ocsf-security-lakehouse-databricks",
+    "https://docs.databricks.com/aws/en/external-access/cross-engine-abac",
+    "https://learn.microsoft.com/en-us/azure/databricks/agents/legacy/",
     "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
     "https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime",
     "https://learn.microsoft.com/en-us/azure/databricks/admin/workspace-settings/default-package-repositories",
