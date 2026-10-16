@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-10-14T22:00:00-03:00",
+  "last_run": "2026-10-16T18:00:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages",
+    "https://www.databricks.com/blog/geospatial-queries-are-38x-faster-lakehousert",
+    "https://www.databricks.com/blog/how-our-ai-research-team-uses-ai-runtime",
     "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
     "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages",
     "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
