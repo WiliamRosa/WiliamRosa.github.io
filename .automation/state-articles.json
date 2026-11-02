@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-10-20T21:00:00-03:00",
+  "last_run": "2026-11-02T16:30:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/announcing-general-availability-real-time-mode-spark-declarative-pipelines-databricks",
+    "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases",
+    "https://learn.microsoft.com/en-us/azure/databricks/jobs/environment-variables",
     "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents",
     "https://www.databricks.com/blog/introducing-agent-memory-databricks",
     "https://www.databricks.com/blog/transactions-are-generally-available-advancing-warehousing-lakehouse",
