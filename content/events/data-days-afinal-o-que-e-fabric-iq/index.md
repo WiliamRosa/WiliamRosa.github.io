@@ -1,7 +1,7 @@
 ---
 title: "📊 Data Days, Ep. 6: afinal, o que é o Fabric IQ?"
 date: 2026-11-02T14:25:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Microsoft Fabric"]
 summary: "Sexta sessão da série Data Days do Microsoft Reactor, explicando como o Fabric IQ usa contexto de negócio pra ajudar a IA a entender melhor o dado da organização, e como ele se conecta ao resto do Microsoft Fabric."

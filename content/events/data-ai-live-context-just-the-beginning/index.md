@@ -1,7 +1,7 @@
 ---
 title: "🌐 DATA + AI LIVE: Context Is Just the Beginning"
 date: 2026-11-02T15:00:00-03:00
-draft: true
+draft: false
 eventSource: "Databricks"
 tags: ["Evento", "Databricks", "Genie"]
 summary: "Evento global ao vivo da Databricks, com o CEO Ali Ghodsi e Greg Brockman (OpenAI) entre os palestrantes, estreando novidade na família Genie de ferramentas de IA, com foco em contexto de negócio e agente capaz de ir além de só responder pergunta."

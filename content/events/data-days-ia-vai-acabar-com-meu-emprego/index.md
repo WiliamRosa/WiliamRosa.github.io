@@ -1,7 +1,7 @@
 ---
 title: "💼 Data Days, Ep. 3: a IA vai acabar com o meu emprego? Vamos falar sobre isso"
 date: 2026-11-02T14:10:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "IA no Trabalho"]
 summary: "Terceira sessão da série Data Days do Microsoft Reactor, com Brendell Gomes e Luis Gustavo Nascimento Serra encarando direto a ansiedade sobre substituição de emprego por IA, sem prometer resposta fácil."

@@ -1,7 +1,7 @@
 ---
 title: "💡 Data Days, Ep. 5: de \"isso é legal\" pra \"eu realmente poderia usar isso\""
 date: 2026-11-02T14:20:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "IA no Trabalho"]
 summary: "Quinta sessão da série Data Days do Microsoft Reactor, partindo de um problema real de trabalho pra discutir como transformar demo impressionante de IA em cenário que realmente valha a pena construir."

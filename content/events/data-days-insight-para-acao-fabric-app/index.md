@@ -1,7 +1,7 @@
 ---
 title: "🚀 Data Days, Ep. 10: do insight à ação, crie um app pra um problema real de trabalho"
 date: 2026-11-02T14:45:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Fabric Apps"]
 summary: "Décima sessão da série Data Days do Microsoft Reactor, partindo de um problema real de trabalho até chegar a um Fabric App funcionando, mostrando as decisões e os trade-offs ao longo do caminho."

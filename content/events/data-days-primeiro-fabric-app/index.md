@@ -1,7 +1,7 @@
 ---
 title: "🛠️ Data Days, Ep. 8: vamos criar nosso primeiro Fabric App"
 date: 2026-11-02T14:35:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Fabric Apps"]
 summary: "Oitava sessão da série Data Days do Microsoft Reactor, construindo um Fabric App do zero a partir de um problema simples, mostrando decisão, imprevisto e erro real pelo caminho, sem recorrer a demo perfeita."

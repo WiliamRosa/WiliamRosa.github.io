@@ -1,7 +1,7 @@
 ---
 title: "🎓 Data Days, Ep. 12: o que criamos, o que funcionou e o que aprendemos"
 date: 2026-11-02T14:55:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "IA no Trabalho"]
 summary: "Sessão de encerramento da série Data Days do Microsoft Reactor, com retrospectiva da comunidade sobre o que surpreendeu, o que deu errado e o que mudaria numa próxima tentativa."

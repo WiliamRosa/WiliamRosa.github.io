@@ -1,7 +1,7 @@
 ---
 title: "🧩 Data Days, Ep. 1: IA no Trabalho, o que isso significa de verdade pra profissional de dados?"
 date: 2026-11-02T14:00:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "IA no Trabalho"]
 summary: "Primeira sessão da série Data Days do Microsoft Reactor, com Armando Lacerda (MC Tech) e Brendell Gomes discutindo o que a IA de fato muda na rotina de quem trabalha com dados, separando mudança real de ruído de marketing."

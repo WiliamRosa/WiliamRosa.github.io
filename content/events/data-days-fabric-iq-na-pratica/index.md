@@ -1,7 +1,7 @@
 ---
 title: "🎯 Data Days, Ep. 7: Fabric IQ na prática, de pergunta de negócio a resposta fundamentada em dado"
 date: 2026-11-02T14:30:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Microsoft Fabric"]
 summary: "Sétima sessão da série Data Days do Microsoft Reactor, colocando o Fabric IQ pra responder uma pergunta de negócio real, mostrando como o contexto muda a resposta e onde o profissional de dados ainda precisa conferir o resultado."

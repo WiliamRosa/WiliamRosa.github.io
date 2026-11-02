@@ -1,7 +1,7 @@
 ---
 title: "🧠 Data Days, Ep. 2: as habilidades humanas que ainda importam num mundo AI-first"
 date: 2026-11-02T14:05:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "IA no Trabalho"]
 summary: "Segunda sessão da série Data Days do Microsoft Reactor, com Paulo Grijó (Power BI Dataviz World Champion 2025) e Samyr Moises discutindo quais habilidades de profissional de dados continuam insubstituíveis mesmo com IA escrevendo código e sugerindo visual."

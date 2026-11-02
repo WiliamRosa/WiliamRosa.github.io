@@ -1,7 +1,7 @@
 ---
 title: "🌟 Data Days, Ep. 11: Fabric Apps na prática, veja o que a comunidade criou"
 date: 2026-11-02T14:50:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Fabric Apps"]
 summary: "Décima primeira sessão da série Data Days do Microsoft Reactor, com membro da comunidade mostrando Fabric App real que construiu, o problema que tentava resolver, e o que aprendeu pelo caminho."

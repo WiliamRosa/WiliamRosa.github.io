@@ -1,7 +1,7 @@
 ---
 title: "⚡ Data Days, Ep. 9: de dado bruto a dado pronto pra IA, usando Spark no Fabric"
 date: 2026-11-02T14:40:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "Spark"]
 summary: "Nona sessão da série Data Days do Microsoft Reactor, usando Spark no Microsoft Fabric pra limpar e transformar dado bruto numa base que uma solução de IA ou de analytics consiga realmente usar."

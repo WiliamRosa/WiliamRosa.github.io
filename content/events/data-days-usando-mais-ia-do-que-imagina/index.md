@@ -1,7 +1,7 @@
 ---
 title: "🔍 Data Days, Ep. 4: talvez você já esteja usando mais IA do que imagina"
 date: 2026-11-02T14:15:00-03:00
-draft: true
+draft: false
 eventSource: "Microsoft Reactor"
 tags: ["Evento", "Microsoft Reactor", "IA no Trabalho"]
 summary: "Quarta sessão da série Data Days do Microsoft Reactor, com Armando Lacerda (MC Tech) mapeando onde a IA já está embutida nas ferramentas que o profissional de dados usa todo dia, muitas vezes sem perceber."
