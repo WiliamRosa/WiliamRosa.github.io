@@ -1,7 +1,7 @@
 ---
 title: "O juiz barato do MLflow empatou no caso fácil e perdeu terreno no caso sutil"
 date: 2026-11-02T10:00:00-03:00
-draft: true
+draft: false
 tags: ["MLflow", "Databricks", "Avaliacao de IA", "Azure Databricks"]
 summary: "O Databricks MVP Shekhar Shukla testou o Jev, juiz pequeno que o MLflow 3.17 passou a oferecer pronto para avaliação, contra rótulo humano, e viu 30 de 30 de acerto no caso fácil mas 64 de 72 contra 72 de 72 de um modelo maior no caso difícil."
 ShowToc: false

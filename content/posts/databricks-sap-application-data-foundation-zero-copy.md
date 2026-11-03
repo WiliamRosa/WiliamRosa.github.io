@@ -1,7 +1,7 @@
 ---
 title: "Databricks e SAP prometem acesso zero-copy ao dado de aplicação, mas boa parte ainda é promessa"
 date: 2026-10-31T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Integracoes", "Azure Databricks"]
 summary: "Databricks e SAP ampliaram a parceria em torno do SAP Application Data Foundation, trazendo Genie, Lakeflow, Unity Gateway e Lakebase pro ambiente SAP Databricks, com acesso zero-copy ao dado de aplicação SAP via SAP Business Data Cloud Connect como único mecanismo técnico detalhado."
 ShowToc: false

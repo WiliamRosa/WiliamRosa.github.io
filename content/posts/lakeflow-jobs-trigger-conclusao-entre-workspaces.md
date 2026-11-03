@@ -1,7 +1,7 @@
 ---
 title: "Um Lakeflow Job agora pode esperar outro job terminar mesmo em workspace diferente"
 date: 2026-11-02T12:00:00-03:00
-draft: true
+draft: false
 tags: ["Lakeflow Jobs", "Azure Databricks", "Orquestracao"]
 summary: "O Databricks MVP Soufiane Darraz destacou os job completion triggers do Lakeflow Jobs, em Beta: um job downstream dispara quando jobs upstream terminam, mesmo espalhados por workspaces diferentes, desde que compartilhem o mesmo metastore do Unity Catalog."
 ShowToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Databricks Apps ganhou verificação automática de vulnerabilidade de código"
 date: 2026-11-02T08:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks Apps", "Seguranca", "Azure Databricks"]
 summary: "O Databricks MVP Ajay Kumar Pandey destacou o Code Security Scanning para Databricks Apps, recurso que identifica vulnerabilidade e dependência vulnerável direto no código da aplicação durante o próprio fluxo de desenvolvimento."
 ShowToc: false

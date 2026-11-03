@@ -1,7 +1,7 @@
 ---
 title: "Toda chamada de ferramenta MCP agora pode passar por um filtro de jailbreak"
 date: 2026-10-22T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Unity Gateway", "Seguranca", "Agentes de IA", "Azure Databricks"]
 summary: "O Azure Databricks passou a permitir aplicar um guardrail de jailbreak sobre chamada de ferramenta MCP dentro do Unity Gateway, cobrindo tanto o pedido que o agente envia quanto a resposta que volta da ferramenta."
 ShowToc: false

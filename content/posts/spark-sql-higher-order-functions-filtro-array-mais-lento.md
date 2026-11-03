@@ -1,7 +1,7 @@
 ---
 title: "Filtrar array com Higher-Order Function no Spark SQL pode ser mais lento que explode seguido de filter"
 date: 2026-10-28T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Apache Spark", "Spark SQL", "Azure Databricks"]
 summary: "O Databricks MVP Bartosz Konieczny testou filtrar array direto com a higher-order function filter() do Spark SQL contra o padrão explode seguido de filter, e o plano de execução gerado pelo Catalyst mostrou o oposto do que a intuição sugeria."
 ShowToc: false

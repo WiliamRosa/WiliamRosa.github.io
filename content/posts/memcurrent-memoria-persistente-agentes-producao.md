@@ -1,7 +1,7 @@
 ---
 title: "MemCurrent: a arquitetura de duas camadas por trás da memória de agente da Databricks"
 date: 2026-10-27T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks", "Agentes de IA", "Lakebase", "Azure Databricks"]
 summary: "A Databricks detalhou o MemCurrent, arquitetura de memória persistente que já roda por baixo do Agent Bricks Memory e do Genie, separando memória episódica bruta de memória derivada e destilada por um processo de consolidação em segundo plano."
 ShowToc: false

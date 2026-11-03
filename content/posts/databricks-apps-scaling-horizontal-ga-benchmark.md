@@ -1,7 +1,7 @@
 ---
 title: "Cinco instâncias sustentaram 4.640 req/s, mas o gargalo não foi onde parecia"
 date: 2026-10-31T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Databricks Apps", "Azure Databricks", "Performance"]
 summary: "O Databricks MVP Domonkos Pal testou a GA do horizontal scaling de Databricks Apps e mediu crescimento quase linear de throughput até um platô por instância em torno de 730 a 960 req/s, com o gargalo real migrando pra ordenação no banco em consulta pesada."
 ShowToc: false

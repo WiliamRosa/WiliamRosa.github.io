@@ -1,7 +1,7 @@
 ---
 title: "Lista de IP e Private Link não precisam ser escolhas excludentes no Azure Databricks"
 date: 2026-10-27T13:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Seguranca", "Rede"]
 summary: "O Databricks MVP Shashank Shekhar documentou a migração de uma lista de IP liberado pra um modelo híbrido com Inbound Private Link no Azure Databricks, combinando conectividade privada com acesso público controlado por política de ingress baseada em contexto."
 ShowToc: false

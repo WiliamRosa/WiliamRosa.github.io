@@ -1,7 +1,7 @@
 ---
 title: "Unity Gateway ganhou um dashboard pronto pra responder quem está gastando o quê"
 date: 2026-10-28T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Unity Gateway", "Azure Databricks", "FinOps"]
 summary: "O Databricks MVP Derar Alhussein destacou o Unity Gateway Usage Dashboard v1.0, painel pronto que consolida adoção de coding agent, uso de harness, gasto estimado por sessão e atribuição de custo por tag sobre a system table de uso do gateway."
 ShowToc: false

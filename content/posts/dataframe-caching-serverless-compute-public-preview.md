@@ -1,7 +1,7 @@
 ---
 title: "Cachear DataFrame no compute serverless deixou de ser exclusividade do cluster clássico"
 date: 2026-10-27T11:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Serverless", "Apache Spark"]
 summary: "O Databricks MVP Shekhar Shukla testou o DataFrame caching em compute serverless, em Public Preview, e descreveu um snapshot eager e privado à sessão, estável por até sete dias, mesmo com mudança no dado de origem nesse intervalo."
 ShowToc: false

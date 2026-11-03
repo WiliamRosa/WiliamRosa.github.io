@@ -1,7 +1,7 @@
 ---
 title: "XML deixou de precisar de biblioteca externa pra entrar no lakehouse"
 date: 2026-10-30T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Engenharia de Dados"]
 summary: "O suporte nativo a arquivo XML no Azure Databricks atingiu disponibilidade geral, cobrindo ingestão, consulta e parsing em batch e streaming via Auto Loader, read_files, COPY INTO e as funções from_xml e schema_of_xml."
 ShowToc: false
