@@ -1,7 +1,7 @@
 ---
 title: "Cosmos Semantic: a camada semântica open source, multi-database e multiplataforma, que faz agentes de IA acertarem (e provarem) cada número"
 date: 2026-11-04T09:00:00-03:00
-lastmod: 2026-11-04T22:30:00-03:00
+lastmod: 2026-11-05T00:15:00-03:00
 draft: false
 tags: ["Camada Semântica", "Ontologia", "Agentes de IA", "MCP", "Governança de Dados", "Open Source", "Databricks", "Snowflake", "Oracle"]
 ShowToc: true
@@ -15,6 +15,8 @@ summary: "O Cosmos Semantic é uma camada semântica universal e open source (Ap
 Toda empresa que já colocou um agente de IA pra responder pergunta de negócio esbarra no mesmo problema, e ele não é o modelo de linguagem. É o contexto. "Receita" tem três definições espalhadas em três dashboards, "cliente ativo" significa 60 dias pra um time e 90 pra outro, e o agente, sem saber disso, escreve um SQL plausível sobre as tabelas e devolve um número que parece certo. Ninguém consegue dizer de onde ele saiu.
 
 Uma camada semântica resolve a primeira parte: define métrica, dimensão, relacionamento e regra uma vez, e serve o mesmo resultado pra todo mundo. A segunda parte, provar o número, quase ninguém resolve. Foi pra atacar as duas que eu construí o **Cosmos Semantic**, open source sob Apache 2.0: [github.com/WiliamRosa/cosmos-semantic-platform](https://github.com/WiliamRosa/cosmos-semantic-platform).
+
+**Experimente sem instalar nada:** a [demonstração pública do console](https://wiliamrosa.github.io/cosmos-semantic-platform/) roda o modelo de exemplo com dados sintéticos.
 
 ## Em uma frase
 
@@ -97,7 +99,7 @@ neither as a grouping nor as a filter
 
 ### A IA sugere, o motor valida
 
-O `cosmos suggest` usa o Claude pra propor sinônimos, descrições e regras de negócio a partir do modelo. Nada é aplicado automaticamente: cada sugestão é compilada e executada pelo motor e depois passa pela revisão de uma pessoa. Na próxima versão, ela também precisa rodar em todos os bancos que o modelo atende. Na primeira rodada contra a API real, ele aceitou umas 28 sugestões em cerca de 30 segundos, quase todas boas. Também propôs um sinônimo errado ("inadimplência" pra "collection gap"), que é exatamente o motivo da revisão humana.
+O `cosmos suggest` usa o Claude pra propor sinônimos, descrições e regras de negócio a partir do modelo. Nada é aplicado automaticamente: cada sugestão precisa rodar em todos os bancos que o modelo atende, regras derivadas incluídas, e depois passa pela revisão de uma pessoa. Na primeira rodada contra a API real, ele aceitou umas 28 sugestões em cerca de 30 segundos, quase todas boas. Também propôs um sinônimo errado ("inadimplência" pra "collection gap"), que é exatamente o motivo da revisão humana.
 
 O resultado mais útil foi outro. Uma regra sugerida expôs um bug de precedência no motor: uma expressão substituída perdia os parênteses e mudava de sentido sem dar erro. Os testes escritos à mão não pegaram esse caso; a sugestão da IA pegou, e o caso virou teste de regressão. Pra mim é o modelo certo de IA em dados: ela amplia o que dá pra testar, mas não tem a palavra final.
 
@@ -128,7 +130,7 @@ Nenhuma dessas diferenças aparece numa demo. Aparecem quando a mesma pergunta p
 
 ## Um console para quem decide
 
-Nem todo mundo que precisa confiar no número vai abrir um terminal. Por isso o repositório já tem um **console web de leitura**, em inglês e português, servido pelo próprio `cosmos serve`. Ele entra na próxima versão e foi pensado para diretores de dados e de IA e para gerentes de governança.
+Nem todo mundo que precisa confiar no número vai abrir um terminal. Por isso a versão 0.3 traz um **console web de leitura**, em inglês e português, servido pelo próprio `cosmos serve`. Ele foi pensado para diretores de dados e de IA e para gerentes de governança, e dá pra navegar nele agora, sem instalar nada, na [demonstração pública](https://wiliamrosa.github.io/cosmos-semantic-platform/), com dados sintéticos.
 
 {{< video src="console-tour.mp4" poster="console-tour-poster.jpg" caption="Um passeio de 24 segundos: da visão geral ao mapa do processo order_to_cash e à métrica que diverge do relatório legado." >}}
 
