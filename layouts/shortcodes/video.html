@@ -1,0 +1,16 @@
+{{/* A local video from the page bundle: {{< video src="tour.mp4" poster="tour.jpg" caption="..." >}}.
+     Plays muted and in a loop, like a GIF, at a fraction of the size; controls let readers pause. */}}
+{{- $src := .Get "src" -}}
+{{- $poster := .Get "poster" -}}
+{{- $caption := .Get "caption" -}}
+<figure>
+  <video
+    src="{{ $src }}"
+    {{- with $poster }} poster="{{ . }}"{{ end }}
+    autoplay muted loop playsinline controls preload="metadata"
+    style="width: 100%; height: auto; border-radius: 8px; border: 1px solid rgba(127,127,127,.25);"
+    {{- with $caption }} aria-label="{{ . }}"{{ end }}></video>
+  {{- with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
