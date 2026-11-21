@@ -1,7 +1,7 @@
 ---
 title: "ai_decide devolve uma probabilidade, não uma certeza: como montar seu próprio teste antes de confiar nela"
 date: 2026-11-06T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "AI Functions", "SQL", "Beta"]
 ShowToc: true
 summary: "ai_decide() nunca devolve só uma resposta, devolve uma distribuição de probabilidade e um grau de confiança sobre ela. Isso muda completamente como você deveria validar a função antes de colocar numa pipeline que roteia ticket, prioriza alerta ou decide prazo. Um roteiro para testar consistência antes de confiar, não depois."

@@ -1,7 +1,7 @@
 ---
 title: "Migrar para serverless sem fechar os olhos: o agente que propõe mudança e aceita ser rejeitado"
 date: 2026-11-20T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Serverless", "Lakeflow Jobs", "Agentes de IA"]
 ShowToc: true
 summary: "Genie Migrate for Serverless, em Beta, assume o trabalho repetitivo de migrar notebook e job de compute clássico para serverless: mapeia biblioteca, configuração do Spark e padrão de código incompatível, propõe cada mudança como diff individual e aplica num clone reversível antes de tocar no job original."

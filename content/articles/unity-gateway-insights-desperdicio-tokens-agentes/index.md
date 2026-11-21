@@ -1,7 +1,7 @@
 ---
 title: "Seu agente de código está gastando token em quê? O relatório que o Unity Gateway Insights tira do trace"
 date: 2026-11-19T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Unity Gateway", "Agentes de IA", "FinOps"]
 ShowToc: true
 summary: "Unity Gateway Insights usa Genie Code para ler o histórico de trace de agentes como Claude Code e Codex e devolver um relatório priorizado de onde o token está sendo desperdiçado: erro de ferramenta MCP recorrente, modelo caro em tarefa simples, fluxo repetido manualmente. Um exemplo real corrigiu sete bugs pequenos de servidor MCP e recuperou cerca de 1,2 milhão de dólares por ano."

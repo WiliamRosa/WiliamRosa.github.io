@@ -1,7 +1,7 @@
 ---
 title: "Seu job no Lakeflow pode ter até cinco triggers agora: vale a pena ou é só mais botão para configurar?"
 date: 2026-11-14T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakeflow Jobs", "Orquestração", "Beta"]
 ShowToc: true
 summary: "Lakeflow Jobs ganhou suporte Beta a múltiplos triggers no mesmo job, recomendação de trigger via IA baseada em linhagem e histórico de execução, e um trigger de atualização de tabela com controle fino de tempo entre disparos. O que cada peça resolve de verdade e onde a complexidade extra pode voltar a te morder."

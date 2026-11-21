@@ -1,7 +1,7 @@
 ---
 title: "Seu bundle do Databricks parou de gerar Terraform por baixo: o que muda com o Direct Deployment Engine"
 date: 2026-08-26T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "DABs", "CI/CD", "Databricks CLI"]
 ShowToc: true
 summary: "Databricks Asset Bundles trocou o motor de deploy baseado em provider Terraform por um motor direto, que chama a API REST via Go SDK. Deploy até 40% mais rápido, plano reexecutável e mais tipo de recurso suportado, mas também um comportamento diferente para campo removido da configuração e uma migração automática que já está acontecendo silenciosamente em pipeline de CI/CD que ninguém revisou ainda."

@@ -1,7 +1,7 @@
 ---
 title: "O PostgreSQL 19 atrasou um mês: o preço de deixar LLM achar bug antes do usuário"
 date: 2026-11-20T09:00:00-03:00
-draft: true
+draft: false
 tags: ["Azure Databricks", "Lakebase", "PostgreSQL", "Engenharia de Software"]
 ShowToc: true
 summary: "O PostgreSQL 19 saiu cerca de um mês depois do período usual. A causa não foi uma feature quebrada, foi um salto na quantidade de bugs e falhas de segurança encontrados por revisores usando LLM, que consumiu capacidade de revisão que normalmente iria para estabilizar o próximo release. O que isso ensina sobre o custo real de QA assistido por IA em projeto open source grande."
