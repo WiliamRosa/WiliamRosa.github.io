@@ -1,6 +1,12 @@
 {
-  "last_run": "2026-11-15T09:30:00-03:00",
+  "last_run": "2026-11-21T11:55:07-03:00",
   "processed_articles": [
+    "https://medium.com/databrickscommunity/lakeflow-jobs-triggers-06af6feae80c",
+    "https://medium.com/databrickscommunity/i-tested-databricks-ai-decide-against-20-llms-d37694fbf792",
+    "https://medium.com/databrickscommunity/dabs-go-direct-ga-faster-better-and-life-after-terraform-edc502d54378",
+    "https://www.databricks.com/blog/why-postgresql-19-shipped-late",
+    "https://www.databricks.com/blog/introducing-unity-gateway-insights",
+    "https://www.databricks.com/blog/introducing-genie-migrate-serverless",
     "https://www.databricks.com/blog/push-based-cdc-unity-catalog-zerobus-ingest-and-debezium",
     "https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks",
     "https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow",
