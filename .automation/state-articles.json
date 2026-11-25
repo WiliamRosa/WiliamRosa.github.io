@@ -1,6 +1,9 @@
 {
-  "last_run": "2026-11-21T11:55:07-03:00",
+  "last_run": "2026-11-24T18:40:00-03:00",
   "processed_articles": [
+    "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+    "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+    "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
     "https://medium.com/databrickscommunity/lakeflow-jobs-triggers-06af6feae80c",
     "https://medium.com/databrickscommunity/i-tested-databricks-ai-decide-against-20-llms-d37694fbf792",
     "https://medium.com/databrickscommunity/dabs-go-direct-ga-faster-better-and-life-after-terraform-edc502d54378",
